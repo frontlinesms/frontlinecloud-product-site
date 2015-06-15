@@ -216,18 +216,18 @@ h1
     background-color: #5D5D5D;
 }
 
-#ten ul
+#footer ul
 {
     margin: 0px;
     padding: 10px;
 }
 
-#ten ul li
+#footer ul li
 {
     display: inline-block;
 }
 
-#ten ul li a
+#footer ul li a
 {
     text-decoration: none;
     font-size: 20px;
