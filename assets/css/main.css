@@ -1,0 +1,240 @@
+body
+{
+    background-color: #ccc;
+    padding: 0px;
+    margin: 0px;
+}
+
+#landing-page
+{
+    background-color: #fff;
+    border-top: 5px solid #a8206c;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#wrapper
+{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: ;
+}
+
+#logo
+{
+    background-color: ;
+    height: 300px;
+    width: 45%;
+    float: left;
+}
+
+#tagline
+{
+    background-color: ;
+    height: 300px;
+}
+
+#tagline p
+{
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 20px;
+    width: 50%;
+    float: left;
+    color: #2a2a2a;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+#two
+{
+    width: 100%;
+}
+
+#three
+{
+    background-color: #fff;
+}
+
+#three h1
+{
+    text-align: center;
+    background-color:  ;
+    margin: 0px;
+    padding: 15px;
+}
+
+#icons
+{
+    margin: 0 auto;
+    background-color: ;
+    max-width: 1140px;
+    min-width: 50em;
+}
+
+#sms
+{
+    float: left;
+    background-color: ;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+#sync
+{
+    float: left;
+    background-color: ;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+#cloud
+{
+    float: left;
+    background-color: ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#four
+{
+    margin: 20px;
+}
+
+#sending
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #a8206c;
+    float: left;
+    margin-top: 8px;
+}
+
+#managing
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #a8206c;
+    float: left;
+    margin-top: 8px;
+}
+
+#automate
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #a8206c;
+    float: left;
+    margin-top: 8px;
+}
+
+#five
+{
+    background-color: #fff;
+}
+
+#five h1
+{
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+}
+
+#six
+{
+    background-color: ;
+}
+
+#wrap
+{
+    margin: 0 auto;
+    background-color: ;
+    max-width: 1140px;
+    padding: 10px;
+}
+
+#six p
+{
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#six span
+{
+    font-size: 18px;
+    margin-left: 880px;
+}
+
+#seven
+{
+    background-color: #fff;
+}
+
+#seven h1
+{
+    text-align: center;
+    background-color: ;
+    margin: 0px;
+    padding: 10px;
+}
+
+#seven ul
+{
+    margin: 0px;
+}
+
+#seven ul li
+{
+    display: inline-block;
+    background-color: ;
+}
+
+#eight
+{
+    background-color: ;
+}
+
+#eight h1
+{
+    background-color: ;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+#eight p
+{
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+#nine
+{
+    background-color: #fff;
+}
+
+#nine h1
+{
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+#ten
+{
+    background-color: #5D5D5D;
+}
+
+#ten ul li
+{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
