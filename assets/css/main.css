@@ -5,226 +5,210 @@ body
     margin: 0px;
 }
 
-#landing-page
-{
-    background-color: #fff;
-    border-top: 5px solid #a8206c;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 #wrapper
 {
-    max-width: 1140px;
+    border-top: 5px solid #a8206c;
+    border-bottom: 5px solid #a8206c;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    padding: 10px;
+    background-color: ;
+    width: 1138px;
     margin: 0 auto;
-    background-color: ;
 }
 
-#logo
-{
-    background-color: ;
-    height: 300px;
-    width: 45%;
-    float: left;
-}
-
-#tagline
-{
-    background-color: ;
-    height: 300px;
-}
-
-#tagline p
-{
-    margin-left: 20px;
-    margin-top: 100px;
-    font-size: 20px;
-    width: 50%;
-    float: left;
-    color: #2a2a2a;
-    text-align: justify;
-    font-family: sans-serif;
-}
-
-#two
-{
-    width: 100%;
-}
-
-#three
-{
-    background-color: #fff;
-}
-
-#three h1
+h1
 {
     text-align: center;
     background-color:  ;
     margin: 0px;
     padding: 15px;
+    font: "Helvetica Neue Light";
+    font-size: 24pt;
 }
 
-#icons
+#header
 {
-    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+}
+
+#logo
+{
+    background-color:  ;   
+    width: 40%;
+    float: left;
+}
+
+#logo img
+{
     background-color: ;
-    max-width: 1140px;
-    min-width: 50em;
+    margin-left: 25px;
+    margin-top: 3px;
 }
 
-#sms
+#about
 {
+    background-color:  ;
     float: left;
-    background-color: ;
-    margin-left: 50px;
-    margin-right: 40px;
+    width: 60%;
+    margin-top: 25px;
 }
 
-#sync
+#about h2
 {
-    float: left;
-    background-color: ;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 18pt;
+    color: #626366;
+    font-family:"Helvetica Neue Light" ;
 }
 
-#cloud
+#landingPgImage
 {
-    float: left;
-    background-color: ;
-    margin-left: 50px;
-    margin-right: 50px;
+    background-image: url(../images/Capture1.PNG);
+    height: 500px;
 }
 
-#four
-{
-    margin: 20px;
-}
-
-#sending
-{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 2px solid #a8206c;
-    float: left;
-    margin-top: 8px;
-}
-
-#managing
-{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 2px solid #a8206c;
-    float: left;
-    margin-top: 8px;
-}
-
-#automate
-{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 2px solid #a8206c;
-    float: left;
-    margin-top: 8px;
-}
-
-#five
+#products
 {
     background-color: #fff;
 }
 
-#five h1
+#productIcons
+{
+    background-color: ;
+}
+
+.sms
+{
+    float: left;
+    background-color: ;
+}
+
+.sync
+{
+    float: left;
+    background-color: ;
+}
+
+.cloud
+{
+    float: left;
+    background-color: ;
+}
+
+#functions
+{
+    background-color: ;
+    margin: 10px;
+    font-size: 12pt;
+    color: #626366;
+    font-family:"Helvetica Neue Light" ;
+}
+
+.send
+{
+    width: 33%;
+    height: 300px;
+    float: left;
+    background-color: ;
+    text-align: center;
+}
+
+.manage
+{
+    width: 33%;
+    height: 300px;
+    float: left;
+    background-color: ;
+    text-align: center;
+}
+
+.automate
+{
+    width: 34%;
+    height: 300px;
+    background-color: ;
+    text-align: center;
+    float: left;
+}
+
+#mapCoverage
+{
+    background-color: #fff;
+}
+
+#mapCoverage h1
 {
     text-align: center;
     margin: 0px;
     padding: 15px;
+    
 }
 
-#six
+#testimonials
 {
     background-color: ;
 }
 
-#wrap
+#testimonials p
+{
+    text-align: center;
+    margin: 0px;
+    font-size: 13pt;
+    padding: 10px;
+    background-color: ;
+    font-family:"Helvetica Neue Light" ;
+}
+
+#testimonials span
+{
+    font-size: 13pt;
+    margin-left: 880px;
+    font-family:"Helvetica Neue Light" ;
+}
+
+#partners
+{
+    background-color: #fff;
+}
+
+#partners ul
 {
     margin: 0 auto;
     background-color: ;
-    max-width: 1140px;
-    padding: 10px;
+    max-width: 1270px;
+    
 }
 
-#six p
-{
-    text-align: center;
-    margin: 0px;
-    font-size: 20px;
-    padding: 10px;
-}
-
-#six span
-{
-    font-size: 18px;
-    margin-left: 880px;
-}
-
-#seven
-{
-    background-color: #fff;
-}
-
-#seven h1
-{
-    text-align: center;
-    background-color: ;
-    margin: 0px;
-    padding: 10px;
-}
-
-#seven ul
-{
-    margin: 0px;
-}
-
-#seven ul li
+#partners ul li
 {
     display: inline-block;
     background-color: ;
+    margin-left: 80px;
 }
 
-#eight
+#gettingStarted
 {
     background-color: ;
 }
 
-#eight h1
-{
-    background-color: ;
-    text-align: center;
-    margin: 0px;
-    padding: 10px;
-}
-
-#eight p
+#gettingStarted h2
 {
     font-size: 20px;
-    text-align: center;
     margin: 0px;
-    padding: 20px;
+    padding: 10px;
+    font-weight: 100;
+    font-family:"Helvetica Neue Light" ;
 }
 
-#nine
+#pricing
 {
     background-color: #fff;
-}
-
-#nine h1
-{
-    margin: 0px;
-    text-align: center;
-    padding: 10px;
 }
 
 #ten
@@ -232,9 +216,21 @@ body
     background-color: #5D5D5D;
 }
 
+#ten ul
+{
+    margin: 0px;
+    padding: 10px;
+}
+
 #ten ul li
 {
     display: inline-block;
+}
+
+#ten ul li a
+{
     text-decoration: none;
     font-size: 20px;
+    margin-left: 50px;
+    color: #fff;
 }

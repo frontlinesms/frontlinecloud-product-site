@@ -4,63 +4,135 @@
 <head>
     <meta charset="UTF-8">
     <title>Product Site</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/main.css" type="text/css"/>
-</head>
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" type="text/css"/>
-
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Helvetica Neue Light">
+</head>
+    
 <body>
-    <div id="landing-page">
-        <div id="wrapper">
+    <!--start of wrapper-->
+    <div id="wrapper">
+    
+    <!--start of header-->
+    <div id="header">
+        <!--container start-->
+        <div class="container">
+            
+            <!--start logo-->
             <div id="logo">
-                <img src="assets/images/FrontlineSMS.png"/>
+                <img src="assets/images/FrontlineSMS.png" style="width:400px;"/>
             </div>
+            <!--end logo-->
 
-            <div id="tagline">
-                <p>
-                    FrontlineSMS is a professional SMS management tool which harnesses the ubiquity SMS to provide structured and impactful engagement virtually anywhere in the world. Over the last 9 years, FrontlineSMS has made this powerful tool available universally for those who need to engane everywhere.
-                </p>
+            <!--start about-->
+            <div id="about">
+                <h2>
+                    FrontlineSMS is a professional SMS management tool which harnesses the ubiquity SMS to provide structured and impactful engagement virtually anywhere in the world. Over the last 9 years, FrontlineSMS has made this powerful tool available universally for those who need to engage everywhere.
+                </h2>
             </div>
+            <!--end about-->
+            
+            <br clear="all"/>
+            
         </div>
+        <!--container end-->
         
     </div>
+    <!--end of header-->
     
-    <div id="two">
-        <img src="assets/images/bannerbg.png"/>
+    <!--start of landingPgImage-->
+    <div id="landingPgImage">
     </div>
+    <!--end of landingPgImage-->
     
-    <div id="three">
+    <!--start products-->
+    <div id="products">
+        
+        <!--start container-->
+        <div class="container">
+            
             <h1>The Frontline Family of Products</h1>
         
-        <div id="icons">
-            <div id="sms">
-                <img src="assets/images/FrontlineSMS.png" style="width:300px; height:200px;"/>
+            <!--start productIcons-->
+            <div id="productIcons">
+                
+                <div class="sms">
+                    <img src="assets/images/FrontlineSMS.png" style="width:375px; height:250px;"/>
+                </div>
+                
+                <div class="sync">
+                    <img src="assets/images/FrontlineSync.png" style="width:385px; height:250px;"/>
+                </div>
+                
+                <div class="cloud">
+                    <img src="assets/images/FrontlineCloud.png" style="width:378px; height:250px;"/>
+                </div>
+
+                <br clear="all"/>
             </div>
-            <div id="sync">
-                <img src="assets/images/FrontlineSync.png" style="width:300px; height:200px;"/>
+            <!--end productIcons-->
+            
+        </div>
+        <!--end container-->
+        
+    </div>
+    <!--end products-->
+    
+    <!--start functions-->
+    <div id="functions">
+        
+        <!--start container-->
+        <div class="container">
+            
+            <div class="send">
+                <img class="cirlce" src="assets/images/pinkcircle.png"/>
+                <h2>
+                    Send and Receive SMS, anywhere
+                </h2>
             </div>
-            <div id="cloud">
-                <img src="assets/images/FrontlineCloud.png" style="width:300px; height:200px;"/>
+            
+            <div class="manage">
+                <img class="cirlce" src="assets/images/pinkcircle.png"/>
+                <h2>
+                    Manage Missed Calls and send replies
+                </h2>
+            </div>
+            
+            <div class="automate">
+                <img class="cirlce" src="assets/images/pinkcircle.png"/>
+                <h2>
+                    Automate responses and interactions
+                </h2>
             </div>
             
             <br clear="all"/>
+            
         </div>
+        <!--end container-->
         
     </div>
+    <!--end functions-->
     
-    <div id="four">
-        <div id="sending"></div>
-        <div id="managing"></div>
-        <div id="automate"></div>
-        <br clear="all"/>
-    </div>
-    
-    <div id="five">
+    <!--start mapCoverage-->
+    <div id="mapCoverage">
+        
+        <!--start container-->
+        <div class="container">
+            
         <h1>Coverage wherever you are</h1>
-        <img src="assets/images/FrontlineSync-Coverage.png" style="width:1400px;"/>
+        <img src="assets/images/FrontlineSync-Coverage.png" style="width:1138px;"/>
+            
+        </div>
+        <!--end container-->
     </div>
+    <!--end mapCoverage-->
     
-    <div id="six">
-        <div id="wrap">
+    <!--start testimonials-->
+    <div id="testimonials">
+        
+        <!--start container-->
+        <div class="container">
 <!--
         <i class="fa fa-quote-left fa-lg pull-left"></i>
         <i class="fa fa-quote-right fa-lg pull-right"></i>
@@ -80,10 +152,18 @@
             <span>-Jane Doe, ICRC Geneva</span>
         
         </div>
+        <!--end container-->
     </div>
-    
-    <div id="seven">
+    <!--end testimonials-->
+        
+    <!--start companies section-->
+    <div id="partners">
+        
+        <!--start container-->
+        <div class="container">
+            
         <h1>Global intergration coverage</h1>
+            
         <ul>
             <li>
                 <img src="assets/images/Twilio.png"/>
@@ -100,22 +180,49 @@
             <li>
                 <img src="assets/images/worldText.png"/>
             </li>
+            <li>
+                <img src="assets/images/Twilio.png"/>
+            </li>
         </ul>
+            
+        </div>
+        <!--end container-->
     </div>
+    <!--end companies section-->
     
-    <div id="eight">
+    <!--start gettingStarted section-->
+    <div id="gettingStarted">
+        
+        <!--start container-->
+        <div class="container">
+            
         <h1>Get started now</h1>
-        <p>
+        <h2>
            Get started today with a 1-month trial subscription today and see how FrontlineCloud can empower your campaign through SMS. 
-        </p>
-        <p>
+        </h2>
+        <h2>
             Working offline? Try downloading the latest version of FrontlineSMS(Desktop), available for Windows, Mac and Linux.
-        </p>
+        </h2>
+        
+        </div>
+        <!--end container-->
     </div>
+    <!--end gettingStarted section-->
     
-    <div id="nine">
+    <!--start pricing-->
+    <div id="pricing">
+        
+        <!--start container-->
+        <div class="container">
+            
         <h1>Tiering</h1>
+        
+        <img src="assets/images/Capture4.PNG" alt="payments" width="1138px"/>
+            
+        </div>
+        <!--end container-->
     </div>
+    <!--end pricing-->
     
     <div id="ten">
         <ul>
@@ -125,6 +232,9 @@
             <li><a href="#">frontlinesms.com</a></li>
         </ul>
     </div>
+        
+    </div>
+    <!--end of wrapper-->
 </body>
 
 </html>
