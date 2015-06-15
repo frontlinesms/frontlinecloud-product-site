@@ -1,0 +1,4 @@
+#!/bin/bash
+echo 'SSHing to product site host. You will be required to enter password'
+ssh -p ${FSMS_PRODUCTSITE_SSH_PORT} ${FSMS_PRODUCTSITE_SSH_USERNAME}@${FSMS_PRODUCTSITE_SSH_IP} "cd ~/public_html/product/ && git pull && exit"
+echo 'Deployment Completed'
