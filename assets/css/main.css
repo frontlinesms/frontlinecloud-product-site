@@ -59,7 +59,7 @@ h1
     background-color:orange ;
     width: 45%;
     float: left;
-    height: 150px;
+    height: 160px;
 }
 
 #about
@@ -270,7 +270,6 @@ h1
     float: left;
     width: 548px;
     background-color: ;
-    border-right: 2px solid #fff;
 }
 
 .contact
@@ -278,7 +277,7 @@ h1
     float: left;
     width: 548px;
     background-color: ;
-    border-left: 2px solid #fff;
+    border-left: 4px solid #fff;
 }
 
 
@@ -302,8 +301,4 @@ ul
     font-size: 20px;
     margin-left: 50px;
     color: #fff;
-}
-
-i
-{
 }
