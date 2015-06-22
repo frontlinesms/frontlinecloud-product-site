@@ -212,24 +212,47 @@ h1
     background-color: #fff;
 }
 
-#ten
+#footer
 {
-    background-color: #5D5D5D;
+    background-color: red;
+    border-top: 5px solid  #626366;
 }
 
-#footer ul
+.foot
+{
+    background-color: green;
+    padding: 10px;
+}
+
+.info
+{
+    background-color: purple;
+    width: 49%;
+    float: left;
+    border-right: 2px solid #fff;
+}
+
+.contact
+{
+    background-color: orange;
+    width: 50%;
+    float: left;
+    border-left: 2px solid #fff;
+}
+
+.info ul
 {
     margin: 0px;
     padding: 10px;
     background-color: #5D5D5D;
 }
 
-#footer ul li
+.info ul li
 {
-    display: inline-block;
+    display: list-item;
 }
 
-#footer ul li a
+.info ul li a
 {
     text-decoration: none;
     font-size: 20px;
