@@ -254,23 +254,56 @@ h1
     background-color: #fff;
 }
 
-#footer ul
+#footer
+{
+    background-color:  #a6206b;
+    padding: 20px;
+}
+
+.foot
+{
+    background-color: ;
+}
+
+.info
+{
+    float: left;
+    width: 548px;
+    background-color: ;
+    border-right: 2px solid #fff;
+}
+
+.contact
+{
+    float: left;
+    width: 548px;
+    background-color: ;
+    border-left: 2px solid #fff;
+}
+
+
+ul
 {
     margin: 0px;
     padding: 10px;
-    background-color: #a6206b;
+    background-color:;
     font-family:"Helvetica Neue",Helvetica;
 }
 
-#footer ul li
+ ul li
 {
-    display: inline-block;
+    display: list-item;
+    list-style-type: none;
 }
 
-#footer ul li a
+ ul li a
 {
     text-decoration: none;
     font-size: 20px;
     margin-left: 50px;
     color: #fff;
+}
+
+i
+{
 }
