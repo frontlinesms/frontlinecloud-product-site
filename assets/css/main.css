@@ -27,7 +27,7 @@ h1
     margin: 0px;
     color: #5d5d5d;
     padding: 15px;
-    font-family: "Helvetica Neue",Helvetica;
+    font-family: arial;
     font-size: 24pt;
 }
 
@@ -54,7 +54,7 @@ h1
 {
     background-color:  ;
     text-align: center;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family: arial;
     color:  #a7a9ab ;
 }
 
@@ -66,7 +66,7 @@ h1
     color:  #a7a9ab ;
     margin: 0px;
     padding: 0px;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family:arial;
 }
 
 #landingPgImage
@@ -123,7 +123,7 @@ h1
     margin: 0px;
     padding: 10px;
     color: #fff;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family:arial;
 }
 
 #functions h3
@@ -131,7 +131,7 @@ h1
     font-size: 18pt;
     color: #fff;
     text-align: left;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family:arial;
     margin: 0px;
     padding: 0px;
 }
@@ -141,7 +141,7 @@ h1
     font-size: 14pt;
     color: #fff;
     text-align: left;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family:arial;
 }
 
 .containerIcons
@@ -215,14 +215,14 @@ h1
     font-size: 18pt;
     padding: 10px;
     background-color: ;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family:arial;
 }
 
 #testimonials span
 {
     font-size: 15pt;
     margin-left: 700px;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family:arial;
 }
 
 #partners
@@ -257,7 +257,7 @@ h1
     margin: 0px;
     color: #fff;
     padding: 10px;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family:arial;
 }
 
 #gettingStarted h1
@@ -316,7 +316,7 @@ h1
     text-align: justify;
     margin: 10px 80px 0px 80px;
     font-size: 20px;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family:arial;
 }
 
 .contact
@@ -332,7 +332,7 @@ h1
     margin: 0px;
     padding: 0px;
     color: #fff;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family:arial;
     text-align: left;
     margin-left: 70px;
 }
@@ -342,7 +342,7 @@ ul
     margin: 0px;
     padding: 10px;
     background-color:;
-    font-family:"Helvetica Neue",Helvetica;
+    font-family:arial;
 }
 
  ul li
