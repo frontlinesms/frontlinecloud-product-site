@@ -56,6 +56,7 @@ h1
     text-align: center;
     font-family: arial;
     color:  #a7a9ab ;
+    font-weight: 100;
 }
 
 #about h2
@@ -66,6 +67,7 @@ h1
     color:  #a7a9ab ;
     margin: 0px;
     padding: 0px;
+    font-weight: 100;
     font-family:arial;
 }
 
@@ -332,6 +334,7 @@ h1
     margin: 0px;
     padding: 0px;
     color: #fff;
+    font-weight: 100;
     font-family:arial;
     text-align: left;
     margin-left: 70px;
