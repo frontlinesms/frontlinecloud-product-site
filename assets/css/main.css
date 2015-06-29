@@ -130,7 +130,7 @@ h1
 {
     font-size: 18pt;
     color: #fff;
-    text-align: center;
+    text-align: left;
     font-family:"Helvetica Neue",Helvetica;
     margin: 0px;
     padding: 0px;
@@ -140,7 +140,7 @@ h1
 {
     font-size: 14pt;
     color: #fff;
-    text-align: center;
+    text-align: left;
     font-family:"Helvetica Neue",Helvetica;
 }
 
