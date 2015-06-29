@@ -267,7 +267,20 @@ h1
 
 #pricing
 {
-    background-color: #fff;
+    background-color:#fff ;
+    text-align: center;
+}
+
+.containerPrice
+{
+    background-color: ;
+    margin: 0px;
+}
+
+.containerPrice h1
+{
+    padding: 0px;
+    margin: 0px;
 }
 
 #footer
