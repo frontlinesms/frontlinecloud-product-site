@@ -1,6 +1,6 @@
 body
 {
-    background-color: #ccc;
+    background-color: #fff;
     padding: 0px;
     margin: 0px auto;
     width: 1140px;
@@ -9,8 +9,8 @@ body
 
 #wrapper
 {
-    border-top: 5px solid #a8206c;
-    border-bottom: 5px solid #a8206c;
+    /*border-top: 5px solid #a8206c;
+    border-bottom: 5px solid #a8206c;*/
     margin: 0px;
     padding: 0px;
 }
@@ -23,7 +23,7 @@ body
 
 h1
 {
-    text-align: center;
+    text-align: left;
     background-color:  ;
     margin: 0px;
     color: #5d5d5d;
@@ -63,7 +63,7 @@ h3, h2 {
 #about h1
 {
     background-color:  ;
-    text-align: center;
+    text-align: left;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color:  #a7a9ab ;
     font-weight: 100;
@@ -73,19 +73,12 @@ h3, h2 {
 {
     margin-left: 2px;
     font-size: 18pt;
-    text-align: center;
+    text-align: left;
     color:  #a7a9ab ;
     margin: 0px;
     padding: 0px;
     font-weight: 100;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-#landingPgImage
-{
-    background-image: url(../images/Capture1.PNG);
-    background-position: center;
-    height: 500px;
 }
 
 #products
@@ -142,7 +135,7 @@ h3, h2 {
 {
     font-size: 18pt;
     color: #fff;
-    text-align: left;
+    text-align: center;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin: 0px;
     padding: 0px;
@@ -201,7 +194,7 @@ h3, h2 {
 
 #mapCoverage h1
 {
-    text-align: center;
+    text-align: left;
     margin: 0px;
     padding: 15px;
     
@@ -228,6 +221,7 @@ h3, h2 {
     padding: 10px;
     background-color: ;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-left: 30px;
 }
 
 #testimonials span
@@ -373,3 +367,33 @@ ul
     color: #fff;
     font-weight: lighter;
 }
+
+.hero
+{
+    background-color: ;
+	padding: 30px 0px 30px 0px;
+}
+
+
+.hero-laptop
+{
+    width: 727px;
+    float: left;
+    background-color: ;
+    text-align: left;
+}
+
+.hero-boxout h2
+{
+    width: 380px;
+    float: left;
+    padding: 10px;
+    background-color: ;
+    text-align: left;
+    margin-left: 10px;
+    color: #a7a9ab;
+	font-weight: lighter;    
+	font-size: 1.8em;
+	padding-top: 70px;
+}
+
