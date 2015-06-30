@@ -67,7 +67,7 @@ h3, h2 {
     text-align: left;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color:  #a7a9ab ;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 #about h2
@@ -212,7 +212,7 @@ h3, h2 {
     background-color:   #a7a9ab  ;
     margin: 0px 100px 0px 100px;
     color: #fff;
-    padding: 10px;
+    padding: 30px 0px 30px 0px;
 }
 
 #testimonials p
@@ -230,15 +230,6 @@ h3, h2 {
     font-size: 15pt;
     /*margin-left: 650px;*/
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.started
-{
-    background-color:   #a7a9ab  ;
-    margin: 0px 100px 0px 100px;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
 }
 
 
@@ -268,7 +259,7 @@ h3, h2 {
 {
     background-color:  #a7a9ab ;
     color: #fff;
-    text-align: center;
+    text-align: left;
 }
 
 #gettingStarted h2
@@ -284,6 +275,30 @@ h3, h2 {
 {
     color: #fff;
     text-align:center;
+}
+
+#gettingStarted a
+{
+	text-decoration:none;
+	color:#fff;
+}
+
+#gettingStarted a:hover { text-decoration:underline;}
+
+.started-words
+{
+    background-color:   #a7a9ab  ;
+    color: #fff;
+    text-align: left;
+    float: left;
+    width: 432px;
+    padding:30px;
+}
+
+.started-video
+{
+    background-color:   #a7a9ab  ;
+    padding: 0px;
 }
 
 #pricing
