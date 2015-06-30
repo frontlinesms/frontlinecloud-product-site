@@ -4,6 +4,7 @@ body
     padding: 0px;
     margin: 0px auto;
     width: 1140px;
+    font-weight: normal;
 }
 
 #wrapper
@@ -36,7 +37,7 @@ p {
 	font-weight: lighter;
 }
 
-h3 {
+h3, h2 {
 	font-weight: normal;
 }
 
@@ -260,6 +261,7 @@ h3 {
 {
     background-color:  #a7a9ab ;
     color: #fff;
+    text-align: center;
 }
 
 #gettingStarted h2
@@ -324,7 +326,7 @@ h3 {
 .info p
 {
     color: #fff;
-    text-align: justify;
+    text-align: left;
     margin: 10px 80px 0px 80px;
     font-size: 20px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -343,7 +345,6 @@ h3 {
     margin: 0px;
     padding: 0px;
     color: #fff;
-    font-weight: 100;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: left;
     margin-left: 70px;
@@ -370,4 +371,5 @@ ul
     font-size: 20px;
     margin-left: 50px;
     color: #fff;
+    font-weight: lighter;
 }
