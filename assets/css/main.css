@@ -29,6 +29,15 @@ h1
     padding: 15px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 24pt;
+    font-weight: normal;
+}
+
+p {
+	font-weight: lighter;
+}
+
+h3 {
+	font-weight: normal;
 }
 
 #header
