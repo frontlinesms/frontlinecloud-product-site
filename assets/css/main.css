@@ -27,7 +27,7 @@ h1
     margin: 0px;
     color: #5d5d5d;
     padding: 15px;
-    font-family: arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 24pt;
 }
 
@@ -54,7 +54,7 @@ h1
 {
     background-color:  ;
     text-align: center;
-    font-family: arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color:  #a7a9ab ;
     font-weight: 100;
 }
@@ -68,7 +68,7 @@ h1
     margin: 0px;
     padding: 0px;
     font-weight: 100;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #landingPgImage
@@ -125,7 +125,7 @@ h1
     margin: 0px;
     padding: 10px;
     color: #fff;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #functions h3
@@ -133,7 +133,7 @@ h1
     font-size: 18pt;
     color: #fff;
     text-align: left;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -143,7 +143,7 @@ h1
     font-size: 14pt;
     color: #fff;
     text-align: left;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .containerIcons
@@ -217,14 +217,14 @@ h1
     font-size: 18pt;
     padding: 10px;
     background-color: ;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #testimonials span
 {
     font-size: 15pt;
     margin-left: 700px;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #partners
@@ -259,7 +259,7 @@ h1
     margin: 0px;
     color: #fff;
     padding: 10px;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #gettingStarted h1
@@ -318,7 +318,7 @@ h1
     text-align: justify;
     margin: 10px 80px 0px 80px;
     font-size: 20px;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .contact
@@ -335,7 +335,7 @@ h1
     padding: 0px;
     color: #fff;
     font-weight: 100;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: left;
     margin-left: 70px;
 }
@@ -345,7 +345,7 @@ ul
     margin: 0px;
     padding: 10px;
     background-color:;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
  ul li
