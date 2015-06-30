@@ -1,15 +1,16 @@
 body
 {
-    background-color: #ccc;
+    background-color: #fff;
     padding: 0px;
     margin: 0px auto;
     width: 1140px;
+    font-weight: normal;
 }
 
 #wrapper
 {
-    border-top: 5px solid #a8206c;
-    border-bottom: 5px solid #a8206c;
+    /*border-top: 5px solid #a8206c;
+    border-bottom: 5px solid #a8206c;*/
     margin: 0px;
     padding: 0px;
 }
@@ -22,13 +23,23 @@ body
 
 h1
 {
-    text-align: center;
+    text-align: left;
     background-color:  ;
     margin: 0px;
     color: #5d5d5d;
     padding: 15px;
-    font-family: arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 24pt;
+    font-weight: normal;
+}
+
+p {
+	font-weight: lighter;
+}
+
+h3, h2 {
+	font-weight: normal;
+    color: #5d5d5d;
 }
 
 #header
@@ -53,8 +64,8 @@ h1
 #about h1
 {
     background-color:  ;
-    text-align: center;
-    font-family: arial;
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color:  #a7a9ab ;
     font-weight: 100;
 }
@@ -63,19 +74,12 @@ h1
 {
     margin-left: 2px;
     font-size: 18pt;
-    text-align: center;
+    text-align: left;
     color:  #a7a9ab ;
     margin: 0px;
     padding: 0px;
     font-weight: 100;
-    font-family:arial;
-}
-
-#landingPgImage
-{
-    background-image: url(../images/Capture1.PNG);
-    background-position: center;
-    height: 500px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #products
@@ -125,15 +129,15 @@ h1
     margin: 0px;
     padding: 10px;
     color: #fff;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #functions h3
 {
     font-size: 18pt;
     color: #fff;
-    text-align: left;
-    font-family:arial;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -143,7 +147,7 @@ h1
     font-size: 14pt;
     color: #fff;
     text-align: left;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .containerIcons
@@ -191,7 +195,7 @@ h1
 
 #mapCoverage h1
 {
-    text-align: center;
+    text-align: left;
     margin: 0px;
     padding: 15px;
     
@@ -217,19 +221,32 @@ h1
     font-size: 18pt;
     padding: 10px;
     background-color: ;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-left: 30px;
 }
 
 #testimonials span
 {
     font-size: 15pt;
-    margin-left: 700px;
-    font-family:arial;
+    /*margin-left: 650px;*/
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.started
+{
+    background-color:   #a7a9ab  ;
+    margin: 0px 100px 0px 100px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
 
 #partners
 {
     background-color: #fff;
+    padding-top: 30px;
+    text-align: center;
 }
 
 #partners ul
@@ -244,13 +261,14 @@ h1
 {
     display: inline-block;
     background-color:;
-    margin-left: 80px;
+    margin: 0px 30px 0px 30px;
 }
 
 #gettingStarted
 {
     background-color:  #a7a9ab ;
     color: #fff;
+    text-align: center;
 }
 
 #gettingStarted h2
@@ -259,18 +277,20 @@ h1
     margin: 0px;
     color: #fff;
     padding: 10px;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #gettingStarted h1
 {
     color: #fff;
+    text-align:center;
 }
 
 #pricing
 {
     background-color:#fff ;
     text-align: center;
+    padding: 30px 0px 30px 0px;
 }
 
 .containerPrice
@@ -315,10 +335,10 @@ h1
 .info p
 {
     color: #fff;
-    text-align: justify;
+    text-align: left;
     margin: 10px 80px 0px 80px;
     font-size: 20px;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .contact
@@ -334,8 +354,7 @@ h1
     margin: 0px;
     padding: 0px;
     color: #fff;
-    font-weight: 100;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: left;
     margin-left: 70px;
 }
@@ -345,7 +364,7 @@ ul
     margin: 0px;
     padding: 10px;
     background-color:;
-    font-family:arial;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
  ul li
@@ -361,4 +380,35 @@ ul
     font-size: 20px;
     margin-left: 50px;
     color: #fff;
+    font-weight: lighter;
 }
+
+.hero
+{
+    background-color: ;
+	padding: 30px 0px 30px 0px;
+}
+
+
+.hero-laptop
+{
+    width: 727px;
+    float: left;
+    background-color: ;
+    text-align: left;
+}
+
+.hero-boxout h2
+{
+    width: 380px;
+    float: left;
+    padding: 10px;
+    background-color: ;
+    text-align: left;
+    margin-left: 10px;
+    color: #a7a9ab;
+	font-weight: lighter;    
+	font-size: 1.8em;
+	padding-top: 70px;
+}
+
