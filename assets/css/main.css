@@ -476,4 +476,17 @@ form
 }
 */
 
+/* Recent Blog Post*/
+.recent-post-excerpt {
+	display:inline-block;
+	width:70%;
+}
 
+#major-users img {
+	height: 173px;
+	width:auto;
+}
+
+#major-users li {
+	display: inline-block;
+}
