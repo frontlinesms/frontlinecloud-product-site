@@ -509,6 +509,19 @@ form
 /*Signup form*/
 #signup-form-container {
 	margin-bottom: 10px;
+	color: #5d5d5d;
+}
+
+#signup-form-container input[type=text], #signup-form-container input[type=password], #signup-form-container select {
+	width: 100%;
+}
+
+#signup-form-container td {
+	padding-right: 5px;
+}
+
+#signup-form-container tr {
+	margin-bottom: 5px;
 }
 
 .frontline-signup-form {
