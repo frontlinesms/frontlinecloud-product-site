@@ -477,17 +477,31 @@ form
 */
 
 /* Recent Blog Post*/
-.recent-post-excerpt {
+.recent-post-excerpt-container {
 	display:inline-block;
 	width:70%;
+	height:162px;
+	vertical-align: top;
+	padding: 10px;
 }
 
+#recent-blog-post {
+}
+
+/*Major Users*/
 #major-users img {
 	height: 173px;
 	width:auto;
 }
 
+#major-users {
+    text-align: center;
+}
 #major-users li {
 	display: inline-block;
 	margin: 0px 30px 0px 30px;
+}
+
+.panel-title {
+	text-align: center;
 }
