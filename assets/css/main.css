@@ -521,3 +521,9 @@ form
 	text-align:center;
 	padding:5px 0px 5px 0px;
 }
+
+.frontline-features-list {
+	padding: 0px 60px;
+	font-size: 14pt;
+	text-align: center;
+}
