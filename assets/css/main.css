@@ -505,3 +505,19 @@ form
 .panel-title {
 	text-align: center;
 }
+
+/*Signup form*/
+#signup-form-container {
+	margin-bottom: 10px;
+}
+
+.frontline-signup-form {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.signup-button-container {
+	text-align:center;
+	padding:5px 0px 5px 0px;
+}
