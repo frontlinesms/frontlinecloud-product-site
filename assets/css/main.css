@@ -1,17 +1,16 @@
 body
 {
-    background-color: #fff;
+    background-color: ;
     padding: 0px;
-    margin: 0px auto;
-    width: 1140px;
     font-weight: normal;
 }
 
 #wrapper
 {
     /*border-top: 5px solid #a8206c;
-    border-bottom: 5px solid #a8206c;*/
-    margin: 0px;
+    border-bottom: 5px solid #a8206c;*/   
+    margin: 0px auto;
+    background-color: ;
     padding: 0px;
 }
 
@@ -19,6 +18,8 @@ body
 {
     padding: 0px;
     background-color: ;
+    margin: 0px auto;
+    width: 1140px;
 }
 
 h1
@@ -34,17 +35,24 @@ h1
 }
 
 p {
-	font-weight: lighter;
+    font-weight: lighter;
 }
 
 h3, h2 {
-	font-weight: normal;
+    font-weight: normal;
     color: #5d5d5d;
 }
 
 #header
 {
-    background-color: ;
+    background-color:#939598 ;
+}
+
+.container-header
+{
+    background-color:#939598 ;
+    margin: 0px auto;
+    width: 1140px;
 }
 
 #logo
@@ -127,7 +135,7 @@ h3, h2 {
 {
     background-color:  #a7a9ab;
     margin: 0px;
-    padding: 10px;
+    padding: 30px;
     color: #fff;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -150,7 +158,7 @@ h3, h2 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.containerIcons
+.frontlineProductFunctions
 {
     background-color: ;
     width: 1000px;
@@ -282,8 +290,8 @@ h3, h2 {
 
 #gettingStarted a
 {
-	text-decoration:none;
-	color:#fff;
+    text-decoration:none;
+    color:#fff;
 }
 
 #gettingStarted a:hover { text-decoration:underline;}
@@ -337,6 +345,7 @@ h3, h2 {
 .info
 {
     float: left;
+    margin-left: 20px;
     width: 548px;
     background-color: ;
 }
@@ -403,7 +412,7 @@ ul
 .hero
 {
     background-color: ;
-	padding: 30px 0px 30px 0px;
+    padding: 30px 0px 30px 0px;
 }
 
 
@@ -424,8 +433,8 @@ ul
     text-align: left;
     margin-left: 10px;
     color: #a7a9ab;
-	font-weight: lighter;    
-	font-size: 1.8em;
+    font-weight: lighter;    
+    font-size: 1.8em;
 }
 
 /*
@@ -474,6 +483,20 @@ form
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 }
 */
+
+.white-container
+{
+    
+}
+
+.pink-container
+{
+}
+
+.grey-container
+{
+   background-color: blue;
+}
 
 /* Recent Blog Post*/
 .recent-post-excerpt-container {
