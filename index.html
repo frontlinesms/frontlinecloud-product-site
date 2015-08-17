@@ -8,28 +8,29 @@
     <link rel="stylesheet" href="assets/css/normalize.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/main.css" type="text/css"/>
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" type="text/css"/>
-	<link rel="shortcut icon" href="http://product.frontlinesms.com/assets/images/favicon.ico" />
-	<script type="text/javascript" src="assets/js/skrollr.min.js"></script>
-	<script type="text/javascript">
-    	var s = skrollr.init();
-	</script>
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-16772760-1']);
-		_gaq.push(['_trackPageview']);
+    <link rel="shortcut icon" href="http://product.frontlinesms.com/assets/images/favicon.ico" />
+    <script type="text/javascript" src="assets/js/skrollr.min.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init();
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-16772760-1']);
+        _gaq.push(['_trackPageview']);
 
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-				})();
-	</script>
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+    </script>
     
 </head>
     
 <body>
     <!--start of wrapper-->
-    <div id="wrapper">    
+    <div id="wrapper"> 
+
         <!--start of header-->
         <div id="header">
             <!--container start-->
@@ -41,12 +42,6 @@
                 </div>
                 <!--end logo-->
 
-                <!--start about-->
-                <div id="about">
-                    <h1>Frontline: personal, automated, and scalable - the way SMS should be.</h1>
-                </div>
-                <!--end about-->
-
             </div>
             <!--container end-->
 
@@ -56,7 +51,13 @@
         <!--start of subtitle hero-->
         <div id="subtitle">
             <!--start container-->
-            <div class="hero">
+            <div class="container">
+
+                <!--start about-->
+                <div id="about">
+                    <h1>Frontline: personal, automated, and scalable - the way SMS should be.</h1>
+                </div>
+                <!--end about-->
 
                 <div class="hero-laptop">
                     <img class="circle" src="assets/images/Hero-UI.png"/>
@@ -253,27 +254,31 @@
 data-center-top="opacity:1; left:0;">
             
             <!--start container-->
-            <div class="containerIcons">
+            <div class="container">
 
-                <div class="cloud">
-                    <a href="https://cloud.frontlinesms.com" target="_blank"><img class="circle" src="assets/images/Circle-Cloud.png"/></a>
-                    <h3>Cloud hosted SMS Tools</h3>
-                    <p>Our cloud-hosted app, FrontlineCloud, lets you easily send, receivem and manage SMS as well as integrates into other cloud tools.</p>
+                <div class="frontlineProductFunctions">
+
+                    <div class="cloud">
+                        <a href="https://cloud.frontlinesms.com" target="_blank"><img class="circle" src="assets/images/Circle-Cloud.png"/></a>
+                        <h3>Cloud hosted SMS Tools</h3>
+                        <p>Our cloud-hosted app, FrontlineCloud, lets you easily send, receivem and manage SMS as well as integrates into other cloud tools.</p>
+                    </div>
+
+                    <div class="sync">
+                        <a href="https://play.google.com/store/apps/details?id=com.simlab.frontlinesync&hl=en" target="_blank"><img class="circle" src="assets/images/Circle-Sync.png"/></a>
+                        <h3>Android Messaging</h3>
+                        <p>Our free Android app, FrontlineSync enables users send and receive messages and missed calls into Frontline using any mobile network.</p>
+                    </div>
+
+                    <div class="sms">
+                        <a href="http://www.frontlinesms.com/technologies/download/" target="_blank"><img class="circle" src="assets/images/Circle-SMS.png"/></a>
+                        <h3>Offline SMS Management</h3>
+                        <p>Our classic desktop app, FrontlineSMS, brings professional grade communication tools to offline communities, reaching any mobile handset, anywhere it has a signal.</p>
+                    </div>
+
+                    <br clear="all"/>
+
                 </div>
-
-                <div class="sync">
-                    <a href="https://play.google.com/store/apps/details?id=com.simlab.frontlinesync&hl=en" target="_blank"><img class="circle" src="assets/images/Circle-Sync.png"/></a>
-                    <h3>Android Messaging</h3>
-                    <p>Our free Android app, FrontlineSync enables users send and receive messages and missed calls into Frontline using any mobile network.</p>
-                </div>
-
-                <div class="sms">
-                    <a href="http://www.frontlinesms.com/technologies/download/" target="_blank"><img class="circle" src="assets/images/Circle-SMS.png"/></a>
-                    <h3>Offline SMS Management</h3>
-                    <p>Our classic desktop app, FrontlineSMS, brings professional grade communication tools to offline communities, reaching any mobile handset, anywhere it has a signal.</p>
-                </div>
-
-                <br clear="all"/>
 
             </div>
             <!--end container-->
@@ -294,7 +299,7 @@ data-center-top="opacity:1; left:0;">
             <!--start container-->
             <div class="container">
 
-            <img src="assets/images/Coverage-Map.png" style="width:1128px;"/>
+            <img src="assets/images/Coverage-Map.png" style="width:1128px; margin-left:6px;"/>
 
             </div>
             <!--end container-->
@@ -306,12 +311,15 @@ data-center-top="opacity:1; left:0;">
 data-center-top="opacity:1; left:0;">
 
             <!--start container-->
-            <div class="quotes">
-	            <i class="fa fa-quote-left fa-lg pull-left"></i>
+            <div class="container">
 
-        	    <p>FrontlineSMS gives that magic of receiving and sending, managing contacts and storing Received and Sent SMS’s in an easy way and I can also export the information to spreadsheets for reporting.<i class="fa fa-quote-right fa-lg pull-right"></i></p>
-    	        
-            	<span>John Kisewe Mpakani - a producer and presenter at the Nkhotakota Community Radio Station in Malawi</span>      
+                <div class="quotes">
+                    <i class="fa fa-quote-left fa-lg pull-left"></i>
+
+                    <p>FrontlineSMS gives that magic of receiving and sending, managing contacts and storing Received and Sent SMS’s in an easy way and I can also export the information to spreadsheets for reporting.<i class="fa fa-quote-right fa-lg pull-right"></i></p>
+                    
+                    <span>John Kisewe Mpakani - a producer and presenter at the Nkhotakota Community Radio Station in Malawi</span>
+                </div>      
             </div>
             <!--end container-->
         </div>
@@ -347,17 +355,18 @@ data-center-top="opacity:1; left:0;">
         <div id="gettingStarted" data-bottom-top="opacity:0; left:-200%;" 
 data-center-top="opacity:1; left:0;">
 
+            <div class="container">
             <!--start container-->
             <div class="started-words">
- 	            <h1><i class="fa fa-comments fa-fw"></i> Get started now <i class="fa fa-code fa-fw"></i></h1>
-   	       		<h2><i class="fa fa-cloud fa-fw"></i> <a href="https://cloud.frontlinesms.com">Get started today with a 1-month trial subscription and see how FrontlineCloud can empower your campaign through SMS</a></h2>
-	            <h2><i class="fa fa-cloud-download fa-fw"></i> <a href="https://frontlinesms.com/download">Working offline? Try downloading the latest version of FrontlineSMS Desktop, available for Windows, Mac and Linux</a></h2>
-            	<h2><i class="fa fa-youtube-play fa-fw"></i> Not sure which connection type fits your volume? Watch this <i class="fa fa-arrow-right fa-fw"></i></h2>
+                <h1><i class="fa fa-comments fa-fw"></i> Get started now <i class="fa fa-code fa-fw"></i></h1>
+                <h2><i class="fa fa-cloud fa-fw"></i> <a href="https://cloud.frontlinesms.com">Get started today with a 1-month trial subscription and see how FrontlineCloud can empower your campaign through SMS</a></h2>
+                <h2><i class="fa fa-cloud-download fa-fw"></i> <a href="https://frontlinesms.com/download">Working offline? Try downloading the latest version of FrontlineSMS Desktop, available for Windows, Mac and Linux</a></h2>
+                <h2><i class="fa fa-youtube-play fa-fw"></i> Not sure which connection type fits your volume? Watch this <i class="fa fa-arrow-right fa-fw"></i></h2>
             </div>
             <div class="started-video">
-            	<iframe width="648" height="486" src="https://www.youtube.com/embed/jUCx7FgHy2Q" frameborder="0" allowfullscreen></iframe>
+                <iframe width="648" height="486" src="https://www.youtube.com/embed/jUCx7FgHy2Q" frameborder="0" allowfullscreen></iframe>
             </div>
-
+            </div>
             <!--end container-->
         </div>
         <!--end gettingStarted section-->
@@ -393,9 +402,9 @@ data-center-top="opacity:1; left:0;">
 data-center-top="opacity:1; left:0;">
 
             <!--start container-->
-            <div class="containerPrice">
+            <div class="container">
 
-           		 <img src="assets/images/Tiering-Table.png" alt="payments" height="500px;"/>
+                 <img src="assets/images/Tiering-Table.png" alt="payments" height="500px;"/>
 
             </div>
             <!--end container-->
@@ -406,32 +415,37 @@ data-center-top="opacity:1; left:0;">
         <!--start footer-->
         <div id="footer">
             
-            <div class="foot">
+            <div class="container">
+
+                <div class="foot">
                 
-                <div class="info">
-                    <h1>About us</h1>
-                    <p>
-                        Since Frontline was first released in 2005, our growth as a team and the development of our platform have been driven by our users. FrontlineSMS was one of the first platforms to help harness the power of mobile technology for social change. Our technical team is based in East Africa's innovation hub, Nairobi, Kenya and has decades of experience in building mobile engagement tools.
-                    </p>
-               </div> 
-                
-               <div class="contact">
-                   <h1>Contact us</h1>
-                   
-                    <ul>
-                        <li><a href="http://frontlinesms.com" target="_blank"><i class="fa fa-compass fa-fw"></i>&nbsp;&nbsp;frontlinesms.com</a></li>
-                        <li><a href="https://www.google.co.ke/maps/place/Bishop+Maguga+Bldg,+George+Padmore+Ln,+Nairobi/@-1.2990756,36.7909276,19z/data=!3m1!4b1!4m7!1m4!3m3!1s0x182f109990e04d95:0x531d2f94564bedc7!2sPraekelt+Consulting+Kenya!3b1!3m1!1s0x182f109990236589:0xd41b6f1f7c2be098" target="_blank"><i class="fa fa-map-marker fa-fw"></i>&nbsp;&nbsp;Location</a></li>
-                        <li><a href="mailto:product@frontlinesms.com"><i class="fa fa-envelope-o fa-fw"></i>&nbsp;&nbsp;Email</a></li>
-<!--                        <li><a href="#" target="_blank"><i class="fa fa-phone fa-fw"></i>&nbsp;&nbsp;Call us</a></li>-->
-                        <li><a href="mailto:support@frontlinesms.com"><i class="fa fa-question fa-fw"></i>&nbsp;&nbsp;support@frontlinesms.com</a></li>
-                        <li><a href="https://twitter.com/frontlinesms" target="_blank"><i class="fa fa-twitter fa-fw"></i>&nbsp;&nbsp;@frontlinesms</a></li>
-                        <li><a href="https://www.facebook.com/FrontlineSMS" target="_blank"><i class="fa fa-facebook fa-fw"></i>&nbsp;&nbsp;facebook.com/FrontlineSMS</a></li>                      
-                    </ul>
-               </div>
-                
-               <br clear="all"/>    
+                    <div class="info">
+                        <h1>About us</h1>
+                        <p>
+                            Since Frontline was first released in 2005, our growth as a team and the development of our platform have been driven by our users. FrontlineSMS was one of the first platforms to help harness the power of mobile technology for social change. Our technical team is based in East Africa's innovation hub, Nairobi, Kenya and has decades of experience in building mobile engagement tools.
+                        </p>
+                   </div> 
+                    
+                   <div class="contact">
+                       <h1>Contact us</h1>
+                       
+                        <ul>
+                            <li><a href="http://frontlinesms.com" target="_blank"><i class="fa fa-compass fa-fw"></i>&nbsp;&nbsp;frontlinesms.com</a></li>
+                            <li><a href="https://www.google.co.ke/maps/place/Bishop+Maguga+Bldg,+George+Padmore+Ln,+Nairobi/@-1.2990756,36.7909276,19z/data=!3m1!4b1!4m7!1m4!3m3!1s0x182f109990e04d95:0x531d2f94564bedc7!2sPraekelt+Consulting+Kenya!3b1!3m1!1s0x182f109990236589:0xd41b6f1f7c2be098" target="_blank"><i class="fa fa-map-marker fa-fw"></i>&nbsp;&nbsp;Location</a></li>
+                            <li><a href="mailto:product@frontlinesms.com"><i class="fa fa-envelope-o fa-fw"></i>&nbsp;&nbsp;Email</a></li>
+    <!--                        <li><a href="#" target="_blank"><i class="fa fa-phone fa-fw"></i>&nbsp;&nbsp;Call us</a></li>-->
+                            <li><a href="mailto:support@frontlinesms.com"><i class="fa fa-question fa-fw"></i>&nbsp;&nbsp;support@frontlinesms.com</a></li>
+                            <li><a href="https://twitter.com/frontlinesms" target="_blank"><i class="fa fa-twitter fa-fw"></i>&nbsp;&nbsp;@frontlinesms</a></li>
+                            <li><a href="https://www.facebook.com/FrontlineSMS" target="_blank"><i class="fa fa-facebook fa-fw"></i>&nbsp;&nbsp;facebook.com/FrontlineSMS</a></li>                      
+                        </ul>
+                   </div>
+                    
+                   <br clear="all"/>    
+                </div>
+                <!--end foot-->
+
             </div>
-            
+            <!--end container-->
         </div>
         <!--end footer-->
         
