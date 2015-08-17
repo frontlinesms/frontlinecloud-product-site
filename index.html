@@ -25,13 +25,18 @@
 				})();
 	</script>
     
+    <!-- bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
     
 <body>
     <!--start of wrapper-->
-    <div id="wrapper">    
+    <div id="wrapper" class="fluid">    
         <!--start of header-->
-        <div id="header">
+        <div id="header" class="container-fluid">
             <!--container start-->
             <div class="container">
 
@@ -54,7 +59,7 @@
         <!--end of header-->
 
         <!--start of subtitle hero-->
-        <div id="subtitle">
+        <div id="subtitle" class="container">
             <!--start container-->
             <div class="hero">
 
@@ -249,25 +254,25 @@
 	</div>
 -->
         <!--start functions-->
-        <div id="functions" data-bottom-top="opacity:0; left:-200%;" 
+        <div id="functions" class="fluid-container" data-bottom-top="opacity:0; left:-200%;" 
 data-center-top="opacity:1; left:0;">
             
             <!--start container-->
-            <div class="containerIcons">
+            <div class="containerIcons row-fluid">
 
-                <div class="cloud">
+                <div class="cloud col-sm-4">
                     <a href="https://cloud.frontlinesms.com" target="_blank"><img class="circle" src="assets/images/Circle-Cloud.png"/></a>
                     <h3>Cloud hosted SMS Tools</h3>
                     <p>Our cloud-hosted app, FrontlineCloud, lets you easily send, receivem and manage SMS as well as integrates into other cloud tools.</p>
                 </div>
 
-                <div class="sync">
+                <div class="sync col-sm-3">
                     <a href="https://play.google.com/store/apps/details?id=com.simlab.frontlinesync&hl=en" target="_blank"><img class="circle" src="assets/images/Circle-Sync.png"/></a>
                     <h3>Android Messaging</h3>
                     <p>Our free Android app, FrontlineSync enables users send and receive messages and missed calls into Frontline using any mobile network.</p>
                 </div>
 
-                <div class="sms">
+                <div class="sms col-sm-4">
                     <a href="http://www.frontlinesms.com/technologies/download/" target="_blank"><img class="circle" src="assets/images/Circle-SMS.png"/></a>
                     <h3>Offline SMS Management</h3>
                     <p>Our classic desktop app, FrontlineSMS, brings professional grade communication tools to offline communities, reaching any mobile handset, anywhere it has a signal.</p>
