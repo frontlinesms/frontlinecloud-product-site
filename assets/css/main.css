@@ -155,12 +155,12 @@ h3, h2 {
     color: #fff;
     text-align: left;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 25px;
 }
 
 .frontlineProductFunctions
 {
     background-color: ;
-   
     margin: 0 auto;
     padding: 30px;
 }
@@ -435,7 +435,7 @@ ul
     margin-left: 10px;
     color: #a7a9ab;
     font-weight: lighter;    
-    font-size: 1.8em;
+    font-size: 32px;
 }
 
 /*
@@ -559,7 +559,7 @@ form
 }
 
 .frontline-features-list {
-	padding: 0px 60px;
+	padding: 25px 60px 0px 60px;
 	font-size: 14pt;
 	text-align: center;
 }
