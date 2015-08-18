@@ -2,10 +2,6 @@ body
 {
     background-color: ;
     padding: 0px;
-<<<<<<< HEAD
-    
-=======
->>>>>>> origin/gh-pages
     font-weight: normal;
 }
 
@@ -22,13 +18,7 @@ body
 {
     padding: 0px;
     background-color: ;
-<<<<<<< HEAD
 }*/
-=======
-    margin: 0px auto;
-    width: 1140px;
-}
->>>>>>> origin/gh-pages
 
 h1
 {
@@ -53,9 +43,7 @@ h3, h2 {
 
 #header
 {
-<<<<<<< HEAD
-    background-color: #939598;
-=======
+
     background-color:#939598 ;
 }
 
@@ -64,7 +52,6 @@ h3, h2 {
     background-color:#939598 ;
     margin: 0px auto;
     width: 1140px;
->>>>>>> origin/gh-pages
 }
 
 #logo
