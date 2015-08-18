@@ -338,6 +338,7 @@ h3, h2 {
     float: left;
     width: 548px;
     background-color: ;
+    border-right: 4px solid #fff;
 }
 
 .info h1
@@ -347,6 +348,7 @@ h3, h2 {
     color: #fff;
     text-align: left;
     margin-left: 80px;
+
 }
 
 .info p
@@ -361,9 +363,9 @@ h3, h2 {
 .contact
 {
     float: left;
-    width: 548px;
+    
     background-color: ;
-    border-left: 4px solid #fff;
+    
 }
 
 .contact h1
