@@ -563,3 +563,10 @@ form
 	font-size: 14pt;
 	text-align: center;
 }
+
+.formEnclosure{
+    background-color: ;
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px 100px 20px 100px;
+}
