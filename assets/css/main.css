@@ -514,7 +514,7 @@ form
 
 /*Major Users*/
 #major-users img {
-	height: 173px;
+	height: 100px;
 	width:auto;
 }
 
@@ -523,7 +523,7 @@ form
 }
 #major-users li {
 	display: inline-block;
-	margin: 0px 30px 0px 30px;
+	/*margin: 0px 30px 0px 30px;*/
 }
 
 .panel-title {
@@ -617,4 +617,10 @@ table
 {
     background-color: ;
     width: 270px;
+}
+
+#partners img
+{
+    height: 100px;
+    width: auto;
 }
