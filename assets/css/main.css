@@ -533,6 +533,7 @@ form
 #signup-form-container {
 	margin-bottom: 10px;
 	color: #5d5d5d;
+    background-color: ;
 }
 
 #signup-form-container input[type=text], #signup-form-container input[type=password], #signup-form-container select {
@@ -540,7 +541,7 @@ form
 }
 
 #signup-form-container td {
-	padding-right: 5px;
+	padding: 10px 10px 5px;
 }
 
 #signup-form-container tr {
@@ -548,9 +549,12 @@ form
 }
 
 .frontline-signup-form {
-	width:800px;
-	margin-left:auto;
-	margin-right:auto;
+	/*width:800px;*/
+	/*margin-left:auto;
+	margin-right:auto;*/
+    margin: 0 auto;
+   padding: 20px 10px 10px;
+   background-color: ;
 }
 
 .signup-button-container {
@@ -574,4 +578,42 @@ form
 .circle
 {
     margin-left: 75px;
+}
+
+.frontline-signup-form
+{
+    padding: 20px;
+}
+
+.signup-button
+{
+    background-color: #A7166A;
+    border-color: #98105E;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+    border:1px solid transparent;
+}
+
+table
+{
+    background-color: ;
+    margin: 0 auto;
+}
+
+.name
+{
+    background-color: ;
+    /*width: 200px;*/
+}
+
+.value
+{
+    background-color: ;
+    width: 270px;
 }
