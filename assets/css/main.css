@@ -624,3 +624,8 @@ table
     height: 100px;
     width: auto;
 }
+
+table label
+{
+    padding: 8px;
+}
