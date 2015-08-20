@@ -15,8 +15,12 @@ var ProductSite = function () {
 
 	init();
 }
+var show = function(){
+	$("#signup-form-container").slideDown();
+};
 
 var productSite;
 $(function(){
 	productSite = new ProductSite();
 });
+$("#showSignUp").click(show);
