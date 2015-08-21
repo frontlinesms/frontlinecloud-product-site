@@ -17,6 +17,7 @@ var ProductSite = function () {
 }
 var show = function(){
 	$("#signup-form-container").slideDown();
+	$("#showSignUp").slideUp();
 };
 
 var productSite;
