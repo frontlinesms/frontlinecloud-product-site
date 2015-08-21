@@ -14,13 +14,11 @@ body
     padding: 0px;
 }
 
-.container
+/*.container
 {
     padding: 0px;
     background-color: ;
-    margin: 0px auto;
-    width: 1140px;
-}
+}*/
 
 h1
 {
@@ -45,6 +43,7 @@ h3, h2 {
 
 #header
 {
+
     background-color:#939598 ;
 }
 
@@ -156,12 +155,12 @@ h3, h2 {
     color: #fff;
     text-align: left;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 25px;
 }
 
 .frontlineProductFunctions
 {
     background-color: ;
-    width: 1000px;
     margin: 0 auto;
     padding: 30px;
 }
@@ -219,7 +218,7 @@ h3, h2 {
 
 .quotes
 {
-    background-color:   #a7a9ab  ;
+    background-color:#a7a9ab;
     margin: 0px 100px 0px 100px;
     color: #fff;
     padding: 30px 0px 30px 0px;
@@ -252,17 +251,18 @@ h3, h2 {
 
 #partners ul
 {
-    margin: 0 auto;
+    /*margin: 0 auto;
     background-color: ;
-    max-width: 1270px;
+    max-width: 1270px;*/
+    padding: 0px 0px 30px 0px;
     
 }
 
 #partners ul li
 {
-    display: inline-block;
+    display: inline;
     background-color:;
-    margin: 0px 30px 0px 30px;
+    /*margin: 0px 30px 0px 30px;*/
 }
 
 #gettingStarted
@@ -348,6 +348,7 @@ h3, h2 {
     margin-left: 20px;
     width: 548px;
     background-color: ;
+    border-right: 4px solid #fff;
 }
 
 .info h1
@@ -357,6 +358,7 @@ h3, h2 {
     color: #fff;
     text-align: left;
     margin-left: 80px;
+
 }
 
 .info p
@@ -371,9 +373,9 @@ h3, h2 {
 .contact
 {
     float: left;
-    width: 548px;
+    
     background-color: ;
-    border-left: 4px solid #fff;
+    
 }
 
 .contact h1
@@ -434,7 +436,7 @@ ul
     margin-left: 10px;
     color: #a7a9ab;
     font-weight: lighter;    
-    font-size: 1.8em;
+    font-size: 32px;
 }
 
 /*
@@ -512,7 +514,7 @@ form
 
 /*Major Users*/
 #major-users img {
-	height: 173px;
+	height: 100px;
 	width:auto;
 }
 
@@ -521,7 +523,7 @@ form
 }
 #major-users li {
 	display: inline-block;
-	margin: 0px 30px 0px 30px;
+	/*margin: 0px 30px 0px 30px;*/
 }
 
 .panel-title {
@@ -532,6 +534,7 @@ form
 #signup-form-container {
 	margin-bottom: 10px;
 	color: #5d5d5d;
+    background-color: ;
 }
 
 #signup-form-container input[type=text], #signup-form-container input[type=password], #signup-form-container select {
@@ -539,7 +542,7 @@ form
 }
 
 #signup-form-container td {
-	padding-right: 5px;
+	padding: 10px 10px 5px;
 }
 
 #signup-form-container tr {
@@ -547,9 +550,12 @@ form
 }
 
 .frontline-signup-form {
-	width:800px;
-	margin-left:auto;
-	margin-right:auto;
+	/*width:800px;*/
+	/*margin-left:auto;
+	margin-right:auto;*/
+    margin: 0 auto;
+   padding: 20px 10px 10px;
+   background-color: ;
 }
 
 .signup-button-container {
@@ -558,7 +564,84 @@ form
 }
 
 .frontline-features-list {
-	padding: 0px 60px;
+	padding: 25px 60px 0px 60px;
 	font-size: 14pt;
 	text-align: center;
+}
+
+.formEnclosure{
+    background-color: ;
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px 100px 20px 100px;
+}
+
+.circle
+{
+    margin-left: 75px;
+}
+
+.frontline-signup-form
+{
+    padding: 20px;
+}
+
+.signup-button
+{
+    background-color: #A7166A;
+    border-color: #98105E;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+    border:1px solid transparent;
+}
+
+table
+{
+    background-color: ;
+    margin: 0 auto;
+}
+
+.name
+{
+    background-color: ;
+    /*width: 200px;*/
+}
+
+.value
+{
+    background-color: ;
+    width: 270px;
+}
+
+#partners img
+{
+    height: 100px;
+    width: auto;
+}
+
+#showBtn
+{
+    background-color: ;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+   }
+
+#showSignUp
+{
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+    border:1px solid transparent;
+    background-color: #A7166A;
+    border-color: #98105E;
+    color: #fff;
+    padding: 15px 55px;
+    font-size: 20px;
+    line-height: 1.42857;
 }
