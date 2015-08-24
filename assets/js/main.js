@@ -1,3 +1,20 @@
+$.fn.scrollTo = function( target, options, callback ){
+	if(typeof options == 'function' && arguments.length == 2){ callback = options; options = target; }
+	var settings = $.extend({
+		scrollTarget  : target,
+		offsetTop     : 50,
+		duration      : 500,
+		easing        : 'swing'
+	}, options);
+	return this.each(function(){
+		var scrollPane = $(this);
+		var scrollTarget = (typeof settings.scrollTarget == "number") ? settings.scrollTarget : $(settings.scrollTarget);
+		var scrollY = (typeof scrollTarget == "number") ? scrollTarget : scrollTarget.offset().top + scrollPane.scrollTop() - parseInt(settings.offsetTop);
+		scrollPane.animate({scrollTop : scrollY }, parseInt(settings.duration), settings.easing, function(){
+			if (typeof callback == 'function') { callback.call(this); }
+		});
+	});
+}
 var ProductSite = function () {
 	var init = function () {
 		initRecentBlogPostFetcher();
@@ -16,8 +33,13 @@ var ProductSite = function () {
 	init();
 }
 var show = function(){
-	$("#signup-form-container").slideDown();
+    var form = $("#signup-form-container");
+	form.slideDown();
 	$("#showSignUp").slideUp();
+	var body = $(".signup-button-container");
+	//body.animate({scrollTop:1000});
+	$('body').scrollTo($('#marker').offset().top);
+	console.log("Animated");
 };
 
 var productSite;
