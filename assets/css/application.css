@@ -1,0 +1,92 @@
+html
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#header img
+{
+    width:100%;
+    text-align: center;
+}
+
+#gettingStarted
+{
+    padding: 65px 10px;
+    text-align: center;
+}
+
+#gettingStarted h2
+{
+    color: #a7166a;
+}
+
+#formBg
+{
+    background-image: url(../../assets/images/SIGN-UP-FORM.png);
+    padding: 20px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#signupForm
+{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#signupForm h2
+{
+    color: #fff;
+}
+
+#radioForm
+{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+#btnSignup
+{
+   margin-top: 30px; 
+   background-color: #a7166a;
+   color: #fff;
+   border-radius: 4px;
+   border: 1px solid transparent;
+   line-height: 1.42857;
+   text-align: center;
+   vertical-align:middle;
+   white-space: nowrap;
+}
+
+#btnSignup:focus, 
+#btnSignup:hover
+{
+    background-color: #a7166a;
+    color: #fff;
+}
+
+.value
+{ 
+    padding: 10px;
+}
+
+#part1 
+{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#part2
+{
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#footer img
+{
+    text-align: center;
+    background-size: cover;
+}
