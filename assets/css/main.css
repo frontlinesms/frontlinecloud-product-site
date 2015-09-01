@@ -89,6 +89,65 @@ h3, h2 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#formBg
+{
+    background-image: url(../images/SIGN-UP-FORM.png);
+    padding: 20px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#signupForm
+{ 
+    margin: 50px 0px 70px 0px;
+}
+
+#signupForm h2
+{
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#productForm
+{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.terms
+{
+    color: #fff;
+}
+
+#btnSignup
+{ 
+   background-color: #fff;
+   color: #a7166a;
+   border-radius: 4px;
+   border: 1px solid transparent;
+   line-height: 1.42857;
+   text-align: center;
+   vertical-align:middle;
+   white-space: nowrap;
+}
+
+#btnSignup:focus, 
+#btnSignup:hover
+{
+    background-color: #a7166a;
+    color: #fff;
+}
+
+.value
+{ 
+    margin: 10px;
+}
+
 #products
 {
     background-color: #fff;
@@ -541,14 +600,6 @@ form
 	width: 100%;
 }
 
-#signup-form-container td {
-	padding: 10px 10px 5px;
-}
-
-#signup-form-container tr {
-	margin-bottom: 5px;
-}
-
 .frontline-signup-form {
 	/*width:800px;*/
 	/*margin-left:auto;
@@ -600,6 +651,7 @@ form
     border-radius: 4px;
     border:1px solid transparent;
 }
+/*
 
 table
 {
@@ -610,7 +662,7 @@ table
 .name
 {
     background-color: ;
-    /*width: 200px;*/
+    width: 200px;
 }
 
 .value
@@ -628,4 +680,4 @@ table
 table label
 {
     padding: 8px;
-}
+}*/
