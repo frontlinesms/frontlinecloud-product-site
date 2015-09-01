@@ -89,7 +89,7 @@ h3, h2 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#formBg
+#signup-form-container
 {
     background-image: url(../images/SIGN-UP-FORM.png);
     padding: 20px 10px;
