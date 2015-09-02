@@ -5,10 +5,22 @@
 <!-- unnecessary comment -->
     <meta charset="UTF-8">
     <title>Frontline</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap3.3.5/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap3.3.5/css/bootstrap-theme.min.css">
+
     <link rel="stylesheet" href="assets/css/normalize.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/main.css" type="text/css"/>
+
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" type="text/css"/>
 	<link rel="shortcut icon" href="http://product.frontlinesms.com/assets/images/favicon.ico" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/bootstrap3.3.5/js/bootstrap.min.js"></script>
+
 	<script type="text/javascript" src="assets/js/skrollr.min.js"></script>
 	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript">
@@ -25,12 +37,6 @@
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 				})();
 	</script>
-    
-    <!-- bootstrap -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="assets/bootstrap3.3.5/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="assets/bootstrap3.3.5/js/bootstrap.min.js"></script>
 </head>
     
 <body>
@@ -57,25 +63,29 @@
         <!--container start-->
         <div class="container">
 
-            <!--start about-->
-            <div id="about">
-                <h1>Frontline: personal, automated, and scalable - the way SMS should be.</h1>
+            <div class="row">
+
+                <!--start about-->
+                <div id="about" class="col-md-12">
+                    <h1>Frontline: personal, automated, and scalable - the way SMS should be.</h1>
+                </div>
+                <!--end about-->
+
             </div>
-            <!--end about-->
                 
         </div>
         <!--container end-->
 
         <!--start of subtitle hero-->
-        <div id="subtitle" class="container-fluid">
+        <div id="subtitle" class="container">
             <!--start container-->
-            <div class="hero container">
+            <div class="row">
 
-                <div class="hero-laptop">
+                <div class="col-md-5" id="hero-laptop">
                     <img class="laptop img-responsive" src="assets/images/Hero-UI.png"/>
                 </div>
 
-                <div class="hero-boxout">
+                <div class="col-md-4" id="hero-boxout">
                     <h2>Frontline makes it easy for individuals and organizations to build better user experiences using SMS. Our tools empower businesses, governments, nonprofits and technology platforms to build, test, and scale messaging workflows, everywhere. </h2>
                 </div>
 
