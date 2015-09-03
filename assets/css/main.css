@@ -226,7 +226,6 @@ h3, h2 {
 
 .cloud
 {
-    width: 300px;
     padding: 10px;
     background-color: ;
     text-align: center;
@@ -236,7 +235,6 @@ h3, h2 {
 
 .sync
 {
-    width: 300px;
     float: left;
     padding: 10px;
     background-color: ;
@@ -246,7 +244,6 @@ h3, h2 {
 
 .sms
 {
-    width: 300px;
     float: left;
     padding: 10px;
     background-color: ;
@@ -602,8 +599,8 @@ form
 	padding:5px 0px 5px 0px;
 }
 
-.frontline-features-list {
-	padding: 25px 60px 0px 60px;
+#frontline-features-list {
+	/*margin: 25px 60px 0px 60px;*/
 	font-size: 14pt;
 	text-align: center;
 }
@@ -613,11 +610,6 @@ form
     margin: 0 auto;
     width: 800px;
     padding: 20px 100px 20px 100px;
-}
-
-.circle
-{
-    margin-left: 75px;
 }
 
 .frontline-signup-form
