@@ -418,11 +418,11 @@ ul
 #hero-boxout h2
 {
     float: left;
-    background-color: ;
     text-align: left;
     color: #a7a9ab;
     font-weight: lighter;    
-    font-size: 32px;
+    font-size: 1.8em;
+    padding: 10px 0 0;
 }
 
 /* Recent Blog Post*/
