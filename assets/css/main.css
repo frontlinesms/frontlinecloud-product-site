@@ -479,11 +479,11 @@ ul
 	padding:5px 0px 5px 0px;
 }
 
-#frontline-features-list {
-	/*margin: 25px 60px 0px 60px;*/
+#frontline-features-list p
+{
+    text-align: center;
     color: #fff;
 	font-size: 14pt;
-	text-align: center;
 }
 
 .formEnclosure{
