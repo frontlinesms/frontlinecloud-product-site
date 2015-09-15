@@ -1,24 +1,7 @@
-body
-{
-    background-color: ;
-    padding: 0px;
-    font-weight: normal;
-}
-
 #wrapper
 {
-    /*border-top: 5px solid #a8206c;
-    border-bottom: 5px solid #a8206c;*/   
-    margin: 0px auto;
-    background-color: ;
     padding: 0px;
 }
-
-/*.container
-{
-    padding: 0px;
-    background-color: ;
-}*/
 
 #mapCoverage
 {
@@ -198,6 +181,7 @@ h3, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    height: 500px;
     margin: 0px;
     padding: 30px;
     color: #fff;
@@ -259,7 +243,8 @@ h3, h2 {
 
 #testimonials
 {
-    background-image:  url(../images/LaptopP.png);
+    background-image:  url(../images/Laptop-quotes.png);
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -319,6 +304,7 @@ color: #fff;
 {
     background-image:  url(../images/LaptopP.png);
     background-repeat: no-repeat;
+    height: 500px;
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -363,6 +349,7 @@ color: #fff;
 #pricing
 {
     background-image:url(../images/LaptopP.png);
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
