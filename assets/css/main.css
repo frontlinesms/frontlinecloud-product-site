@@ -1,42 +1,43 @@
-body
+#wrapper
 {
-    background-color: ;
     padding: 0px;
-    font-weight: normal;
 }
 
-h1
+#header
+{
+    background-color:#939598 ;
+}
+
+#about h1
 {
     font-family: "Helvetica Standard";
     font-size: 35px;
+    color:  #a7a9ab ;
 }
 
-h2
+#subtitle
+{
+    background-color: aqua;
+    margin-top: 40px; 
+    margin-bottom: 40px;
+}
+
+#hero-laptop
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#hero-boxout h2
 {
     font-family: "Helvetica Light";
+    float: left;
+    text-align: left;
+    color: #a7a9ab;
+    margin-left: 0px;   
     font-size: 25px;
+    padding: 10px 0 0;
 }
-
-p
-{
-    font-family: "Helvetica Light";
-    font-size: 20px;
-}
-
-#wrapper
-{
-    /*border-top: 5px solid #a8206c;
-    border-bottom: 5px solid #a8206c;*/   
-    margin: 0px auto;
-    background-color: ;
-    padding: 0px;
-}
-
-/*.container
-{
-    padding: 0px;
-    background-color: ;
-}*/
 
 h1
 {
@@ -60,19 +61,6 @@ h3, h2 {
     color: #5d5d5d;
 }
 
-#header
-{
-
-    background-color:#939598 ;
-}
-
-.container-header
-{
-    background-color:#939598 ;
-    margin: 0px auto;
-    width: 1140px;
-}
-
 #logo
 {
     background-color: #939598; 
@@ -82,28 +70,7 @@ h3, h2 {
 {
 }
 
-#about
-{
-    background-color: #fff ;
-}
 
-#about h1
-{
-    font-family: "Helvetica Standard";
-    font-size: 35px;
-    color:  #a7a9ab ;
-}
-
-#about h2
-{
-    margin-left: 2px;
-    font-size: 25px;
-    text-align: left;
-    color:  #a7a9ab ;
-    margin: 0px;
-    padding: 0px;
-    font-family: "Helvetica Light";
-}
 
 #signup-form-container
 {
@@ -443,28 +410,7 @@ ul
     font-family: "Helvetica Light";
 }
 
-#subtitle
-{
-    margin-top: 40px; 
-    margin-bottom: 40px;
-}
 
-#hero-laptop
-{
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-#hero-boxout h2
-{
-    font-family: "Helvetica Light";
-    float: left;
-    text-align: left;
-    color: #a7a9ab;
-    margin-left: 0px;   
-    font-size: 25px;
-    padding: 10px 0 0;
-}
 
 /* Recent Blog Post*/
 .recent-post-excerpt-container {
