@@ -5,6 +5,24 @@ body
     font-weight: normal;
 }
 
+h1
+{
+    font-family: "Helvetica Standard";
+    font-size: 35px;
+}
+
+h2
+{
+    font-family: "Helvetica Light";
+    font-size: 25px;
+}
+
+p
+{
+    font-family: "Helvetica Light";
+    font-size: 20px;
+}
+
 #wrapper
 {
     /*border-top: 5px solid #a8206c;
@@ -23,21 +41,22 @@ body
 h1
 {
     text-align: left;
-    background-color:  ;
     margin: 0px;
     color: #5d5d5d;
     padding: 15px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 24pt;
-    font-weight: normal;
+    font-family: "Helvetica Standard";
+    font-size: 35px;
 }
 
-p {
-    font-weight: lighter;
+p 
+{
+    font-family:  "Helvetica Light";
+    font-size: 20px;
 }
 
 h3, h2 {
-    font-weight: normal;
+    font-family: "Helvetica Light";
+    font-size: 25px;
     color: #5d5d5d;
 }
 
@@ -70,21 +89,20 @@ h3, h2 {
 
 #about h1
 {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Standard";
+    font-size: 35px;
     color:  #a7a9ab ;
-    font-weight: 200;
 }
 
 #about h2
 {
     margin-left: 2px;
-    font-size: 18pt;
+    font-size: 25px;
     text-align: left;
     color:  #a7a9ab ;
     margin: 0px;
     padding: 0px;
-    font-weight: 100;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Light";
 }
 
 #signup-form-container
@@ -103,8 +121,9 @@ h3, h2 {
 
 #signupForm h2
 {
+    font-family: "Helvetica Light";
     color: #fff;
-    font-size: 36px;
+    font-size: 25px;
     text-align: center;
     margin-top: 10px;
 }
@@ -196,25 +215,25 @@ h3, h2 {
     margin: 0px;
     padding: 30px;
     color: #fff;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Light";
 }
 
 #functions h3
 {
-    font-size: 18pt;
+    font-size: 25px;
     color: #fff;
     text-align: center;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Light";
     margin: 0px;
     padding: 0px;
 }
 
 #functions p
 {
-    font-size: 14pt;
+    font-size: 20px;
     color: #fff;
     text-align: left;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Light";
     padding: 25px;
 }
 
@@ -272,18 +291,18 @@ color: #fff;
 #testimonials p
 {
     margin: 0px;
-    font-size: 18pt;
+    font-size: 20px;
     padding: 10px;
     background-color: ;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Light";
     padding-left: 30px;
 }
 
 #testimonials span
 {
-    font-size: 15pt;
+    font-size: 15px;
     /*margin-left: 650px;*/
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Light";
 }
 
 
@@ -322,15 +341,17 @@ color: #fff;
 
 #gettingStarted h2
 {
-    font-size: 23px;
+    font-size: 25px;
     margin: 0px;
     color: #fff;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Light";
     padding-bottom:10px;
 }
 
 #gettingStarted h1
 {
+    font-family: "Helvetica Standard";
+    font-size: 35px;
     color: #fff;
     text-align:center;
     padding-top:45px;
@@ -377,6 +398,8 @@ color: #fff;
 
 #info h1
 {
+    font-family: "Helvetica Standard";
+    font-size: 35px;
     color: #fff;
     margin-left: 70px;
 
@@ -387,13 +410,14 @@ color: #fff;
     color: #fff;
     margin: 10px 80px;
     font-size: 20px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Light";
 }
 
 #contact h1
 {
     color: #fff;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Standard";
+    font-size: 35px;
     margin-left: 70px;
 }
 
@@ -401,7 +425,7 @@ ul
 {
     margin: 0px;
     padding: 0px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Light";
 }
 
  ul li
@@ -416,7 +440,7 @@ ul
     font-size: 20px;
     margin-left: 80px;
     color: #fff;
-    font-weight: lighter;
+    font-family: "Helvetica Light";
 }
 
 #subtitle
@@ -433,12 +457,12 @@ ul
 
 #hero-boxout h2
 {
+    font-family: "Helvetica Light";
     float: left;
     text-align: left;
     color: #a7a9ab;
-    margin-left: 0px;
-    font-weight: lighter;    
-    font-size: 2.0em;
+    margin-left: 0px;   
+    font-size: 25px;
     padding: 10px 0 0;
 }
 
