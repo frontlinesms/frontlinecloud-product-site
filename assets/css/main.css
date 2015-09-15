@@ -189,7 +189,10 @@ h3, h2 {
 
 #functions
 {
-    background-color:  #a7a9ab;
+    background-image:  url(../images/Laptop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     margin: 0px;
     padding: 30px;
     color: #fff;
@@ -251,13 +254,16 @@ h3, h2 {
 
 #testimonials
 {
-    background-color:  #a7a9ab ;
+    background-image:  url(../images/Laptop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     color: #fff;
 }
 
 #quotes
 {
-    background-color:#a7a9ab;
+    font-size: 18pt;
     color: #fff;
     padding: 50px 100px;
 }
@@ -306,7 +312,10 @@ color: #fff;
 
 #gettingStarted
 {
-    background-color:  #a7a9ab ;
+    background-image:  url(../images/Laptop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     color: #fff;
     text-align: left;
 }
@@ -337,7 +346,7 @@ color: #fff;
 
 #video
 {
-    background-color:#a7a9ab;
+/*    background-color:#a7a9ab;*/
 }
 
 #started-words
@@ -348,7 +357,10 @@ color: #fff;
 
 #pricing
 {
-    background-color:#a7a9ab;
+    background-image:url(../images/Laptop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     padding: 30px 0px 30px 0px;
 }
 
@@ -413,11 +425,18 @@ ul
     margin-bottom: 40px;
 }
 
+#hero-laptop
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 #hero-boxout h2
 {
     float: left;
     text-align: left;
     color: #a7a9ab;
+    margin-left: 0px;
     font-weight: lighter;    
     font-size: 2.0em;
     padding: 10px 0 0;
