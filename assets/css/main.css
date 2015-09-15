@@ -20,6 +20,11 @@ body
     background-color: ;
 }*/
 
+#mapCoverage
+{
+    margin: 40px 0px;
+}
+
 h1
 {
     text-align: left;
