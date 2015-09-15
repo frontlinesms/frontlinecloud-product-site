@@ -20,35 +20,34 @@
 
 #about h1
 {
-    text-align: left;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Standard";
+    font-size: 35px;
     color:  #a7a9ab ;
-    font-weight: 200;
-    font-size: 24pt;
     margin-left: 30px;
 }
 
 #subtitle
 {
-    margin-top: 40px; 
-    margin-bottom: 40px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
 }
 
 #hero-laptop
 {
-    margin-left: 0px;
-    margin-right: 0px;
+    padding: 0px;
+}
+
+#hero-boxout
+{
+    padding: 0px;
 }
 
 #hero-boxout h2
 {
-    float: left;
-    text-align: left;
+    font-family: "Helvetica Light";
+    font-size: 30px;
     color: #a7a9ab;
-    margin-left: 0px;
-    font-weight: lighter;    
-    font-size: 2.0em;
-    padding: 10px 0 0;
+    margin-top: 50px;
 }
 
 /*Signup form*/
@@ -76,10 +75,11 @@
 
 #signupForm h2
 {
+    font-family: "Helvetica Light";
+    font-size: 30px;
     color: #fff;
-    font-size: 36px;
+    margin: 0px;
     text-align: center;
-    margin-top: 10px;
 }
 
 #formSubtitle
@@ -230,14 +230,15 @@
 
 #partners
 {
-    background-color: #fff;
     padding-top: 30px;
     text-align: center;
 }
 
 #partners h2
 {
-    font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Light";
+    font-size: 30px;
+    color: #a7a9ab;
 }
 
 #partners ul
@@ -280,17 +281,19 @@
 
 #started-words h1
 {
+    font-family: "Helvetica Standard";
+    font-size: 35px;
     color: #fff;
     text-align:center;
-    padding-top:45px;
+    padding-top:40px;
 }
 
 #started-words h2
 {
-    font-size: 23px;
+    font-family: "Helvetica Light";
+    font-size: 24px;
     margin: 0px;
     color: #fff;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     padding-bottom:10px;
 }
 
@@ -324,7 +327,9 @@
 
 #major-users h2
 {
-    font-family: sans-serif;
+    font-family: "Helvetica Light";
+    font-size: 30px;
+    color: #a7a9ab;
 }
 
 #major-users li 
@@ -362,6 +367,8 @@
 
 #info h1
 {
+    font-family: "Helvetica Standard";
+    font-size: 35px;
     color: #fff;
     margin-left: 70px;
 
@@ -369,16 +376,17 @@
 
 #info p
 {
-    color: #fff;
-    margin: 10px 80px;
+    font-family: "Helvetica Light";
     font-size: 20px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    margin: 10px 70px;
 }
 
 #contact h1
 {
+    font-family: "Helvetica Standard";
+    font-size: 35px;
     color: #fff;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin-left: 70px;
 }
 
@@ -386,7 +394,9 @@
 {
     margin: 0px;
     padding: 0px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Light";
+    font-size: 20px;
+    color: #fff;
 }
 
  #contact ul li
@@ -399,7 +409,7 @@
 {
     text-decoration: none;
     font-size: 20px;
-    margin-left: 80px;
+    margin-left: 70px;
     color: #fff;
     font-weight: lighter;
 }
