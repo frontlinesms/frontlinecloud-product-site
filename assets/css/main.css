@@ -296,6 +296,11 @@
     font-size: 200px;
 }
 
+#icon
+{
+    text-align: center;
+}
+
 #icon h2
 {
     font-family:Helvetica,Arial,sans-serif ;
