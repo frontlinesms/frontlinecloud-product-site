@@ -20,7 +20,7 @@
 
 #about h1
 {
-    font-family: "Helvetica Standard";
+    font-family: "Helvetica Standard",Helvetica,Arial,sans-serif;
     font-size: 35px;
     color:  #a7a9ab ;
     margin-left: 30px;
@@ -44,7 +44,7 @@
 
 #hero-boxout h2
 {
-    font-family: "Helvetica Light";
+    font-family: "Helvetica Light",Helvetica,Arial,sans-serif;
     font-size: 30px;
     color: #a7a9ab;
     margin-top: 50px;
@@ -75,7 +75,7 @@
 
 #signupForm h2
 {
-    font-family: "Helvetica Light";
+    font-family: "Helvetica Light",Helvetica,Arial,sans-serif;
     font-size: 30px;
     color: #fff;
     margin: 0px;
@@ -247,7 +247,7 @@
 
 #partners h2
 {
-    font-family: "Helvetica Light";
+    font-family: "Helvetica Light",Helvetica,Arial,sans-serif;
     font-size: 30px;
     color: #a7a9ab;
 }
@@ -292,7 +292,7 @@
 
 #started-words h1
 {
-    font-family: "Helvetica Standard";
+    font-family: "Helvetica Standard",Helvetica,Arial,sans-serif;
     font-size: 35px;
     color: #fff;
     text-align:center;
@@ -301,7 +301,7 @@
 
 #started-words h2
 {
-    font-family: "Helvetica Light";
+    font-family: "Helvetica Light",Helvetica,Arial,sans-serif;
     font-size: 24px;
     margin: 0px;
     color: #fff;
@@ -346,7 +346,7 @@
 
 #major-users h2
 {
-    font-family: "Helvetica Light";
+    font-family: "Helvetica Light",Helvetica,Arial,sans-serif;
     font-size: 30px;
     color: #a7a9ab;
 }
@@ -391,7 +391,7 @@
 
 #info h1
 {
-    font-family: "Helvetica Standard";
+    font-family: "Helvetica Standard",Helvetica,Arial,sans-serif;
     font-size: 35px;
     color: #fff;
     margin-left: 70px;
@@ -400,7 +400,7 @@
 
 #info p
 {
-    font-family: "Helvetica Light";
+    font-family: "Helvetica Light",Helvetica,Arial,sans-serif;
     font-size: 20px;
     color: #fff;
     margin: 10px 70px;
@@ -408,7 +408,7 @@
 
 #contact h1
 {
-    font-family: "Helvetica Standard";
+    font-family: "Helvetica Standard",Helvetica,Arial,sans-serif;
     font-size: 35px;
     color: #fff;
     margin-left: 70px;
@@ -418,7 +418,7 @@
 {
     margin: 0px;
     padding: 0px;
-    font-family: "Helvetica Light";
+    font-family: "Helvetica Light",Helvetica,Arial,sans-serif;
     font-size: 20px;
     color: #fff;
 }
