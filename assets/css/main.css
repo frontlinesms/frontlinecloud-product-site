@@ -213,8 +213,7 @@
 
 #testimonials
 {
-    background-image:  url(../images/Laptop-quotes.png);
-    height: 500px;
+    background-color: #939598 ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -226,7 +225,6 @@
     font-size: 18pt;
     color: #fff;
     padding: 50px 100px;
-    margin-top: 120px;
 }
 
 #quotes p
@@ -279,7 +277,7 @@
 
 #gettingStarted
 {
-    background-image:  url(../images/LaptopP.png);
+    background-image:  url(../images/Slack%20for%20iOS%20Upload.jpg);
     background-repeat: no-repeat;
     height: 500px;
     background-size: cover;
