@@ -49,7 +49,7 @@
     font-weight:lighter;
     font-size: 30px;
     color: #a7a9ab;
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 /*Signup form*/
@@ -432,6 +432,7 @@
 {
     display: list-item;
     list-style-type: none;
+    padding-bottom: 18px;
 }
 
  #contact ul li a
