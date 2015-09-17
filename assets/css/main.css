@@ -1,46 +1,6 @@
-body
-{
-    background-color: ;
-    padding: 0px;
-    font-weight: normal;
-}
-
 #wrapper
 {
-    /*border-top: 5px solid #a8206c;
-    border-bottom: 5px solid #a8206c;*/   
-    margin: 0px auto;
-    background-color: ;
     padding: 0px;
-}
-
-.container
-{
-    padding: 0px;
-    background-color: ;
-    margin: 0px auto;
-    width: 1140px;
-}
-
-h1
-{
-    text-align: left;
-    background-color:  ;
-    margin: 0px;
-    color: #5d5d5d;
-    padding: 15px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 24pt;
-    font-weight: normal;
-}
-
-p {
-    font-weight: lighter;
-}
-
-h3, h2 {
-    font-weight: normal;
-    color: #5d5d5d;
 }
 
 #header
@@ -48,96 +8,181 @@ h3, h2 {
     background-color:#939598 ;
 }
 
-.container-header
-{
-    background-color:#939598 ;
-    margin: 0px auto;
-    width: 1140px;
-}
-
 #logo
 {
     background-color: #939598; 
 }
 
-#logo img
-{
-}
-
 #about
 {
-    background-color: #fff ;
+    background-color:  ;
 }
 
 #about h1
 {
-    background-color:  ;
-    text-align: left;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 35px;
     color:  #a7a9ab ;
-    font-weight: 200;
+    text-align: center;
 }
 
-#about h2
+#subtitle
 {
-    margin-left: 2px;
-    font-size: 18pt;
-    text-align: left;
-    color:  #a7a9ab ;
-    margin: 0px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
+
+#hero-laptop
+{
     padding: 0px;
-    font-weight: 100;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#products
+#hero-boxout
 {
-    background-color: #fff;
+    padding: 0px;
 }
 
-.containerProducts
+#hero-boxout h2
 {
+    font-family:Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 30px;
+    color: #a7a9ab;
+    margin-top: 90px;
+}
+
+/*Signup form*/
+#signup-form-container {
+	margin-bottom: 10px;
+	color: #5d5d5d;
     background-color: ;
-    width: 1100px;
-    margin: 0 auto;
-    padding: 10px;
+    background-image: url(../images/SIGN-UP-FORM.png);
+    padding: 20px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
-#productIcons
-{
-    width: 1050px;
-    background-color: ;
-    margin: 40px auto;
+#signup-form-container input[type=text], 
+#signup-form-container input[type=password], 
+#signup-form-container select {
+	width: 100%;
 }
 
-.sms
-{
-    width: 350px;
-    float: left;
-    background-color: ;
+#signupForm
+{ 
+    margin: 50px 0px 70px 0px;
 }
 
-.sync
+#signupForm h2
 {
-    width: 350px;
-    float: left;
-    background-color: ;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 30px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
 }
 
-.cloud
+#formSubtitle
 {
-    width: 350px;
-    float: left;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.frontline-signup-form 
+{
+   margin: 0 auto;
+   padding: 20px 10px 10px;
+   background-color: ;
+}
+
+.terms
+{
+    color: #fff;
+}
+
+.signup-button
+{
+    background-color: #A7166A;
+    border-color: #98105E;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+    border:1px solid transparent;
+}
+
+#btnSignup
+{ 
+   background-color: #fff;
+   color: #a7166a;
+   border-radius: 4px;
+   border: 1px solid transparent;
+   line-height: 1.42857;
+   text-align: center;
+   vertical-align:middle;
+   white-space: nowrap;
+}
+
+#btnSignup:focus, 
+#btnSignup:hover
+{
+    background-color: #a7166a;
+    color: #fff;
+}
+
+#showBtn
+{
+    padding: 8px;
     background-color: ;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+   }
+
+#showSignUp
+{
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+    border:1px solid transparent;
+    background-color: #A7166A;
+    border-color: #98105E;
+    color: #fff;
+    padding: 15px 55px;
+    font-size: 20px;
+    line-height: 1.42857;
 }
 
 #functions
 {
-    background-color:  #a7a9ab;
+    background-image:  url(../images/LaptopP.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
     margin: 0px;
-    padding: 30px;
+    padding: 30px 0px;
     color: #fff;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+#containerIcons
+{
+    margin-top: 30px;
+}
+
+#icon-product
+{
+    margin-top: 10px;
 }
 
 #functions h3
@@ -145,9 +190,9 @@ h3, h2 {
     font-size: 18pt;
     color: #fff;
     text-align: center;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    margin: 0px;
-    padding: 0px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    margin-top: 41px;
 }
 
 #functions p
@@ -155,351 +200,137 @@ h3, h2 {
     font-size: 14pt;
     color: #fff;
     text-align: left;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.frontlineProductFunctions
-{
-    background-color: ;
-    width: 1000px;
-    margin: 0 auto;
-    padding: 30px;
-}
-
-.cloud
-{
-    width: 300px;
-    padding: 10px;
-    background-color: ;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight:lighter;
+    margin-top: 10px;
     text-align: center;
-    float: left;
-    margin-left: 10px;
 }
-
-.sync
-{
-    width: 300px;
-    float: left;
-    padding: 10px;
-    background-color: ;
-    text-align: center;
-    margin-left: 10px;
-}
-
-.sms
-{
-    width: 300px;
-    float: left;
-    padding: 10px;
-    background-color: ;
-    text-align: center;
-    margin-left: 10px;
-}
-
-
 
 #mapCoverage
 {
-    background-color: #fff;
-}
-
-#mapCoverage h1
-{
-    text-align: left;
-    margin: 0px;
-    padding: 15px;
-    
+    margin: 40px 0px;
 }
 
 #testimonials
 {
-    background-color:  #a7a9ab ;
+    background-color: #939598 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     color: #fff;
 }
 
-.quotes
+#quotes
 {
-    background-color:   #a7a9ab  ;
-    margin: 0px 100px 0px 100px;
+    font-size: 18pt;
     color: #fff;
-    padding: 30px 0px 30px 0px;
+    padding: 50px 100px;
 }
 
-#testimonials p
+#quotes p
 {
     margin: 0px;
     font-size: 18pt;
     padding: 10px;
     background-color: ;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:Helvetica,Arial,sans-serif;
+    font-weight:lighter;
     padding-left: 30px;
 }
 
-#testimonials span
+#quotes span
 {
     font-size: 15pt;
-    /*margin-left: 650px;*/
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight:lighter;
+    margin-left: 30px;
 }
-
 
 #partners
 {
-    background-color: #fff;
     padding-top: 30px;
     text-align: center;
 }
 
+#partners h2
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 30px;
+    color: #a7a9ab;
+}
+
 #partners ul
 {
-    margin: 0 auto;
-    background-color: ;
-    max-width: 1270px;
-    
+    padding: 0px 0px 30px 0px;
 }
 
 #partners ul li
 {
-    display: inline-block;
-    background-color:;
-    margin: 0px 30px 0px 30px;
+    display: inline;
+    margin: 0px 20px 0px 20px;
+}
+
+#partners img
+{
+    height: 100px;
+    width: auto;
 }
 
 #gettingStarted
 {
-    background-color:  #a7a9ab ;
+    background-image:  url(../images/Slack%20for%20iOS%20Upload.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
     color: #fff;
     text-align: left;
 }
 
-#gettingStarted h2
+#Start-Icons
 {
-    font-size: 23px;
+    margin-top: 100px;
+}
+
+#start
+{
+    font-size: 200px;
+}
+
+#icon
+{
+    text-align: center;
+}
+
+#icon h2
+{
+    font-family:Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 24px;
     margin: 0px;
     color: #fff;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     padding-bottom:10px;
 }
 
-#gettingStarted h1
-{
-    color: #fff;
-    text-align:center;
-    padding-top:45px;
-}
-
-#gettingStarted a
+#icon a
 {
     text-decoration:none;
     color:#fff;
 }
 
-#gettingStarted a:hover { text-decoration:underline;}
-
-.started-words
-{
-    background-color:   #a7a9ab  ;
-    color: #fff;
-    text-align: left;
-    float: left;
-    width: 432px;
-    padding:30px;
-}
-
-.started-video
-{
-    background-color:   #a7a9ab  ;
-    padding: 0px;
-}
-
-#pricing
-{
-    background-color:#a7a9ab;
-    text-align: center;
-    padding: 30px 0px 30px 0px;
-}
-
-.containerPrice
-{
-    background-color: ;
-    margin: 0px;
-}
-
-.containerPrice h1
-{
-    padding: 0px;
-    margin: 0px;
-}
-
-#footer
-{
-    background-color:  #a6206b;
-    padding: 20px;
-}
-
-.foot
-{
-    background-color: ;
-}
-
-.info
-{
-    float: left;
-    margin-left: 20px;
-    width: 548px;
-    background-color: ;
-}
-
-.info h1
-{
-    margin: 0px;
-    padding: 0px;
-    color: #fff;
-    text-align: left;
-    margin-left: 80px;
-}
-
-.info p
-{
-    color: #fff;
-    text-align: left;
-    margin: 10px 80px 0px 80px;
-    font-size: 20px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.contact
-{
-    float: left;
-    width: 548px;
-    background-color: ;
-    border-left: 4px solid #fff;
-}
-
-.contact h1
-{
-    margin: 0px;
-    padding: 0px;
-    color: #fff;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-align: left;
-    margin-left: 70px;
-}
-
-ul
-{
-    margin: 0px;
-    padding: 10px;
-    background-color:;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
- ul li
-{
-    display: list-item;
-    list-style-type: none;
-}
-
- ul li a
-{
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 50px;
-    color: #fff;
-    font-weight: lighter;
-}
-
-.hero
-{
-    background-color: ;
-    padding: 30px 0px 30px 0px;
-}
-
-
-.hero-laptop
-{
-    width: 727px;
-    float: left;
-    background-color: ;
-    text-align: left;
-}
-
-.hero-boxout h2
-{
-    width: 380px;
-    float: left;
-    padding: 10px 0px 0px 0px;
-    background-color: ;
-    text-align: left;
-    margin-left: 10px;
-    color: #a7a9ab;
-    font-weight: lighter;    
-    font-size: 1.8em;
-}
-
-/*
-#mc_embed_signup
-{
-    background-color:#A6206B  ;
-    width: 100%;
-    padding: 10px 0px 10px 0px;
-}
-
-form
-{
-    background-color: ;
-    margin: 0px 100px 20px 100px;
-    text-align: center;
-}
-
-.email
-{
-   padding: 10px;
-   width: 300px;
-   margin-top: 10px;
-   color: #A6206B ;
-   border:none;
-   background-color: #fff;
-}
-
-.button
-{
-   padding: 10px;
-   margin-top: 10px;
-   color: #A6206B ;
-   border:none; 
-   background-color: #fff;
-   border: 1px solid #fff;
-   border-radius: 5px;
-}
-
-#mc_embed_signup_scroll label
-{
-    font-size: 18pt;
-    text-align: center;
-    margin-top: 10px;
-    color:  #fff ;
-    font-weight: 100;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
-}
-*/
-
-.white-container
-{
-    
-}
-
-.pink-container
-{
-}
-
-.grey-container
-{
-   background-color: blue;
+#icon a:hover 
+{ 
+    text-decoration:underline;
 }
 
 /* Recent Blog Post*/
-.recent-post-excerpt-container {
+#recent-blog-post 
+{
+}
+
+.recent-post-excerpt-container 
+{
 	display:inline-block;
 	width:70%;
 	height:162px;
@@ -507,58 +338,108 @@ form
 	padding: 10px;
 }
 
-#recent-blog-post {
+/*Major Users*/
+#major-users 
+{
+    text-align: center;
 }
 
-/*Major Users*/
-#major-users img {
-	height: 173px;
+#major-users h2
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 30px;
+    color: #a7a9ab;
+}
+
+#major-users li 
+{
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+}
+
+#major-users img 
+{
+	height: 100px;
 	width:auto;
 }
 
-#major-users {
-    text-align: center;
-}
-#major-users li {
-	display: inline-block;
-	margin: 0px 30px 0px 30px;
-}
-
-.panel-title {
-	text-align: center;
+#pricing
+{
+    background-image:url(../images/LaptopP.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 30px 0px 30px 0px;
 }
 
-/*Signup form*/
-#signup-form-container {
-	margin-bottom: 10px;
-	color: #5d5d5d;
+#pricing img
+{
+    margin-top: 10px;
 }
 
-#signup-form-container input[type=text], #signup-form-container input[type=password], #signup-form-container select {
-	width: 100%;
+#footer
+{
+    background-color:  #a6206b;
+    padding: 30px 0px 0px 0px;
 }
 
-#signup-form-container td {
-	padding-right: 5px;
+#info
+{
+    border-right: 4px solid #fff;
 }
 
-#signup-form-container tr {
-	margin-bottom: 5px;
+#info h1
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 70px;
+
 }
 
-.frontline-signup-form {
-	width:800px;
-	margin-left:auto;
-	margin-right:auto;
+#info p
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 70px;
 }
 
-.signup-button-container {
-	text-align:center;
-	padding:5px 0px 5px 0px;
+#contact h1
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 70px;
 }
 
-.frontline-features-list {
-	padding: 0px 60px;
-	font-size: 14pt;
-	text-align: center;
+#contact ul
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 20px;
+    color: #fff;
+}
+
+ #contact ul li
+{
+    display: list-item;
+    list-style-type: none;
+    padding-bottom: 18px;
+}
+
+ #contact ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 70px;
+    color: #fff;
+    font-weight: lighter;
 }
