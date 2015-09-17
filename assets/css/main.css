@@ -190,6 +190,19 @@
     margin-top: 10px;
 }
 
+.bubble-one
+{
+    width:175px; 
+    height:175px; 
+    margin-top:25px;
+}
+
+.bubble
+{
+    width:225px; 
+    height:225px;
+}
+
 #functions h3
 {
     font-size: 18pt;
