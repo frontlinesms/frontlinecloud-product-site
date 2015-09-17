@@ -142,6 +142,7 @@
 .frontline-error
 {
     color: #fff;
+    font-weight: normal;
 }
 
 #showBtn
