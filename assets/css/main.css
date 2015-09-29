@@ -1,11 +1,6 @@
-#wrapper
-{
-    padding: 0px;
-}
-
 #header
 {
-    background-color:#939598 ;
+    background-color:#929497;
 }
 
 #logo
@@ -28,8 +23,12 @@
 }
 
 #subtitle
+{ 
+    margin-bottom: 30px;
+}
+
+#about-row
 {
-    margin-top: 30px; 
     margin-bottom: 30px;
 }
 
