@@ -94,37 +94,35 @@
         <!--end of subtitle-->
     </div>
 
-	<!-- start of signup-form-container -->
-    <div id='signup-form-container' hidden class="container-fluid">
-
-			<div class="container">
+    <div hidden class="navbar-wrapper" id='signup-form-container'>
+		<div class="container">
             
-                <!--start of signupForm-->
-                <div id="signupForm" class="col-xs-12">
+            <!--start of signupForm-->
+            <div id="signupForm" class="col-xs-12">
 
-                    <h2>Sign Up</h2>
+                <h2>Sign Up</h2>
 
-				    <!--start of formContainer-->
-                    <div id="formContainer">
+				<!--start of formContainer-->
+                <div id="formContainer">
 
-                        <div id="formSubtitle">
-                            <p>Get a Free Trial Account on FrontlineCloud</p>
-                        </div>
+                    <div id="formSubtitle">
+                        <p>Get a Free Trial Account on FrontlineCloud</p>
+                    </div>
 
-                        <!--start of panel-body-->
-                        <div class="panel-body">
+                    <!--start of panel-body-->
+                    <div class="panel-body">
 
-                            <form class="frontline-signup-form">
+                        <form class="frontline-signup-form">
                                 
-                                <div class="form-group" id="row1">
+                            <div class="form-group" id="row1">
                                     
-                                    <div id="email" class="col-md-4 form-group">
-                                        <input type="text" name="email" value="" class="form-control" size="40" placeholder="Email" id="email">
-                                    </div>
+                                <div id="email" class="col-md-4 form-group">
+                                    <input type="text" name="email" value="" class="form-control" size="40" placeholder="Email" id="email">
+                                </div>
                                    
-                                    <div id="language" class="col-md-2 form-group" style="float:left;">
-                                        <select class="form-control dropdown" name="language" id="language">
-                                                <option value="de">Deutsch</option>
+                                <div id="language" class="col-md-2 form-group" style="float:left;">
+                                    <select class="form-control dropdown" name="language" id="language">
+                                        <option value="de">Deutsch</option>
                                                 <option value="" selected="selected">English</option>
                                                 <option value="es">Español</option>
                                                 <option value="fr">Français</option>
@@ -293,56 +291,57 @@
                                 
                         </div>
                         <!--start of panel-body-->
-
                     </div>
                     <!--end of formContainer-->
-
                 </div>
-
-			</div>
-			
+			</div>			
 	</div>
         
     <div id="showBtn" class="container center-block">
         <button id="showSignUp" type="button" >Start Messaging Now</button>
     </div>
 
-    <!--start container functions-->
-    <div class="container functions">
-            
-            <!--start row-->
-            <div class="row">
-                    
-                    <div class="col-lg-4">
-	                    <a href="https://play.google.com/store/apps/details?id=com.simlab.frontlinesync&hl=en" target="_blank">
-	                    	<img class="img-circle" src="assets/images/Circle-Sync.png" alt="frontlineSync-icon-image" />
-	                    </a>
-    	                <h3>Two-Way Everywhere</h3>
-    	                <p>
-                            The world's most configurable SMS gateway for two-way messaging.
-                        </p>
-                    </div>
+    <div class="nav-wrapper" id="frontline-products">
+        <!--start container functions-->
+        <div class="container" id="product">
+                
+                <!--start row-->
+                <div class="row">
+                        
+                        <div class="col-lg-4">
+    	                    <a href="https://play.google.com/store/apps/details?id=com.simlab.frontlinesync&hl=en" target="_blank">
+    	                    	<img class="center-block bubble" src="assets/images/Circle-Sync.png" alt="frontlineSync-icon-image" width="175px" height="175px" />
+    	                    </a>
+        	                <h3>Two-Way Everywhere</h3>
+        	                <p>
+                                The world's most configurable SMS gateway for two-way messaging.
+                            </p>
+                        </div>
 
-	                <div class="col-lg-4">
-	                    <a href="https://cloud.frontlinesms.com" target="_blank">
-	                    	<img class="img-circle" src="assets/images/Circle-Cloud.png" alt="frontlineCloud-icon-image" />
-	                    </a>
-	                    <h3 style="margin-top: 20px;">Mobile + Cloud</h3>
-	                    <p>The integration and sophistication of the cloud, the personality of messaging.</p>
-	                </div>
+    	                <div class="col-lg-4">
+    	                    <a href="https://cloud.frontlinesms.com" target="_blank">
+    	                    	<img class="center-block" src="assets/images/Circle-Cloud.png" alt="frontlineCloud-icon-image" width="225px" height="225px"/>
+    	                    </a>
+    	                    <h3 style="margin-top: 20px;">Mobile + Cloud</h3>
+    	                    <p>The integration and sophistication of the cloud, the personality of messaging.</p>
+    	                </div>
 
-	                <div class="col-lg-4">
-	                    <a href="http://www.frontlinesms.com/technologies/download/" target="_blank">
-	                    	<img class=" img-circle" src="assets/images/Circle-SMS.png" alt="frontlineSms-icon-image" />
-	                    </a>
-	                    <h3> Online + Offline</h3>
-	                    <p>
-                            We work, even where the Internet doesn't. Award winning SMS tools, where you are.
-                        </p>
-	                </div>
+    	                <div class="col-lg-4">
+    	                    <a href="http://www.frontlinesms.com/technologies/download/" target="_blank">
+    	                    	<img class="center-block bubble" src="assets/images/Circle-SMS.png" alt="frontlineSms-icon-image" width="175px" height="175px"/>
+    	                    </a>
+    	                    <h3> Online + Offline</h3>
+    	                    <p>
+                                We work, even where the Internet doesn't. Award winning SMS tools, where you are.
+                            </p>
+    	                </div>
 
                 </div>
                 <!-- end row -->
+        </div>
+        <!--end container functions-->
+    </div>
+
 
     <!--start mapCoverage-->
     <div id="mapCoverage" class="container-fluid" data-bottom-top="opacity:0; left:-200%;" 
@@ -737,8 +736,7 @@ data-center-top="opacity:1; left:0;">
     </div>
     <!--end footer-->
 
-</div>
-<!--end container functions-->
+
     
 	<script src="assets/js/main.js"></script>
 

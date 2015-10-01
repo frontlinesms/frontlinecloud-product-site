@@ -162,7 +162,7 @@
     line-height: 1.42857;
 }
 
-#functions
+#frontline-products
 {
     background-image:  url(../images/LaptopP.png);
     background-repeat: no-repeat;
@@ -176,30 +176,17 @@
     font-weight:lighter;
 }
 
-#containerIcons
+#product
 {
-    margin-top: 30px;
-}
-
-#icon-product
-{
-    margin-top: 10px;
-}
-
-.bubble-one
-{
-    width:175px; 
-    height:175px; 
-    margin-top:25px;
+    margin-top: 50px;
 }
 
 .bubble
-{
-    width:225px; 
-    height:225px;
+{ 
+    margin-top:25px;
 }
 
-#functions h3
+#frontline-products h3
 {
     font-size: 18pt;
     color: #fff;
@@ -209,7 +196,7 @@
     margin-top: 41px;
 }
 
-#functions p
+#frontline-products p
 {
     font-size: 14pt;
     color: #fff;
