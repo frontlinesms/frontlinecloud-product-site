@@ -168,12 +168,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    min-height: 500px;
+    /*min-height: 500px;*/
     margin: 0px;
     /*padding: 30px 0px;*/
     color: #fff;
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
+}
+
+.products .col-lg-4
+{
+    text-align: center; 
 }
 
 #product
@@ -200,7 +205,6 @@
 {
     font-size: 14pt;
     color: #fff;
-    text-align: left;
     font-family: Helvetica,Arial,sans-serif;
     font-weight:lighter;
     margin-top: 10px;
