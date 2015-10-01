@@ -46,7 +46,7 @@
     
 <body>  
 
-    <div class="navbar-wrapper"> 
+    <div class="navbar-wrapper" id="header"> 
         <!--start of header-->
         <div class="container">
             <!--start logo-->
@@ -58,38 +58,41 @@
         <!--end of header-->
     </div>
 
-    <!--start of subtitle-->
-    <div id="subtitle" class="container">
+    <div class="navbar-wrapper" id="herobox">
+        <!--start of subtitle-->
+        <div id="subtitle" class="container">
 
-        <div class="row" id="about-row">
+            <!-- start about-row -->
+            <div class="row" id="about-row">
 
-            <!--start about-->
-            <div id="about" class="col-md-12">
-                <h1>Build a Better Conversation</h1>
+                <!--start about-->
+                <div id="about" class="col-md-12">
+                    <h1>Build a Better Conversation</h1>
+                </div>
+                <!--end about-->
+
             </div>
-            <!--end about-->
+            <!-- end about-row-->
 
+            <!-- start hero-row -->
+            <div class="row" id="hero-row">
+
+                <div class="col-md-8" id="hero-laptop">
+                    <img src="assets/images/Hero-UI.png" class="img-responsive" alt="hero-laptop-image" />
+                </div>
+
+                <div class="col-md-4" id="hero-boxout">
+                    <h2>
+                        Our tools make it easy to build, manage, and scale messaging conversations.</br></br>
+                        Without writing a line of code.
+                    </h2>
+                </div>
+
+            </div>
+            <!-- end hero-row -->
         </div>
-            
-        <div class="row">
-
-            <div class="col-md-8" id="hero-laptop">
-                <img src="assets/images/Hero-UI.png" class="img-responsive"/>
-            </div>
-
-            <div class="col-md-4" id="hero-boxout">
-                <h2>
-                    Our tools make it easy to build, manage, and scale messaging conversations.</br></br>
-                    Without writing a line of code.
-                </h2>
-            </div>
-
-            <br clear="all"/>
-
-        </div>
-
+        <!--end of subtitle-->
     </div>
-    <!--end of subtitle-->
 
 	<!-- start of signup-form-container -->
     <div id='signup-form-container' hidden class="container-fluid">
@@ -735,7 +738,7 @@ data-center-top="opacity:1; left:0;">
     <!--end footer-->
 
 </div>
-    <!--end container functions-->
+<!--end container functions-->
     
 	<script src="assets/js/main.js"></script>
 
