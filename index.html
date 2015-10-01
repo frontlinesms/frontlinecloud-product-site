@@ -4,19 +4,24 @@
 <head>
 <!-- unnecessary comment -->
     <meta charset="UTF-8">
-    <title>Frontline</title>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://product.frontlinesms.com/assets/images/favicon.ico" />
+
+    <title>Frontline</title>
+
     <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/bootstrap3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="assets/bootstrap3.3.5/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap3.3.5/css/bootstrap-theme.min.css">
 
     <link rel="stylesheet" href="assets/css/normalize.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/main.css" type="text/css"/>
 
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" type="text/css"/>
-	<link rel="shortcut icon" href="http://product.frontlinesms.com/assets/images/favicon.ico" />
+	
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="assets/bootstrap3.3.5/js/bootstrap.min.js"></script>
@@ -303,39 +308,33 @@
         <button id="showSignUp" type="button" >Start Messaging Now</button>
     </div>
 
-    <!--start functions-->
-    <div id="functions" class="container-fluid" data-bottom-top="opacity:0; left:-200%;" 
-        data-center-top="opacity:1; left:0;">
+    <!--start container functions-->
+    <div class="container functions">
             
-            <!--start container-->
-            <div class="container" id="containerIcons">
-
-            	<div class="row">
+            <!--start row-->
+            <div class="row">
                     
-                    <div class="col-md-4" id="icon-product">
+                    <div class="col-lg-4">
 	                    <a href="https://play.google.com/store/apps/details?id=com.simlab.frontlinesync&hl=en" target="_blank">
-	                    	<img class="bubble-one img-responsive center-block" src="assets/images/Circle-Sync.png"/>
+	                    	<img class="img-circle" src="assets/images/Circle-Sync.png" alt="frontlineSync-icon-image" />
 	                    </a>
-                    
-                        <div class="caption center">
-    	                    <h3>Two-Way Everywhere</h3>
-    	                    <p>
-                                The world's most configurable SMS gateway for two-way messaging.
-                            </p>
-    	                </div>
+    	                <h3>Two-Way Everywhere</h3>
+    	                <p>
+                            The world's most configurable SMS gateway for two-way messaging.
+                        </p>
                     </div>
 
-	                <div class="col-md-4" id="icon-product">
+	                <div class="col-lg-4">
 	                    <a href="https://cloud.frontlinesms.com" target="_blank">
-	                    	<img class="bubble img-responsive center-block" src="assets/images/Circle-Cloud.png"/>
+	                    	<img class="img-circle" src="assets/images/Circle-Cloud.png" alt="frontlineCloud-icon-image" />
 	                    </a>
 	                    <h3 style="margin-top: 20px;">Mobile + Cloud</h3>
 	                    <p>The integration and sophistication of the cloud, the personality of messaging.</p>
 	                </div>
 
-	                <div class="col-md-4" id="icon-product">
+	                <div class="col-lg-4">
 	                    <a href="http://www.frontlinesms.com/technologies/download/" target="_blank">
-	                    	<img class=" bubble-one img-responsive center-block" src="assets/images/Circle-SMS.png"/>
+	                    	<img class=" img-circle" src="assets/images/Circle-SMS.png" alt="frontlineSms-icon-image" />
 	                    </a>
 	                    <h3> Online + Offline</h3>
 	                    <p>
@@ -343,14 +342,8 @@
                         </p>
 	                </div>
 
-	                <br clear="all"/>
-
                 </div>
-
-            </div>
-            <!--end container-->
-    </div>
-    <!--end functions-->
+                <!-- end row -->
 
     <!--start mapCoverage-->
     <div id="mapCoverage" class="container-fluid" data-bottom-top="opacity:0; left:-200%;" 
@@ -744,6 +737,9 @@ data-center-top="opacity:1; left:0;">
             
     </div>
     <!--end footer-->
+
+</div>
+    <!--end container functions-->
     
 	<script src="assets/js/main.js"></script>
 
