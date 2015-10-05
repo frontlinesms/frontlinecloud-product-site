@@ -4,47 +4,32 @@
   padding-left: 15px;
 }
 
-#header
+header
 {
-    background-color:#929497;
-}
-
-#logo
-{
-    background-color: #929497; 
-}
-
-#about
-{
-    background-color:  ;
+    background-color: #929497;
 }
 
 #about h1
 {
+    text-align: center;
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
     font-size: 35px;
     color:  #a7a9ab ;
-    text-align: center;
 }
 
-#subtitle
-{ 
-    margin-bottom: 30px;
-}
-
-#about-row
+#hero
 {
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
-#hero-boxout h2
+#boxout
 {
+    margin-top: 90px;
     font-family:Helvetica,Arial,sans-serif ;
     font-weight:lighter;
     font-size: 30px;
     color: #a7a9ab;
-    margin-top: 50px;
 }
 
 /*Signup form*/
