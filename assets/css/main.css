@@ -276,37 +276,19 @@ header
     }
 }
 
-
-
-#partners
+#integrations
 {
     padding-top: 30px;
-    text-align: center;
+    padding-bottom: 40px;
 }
 
-#partners h2
+#integrations h2
 {
+    text-align: center;
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
     font-size: 30px;
     color: #a7a9ab;
-}
-
-#partners ul
-{
-    padding: 0px 0px 30px 0px;
-}
-
-#partners ul li
-{
-    display: inline;
-    margin: 0px 20px 0px 20px;
-}
-
-#partners img
-{
-    height: 100px;
-    width: auto;
 }
 
 #gettingStarted
