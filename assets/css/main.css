@@ -384,6 +384,12 @@ header
     padding: 0px;
 }
 
+.thumbnail
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 #footer
 {
     background-color:  #a6206b;
