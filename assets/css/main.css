@@ -334,30 +334,33 @@ header
     padding: 10px;
 }
 
-/*Major Users*/
-#major-users 
+#customers
 {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
-#major-users h2
+#customers h2
 {
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
     font-size: 30px;
     color: #a7a9ab;
+    margin-bottom: 30px;
 }
 
-#major-users li 
+#customers ul li
 {
+    text-decoration: none;
     display: inline-block;
     margin: 0px 10px 0px 10px;
 }
 
-#major-users img 
+#customers img
 {
+    width: auto;
     height: 100px;
-    width:auto;
 }
 
 #pricing
