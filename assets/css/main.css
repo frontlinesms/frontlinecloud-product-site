@@ -373,6 +373,17 @@ header
     padding-bottom: 50px;
 }
 
+#location
+{
+    background-color: #F0EDE5;
+}
+
+#nairobi,
+#dc
+{
+    padding: 0px;
+}
+
 #footer
 {
     background-color:  #a6206b;
