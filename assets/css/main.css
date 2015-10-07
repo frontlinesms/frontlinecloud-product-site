@@ -291,51 +291,33 @@ header
     color: #a7a9ab;
 }
 
-#gettingStarted
-{
-    background-image:  url(../images/Slack%20for%20iOS%20Upload.jpg);
-    background-repeat: no-repeat;
-    min-height: 500px;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    text-align: left;
-}
 
-#Start-Icons
+
+#getting-started
 {
-    margin-top: 100px;
+    background-image: url(../images/Slack%20for%20iOS%20Upload.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #start
 {
-    font-size: 200px;
+    color: #fff;
+    font-size: 175px;
+    margin-top: 20px;
 }
 
-#icon
+#getting-started h2 a
 {
-    text-align: center;
-}
-
-#icon h2
-{
+    color: #fff;
     font-family:Helvetica,Arial,sans-serif ;
     font-weight:lighter;
     font-size: 24px;
     margin: 0px;
-    color: #fff;
-    padding-bottom:10px;
-}
-
-#icon a
-{
-    text-decoration:none;
-    color:#fff;
-}
-
-#icon a:hover 
-{ 
-    text-decoration:underline;
 }
 
 /* Recent Blog Post*/
