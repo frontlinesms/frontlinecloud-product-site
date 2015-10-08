@@ -375,7 +375,7 @@ header
 
 #location
 {
-    background-color: #F0EDE5;
+    background-color: #E9E5DC;
 }
 
 #nairobi,
@@ -390,75 +390,197 @@ header
     margin-top: 10px;
 }
 
-#footer
+footer
 {
-    background-color:  #a6206b;
-    padding: 30px 0px 0px 0px;
+    background-color: #A6206B;
+    color: #fff;
 }
 
 #info
 {
-    border-right: 4px solid #fff;
+    border-right: 5px solid #fff;
+    margin-top: 50px;
 }
-    
-@media (max-width:1199px)
+
+/* Extra Small devices (768px and below) */
+@media (max-width:768px)  
 {
     #info
     {
-        border-right:none;
+        border: none;
+    }
+    
+    #info h2
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 35px;
+        color: #fff;
+    }
+
+    #info p
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 20px;
+        color: #fff;
     }
 }
 
-#info h1
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px)  
 {
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    font-size: 35px;
-    color: #fff;
-    margin-left: 70px;
+    #info h2
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 35px;
+        color: #fff;
+    }
 
+    #info p
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 20px;
+        color: #fff;
+    }
 }
 
-#info p
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px)  
 {
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    font-size: 20px;
-    color: #fff;
-    margin: 10px 70px;
+    #info h2
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 35px;
+        color: #fff;
+    }
+
+    #info p
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 20px;
+        color: #fff;
+    }
 }
 
-#contact h1
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px)  
 {
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    font-size: 35px;
-    color: #fff;
-    margin-left: 70px;
+    #info h2
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 35px;
+        color: #fff;
+        margin-left: 70px;
+    }
+
+    #info p
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 20px;
+        color: #fff;
+        margin: 10px 70px;
+    }
 }
 
-#contact ul
+#contact-links
 {
-    margin: 0px;
-    padding: 0px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    font-size: 20px;
-    color: #fff;
+    margin-top: 50px;
 }
 
- #contact ul li
+/* Extra Small devices (768px and below) */
+@media (max-width:768px)  
 {
-    display: list-item;
-    list-style-type: none;
-    padding-bottom: 18px;
+    #contact-links h2
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 35px;
+        color: #fff;
+    }
+    
+    #contact-links li a
+    {
+        color: #fff;
+        font-size: 15px;
+    }
 }
 
- #contact ul li a
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px)  
 {
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 70px;
-    color: #fff;
-    font-weight: lighter;
+    #contact-links h2
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 35px;
+        color: #fff;
+    }
+    
+    #contact-links li a
+    {
+        color: #fff;
+        font-size: 15px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px)  
+{
+    #contact-links h2
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 35px;
+        color: #fff;
+        margin-left: 70px;
+    }
+    
+    #contact-links ul
+    {
+        margin-left: 50px;
+    }
+    
+    #contact-links li a
+    {
+        color: #fff;
+        font-size: 18px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px)  
+{
+    #contact-links h2
+    {
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
+        font-size: 35px;
+        color: #fff;
+        margin-left: 70px;
+    }
+    
+    #contact-links ul
+    {
+        margin-left: 50px;
+    }
+    
+    #contact-links li a
+    {
+        color: #fff;
+        font-size: 18px;
+    }
+}
+
+.list-group-item
+{
+    background-color: #A6206B;
+    border: none;
 }
