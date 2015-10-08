@@ -588,6 +588,12 @@ footer
     }
 }
 
+.list-group
+{
+    border-radius: 0px;
+    box-shadow: none;
+}
+
 .list-group-item
 {
     background-color: #A6206B;
