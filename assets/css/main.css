@@ -495,6 +495,7 @@ footer
     margin-top: 50px;
 }
 
+
 /* Extra Small devices (768px and below) */
 @media (max-width:768px)  
 {
@@ -510,6 +511,8 @@ footer
     {
         color: #fff;
         font-size: 15px;
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
     }
 }
 
@@ -528,6 +531,8 @@ footer
     {
         color: #fff;
         font-size: 15px;
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
     }
 }
 
@@ -552,6 +557,8 @@ footer
     {
         color: #fff;
         font-size: 18px;
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
     }
 }
 
@@ -576,6 +583,8 @@ footer
     {
         color: #fff;
         font-size: 18px;
+        font-family: Helvetica,Arial,sans-serif ;
+        font-weight:lighter;
     }
 }
 
