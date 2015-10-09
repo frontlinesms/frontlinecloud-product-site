@@ -579,53 +579,60 @@
                             padding: 20px 0px 10px 0px;
                         }
 
-                        #mc_embed_signup_scroll label
+                        #formSt h2
                         {
+                            margin-bottom: 30px;
+                            color: #fff;
                             font-size: 18pt;
-                            color:  #fff ;
-                            font-weight: 100;
+                            font-weight: lighter;
                             font-family: Helvetica,Arial,sans-serif;
-                            padding:0px;
-                            margin-bottom: 20px;
                         }
 
-                            .email
-                            {
-                                width:300px; 
-                                padding:10px;
-                                border:none;
-                                border-radius:5px;
-                            }
+                        .submit                            
+                        { 
+                            background-image: none;
+                            background-color:#fff; 
+                            color:#A6206B;
+                            border:none;
+                            font-family: Helvetica,Arial,sans-serif;
+                        }
 
-                            .submit
-                            {
-                                width:100px; 
-                                background-color:#fff; 
-                                color:#A6206B;
-                                border:none;
-                                border-radius: 5px;
-                                padding: 10px;
-                                font-family: Helvetica,Arial,sans-serif;
-                            }
-                            /* 
-                                Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. 
-                            */
+                        .submit:hover,
+                        .btn:hover,
+                        .btn-default:hover
+                        {
+                            background-image: none;
+                            background-color: #fff;
+                            color: #A6206B;
+                        }
+
+                        /* 
+                            Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. 
+                        */
                     </style>
 
                     <div id="mc_embed_signup">
 
                         <div id="formSt">
 
-                            <form action="//frontlinesms.us9.list-manage.com/subscribe/post?u=508a0aa7c5864b754935dabed&amp;id=a0cfe610d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <h2>Get Updates from Frontline</h2>
 
-                                <div id="mc_embed_signup_scroll">
+                            <form action="//frontlinesms.us9.list-manage.com/subscribe/post?u=508a0aa7c5864b754935dabed&amp;id=a0cfe610d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate role="form">
 
-                                    <label for="mce-EMAIL">Get Updates from Frontline</label></br>
+                                <div id="email" class="form-group">
+
+                                    <input class="email form-control" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address" required>
+
+                                </div>
+
+                                <div id="submit" class="form-group">
                                     
-                                    <input class="email" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address" required>
+                                    <input class="submit btn btn-default form-control" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
 
-                                    <input class="submit" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                                </div>
+
+                                <div class="form-group">
 
                                     <!-- real people should not fill this in and expect good things 
                                         - do not remove this or risk form bot signups-->
@@ -646,7 +653,6 @@
     </footer>
     
     <script src="assets/js/main.js"></script>
-    
-</body>
 
+</body>
 </html>
