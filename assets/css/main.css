@@ -280,6 +280,7 @@ header
 {
     padding-top: 30px;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 #integrations h2
@@ -291,7 +292,17 @@ header
     color: #a7a9ab;
 }
 
+#integrations ul
+{
+    padding-left: 0px;
+}
 
+#integrations ul li
+{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
 
 #getting-started
 {
@@ -348,6 +359,11 @@ header
     font-size: 30px;
     color: #a7a9ab;
     margin-bottom: 30px;
+}
+
+#customers ul
+{
+    padding-left: 0px;
 }
 
 #customers ul li
