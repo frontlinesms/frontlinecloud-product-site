@@ -389,21 +389,90 @@ header
     padding-bottom: 50px;
 }
 
-#location
+/* Extra Small devices (768px and below) */
+@media (max-width:768px)  
 {
-    background-color: #E9E5DC;
+    #location
+    {
+        background-color: #E9E5DC;
+    }
+
+    #nairobi,
+    #dc
+    {
+        padding: 0px;
+        margin: 40px;
+    }
+
+    .thumbnail
+    {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 }
 
-#nairobi,
-#dc
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px)  
 {
-    padding: 0px;
+    #location
+    {
+        background-color: #E9E5DC;
+    }
+
+    #nairobi,
+    #dc
+    {
+        padding: 0px;
+    }
+
+    .thumbnail
+    {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 }
 
-.thumbnail
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px)  
 {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    #location
+    {
+        background-color: #E9E5DC;
+    }
+
+    #nairobi,
+    #dc
+    {
+        padding: 0px;
+    }
+
+    .thumbnail
+    {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px)  
+{
+    #location
+    {
+        background-color: #E9E5DC;
+    }
+
+    #nairobi,
+    #dc
+    {
+        padding: 0px;
+    }
+
+    .thumbnail
+    {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 }
 
 footer
