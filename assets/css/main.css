@@ -392,11 +392,6 @@ header
 /* Extra Small devices (768px and below) */
 @media (max-width:768px)  
 {
-    #location
-    {
-        background-color: #E9E5DC;
-    }
-
     #nairobi,
     #dc
     {
@@ -408,11 +403,6 @@ header
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px)  
 {
-    #location
-    {
-        background-color: #E9E5DC;
-    }
-
     #nairobi,
     #dc
     {
@@ -423,11 +413,6 @@ header
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px)  
 {
-    #location
-    {
-        background-color: #E9E5DC;
-    }
-
     #nairobi,
     #dc
     {
@@ -439,11 +424,6 @@ header
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px)  
 {
-    #location
-    {
-        background-color: #E9E5DC;
-    }
-
     #nairobi,
     #dc
     {
