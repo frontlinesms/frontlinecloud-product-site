@@ -392,6 +392,11 @@ header
 /* Extra Small devices (768px and below) */
 @media (max-width:768px)  
 {
+    #nairobi
+    {
+         border-right: none;
+    }
+
     #nairobi,
     #dc
     {
@@ -403,6 +408,11 @@ header
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px)  
 {
+    #nairobi
+    {
+         border-right: none;
+    }
+
     #nairobi,
     #dc
     {
@@ -413,6 +423,11 @@ header
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px)  
 {
+    #nairobi
+    {
+         border-right: 5px solid #fff;
+    }
+
     #nairobi,
     #dc
     {
@@ -424,6 +439,11 @@ header
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px)  
 {
+    #nairobi
+    {
+         border-right: 5px solid #fff;
+    }
+
     #nairobi,
     #dc
     {
