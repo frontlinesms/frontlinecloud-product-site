@@ -544,6 +544,7 @@ footer
         font-family: Helvetica,Arial,sans-serif ;
         font-weight:lighter;
         font-size: 20px;
+        margin-bottom: 32px;
         color: #fff;
     }
 }
@@ -567,22 +568,16 @@ footer
         font-weight:lighter;
         font-size: 20px;
         color: #fff;
-        margin: 10px 70px;
+        margin: 10px 70px 32px 70px;
     }
 }
-
-#contact-links
-{
-    margin-top: 50px;
-    border-left: 3px solid #fff;
-}
-
 
 /* Extra Small devices (768px and below) */
 @media (max-width:768px)  
 {
     #contact-links
     {
+        margin-top: 50px;
         border-left: none;
     }
 
@@ -608,9 +603,10 @@ footer
 {
     #contact-links
     {
-        border-left: none;
+        margin-top: 50px;
+        border-left: 3px solid #fff;
     }
-    
+
     #contact-links h2
     {
         font-family: Helvetica,Arial,sans-serif ;
@@ -631,6 +627,12 @@ footer
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px)  
 {
+    #contact-links
+    {
+        margin-top: 50px;
+        border-left: 3px solid #fff;
+    }
+
     #contact-links h2
     {
         font-family: Helvetica,Arial,sans-serif ;
@@ -657,6 +659,12 @@ footer
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px)  
 {
+    #contact-links
+    {
+        margin-top: 50px;
+        border-left: 3px solid #fff;
+    }
+
     #contact-links h2
     {
         font-family: Helvetica,Arial,sans-serif ;
