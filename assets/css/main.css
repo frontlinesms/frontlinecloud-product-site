@@ -479,7 +479,7 @@ footer
 
 #info
 {
-    border-right: 5px solid #fff;
+    border-right: 3px solid #fff;
     margin-top: 50px;
 }
 
@@ -574,12 +574,18 @@ footer
 #contact-links
 {
     margin-top: 50px;
+    border-left: 3px solid #fff;
 }
 
 
 /* Extra Small devices (768px and below) */
 @media (max-width:768px)  
 {
+    #contact-links
+    {
+        border-left: none;
+    }
+
     #contact-links h2
     {
         font-family: Helvetica,Arial,sans-serif ;
@@ -600,6 +606,11 @@ footer
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px)  
 {
+    #contact-links
+    {
+        border-left: none;
+    }
+    
     #contact-links h2
     {
         font-family: Helvetica,Arial,sans-serif ;
