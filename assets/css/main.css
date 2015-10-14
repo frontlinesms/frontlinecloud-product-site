@@ -397,6 +397,11 @@ header
          border-right: none;
     }
 
+    #dc
+    {
+        border-left: none;
+    }
+
     #nairobi,
     #dc
     {
@@ -413,6 +418,11 @@ header
          border-right: none;
     }
 
+    #dc
+    {
+        border-left: none;
+    }
+
     #nairobi,
     #dc
     {
@@ -425,7 +435,12 @@ header
 {
     #nairobi
     {
-         border-right: 5px solid #fff;
+         border-right: 10px solid #A6206B;
+    }
+
+    #dc
+    {
+        border-left: 10px solid #A6206B;
     }
 
     #nairobi,
@@ -441,7 +456,12 @@ header
 {
     #nairobi
     {
-         border-right: 5px solid #fff;
+         border-right: 10px solid #A6206B;
+    }
+
+    #dc
+    {
+        border-left: 10px solid #A6206B;
     }
 
     #nairobi,
