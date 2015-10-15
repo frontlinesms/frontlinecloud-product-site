@@ -389,6 +389,17 @@ header
     padding-bottom: 50px;
 }
 
+.map-address
+{
+    position: absolute;
+    width: 220px;
+    left: 10px;
+    bottom: 10px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    padding: 10px;
+    background: #fff none repeat scroll 0 0;
+}
+
 /* Extra Small devices (768px and below) */
 @media (max-width:768px)  
 {
