@@ -395,7 +395,6 @@ header
     #nairobi
     {
          border-right: none;
-         margin-bottom: 10px;
     }
 
     #dc
@@ -407,10 +406,7 @@ header
     #dc
     {
         padding: 0px;
-    }
-
-    .map-address
-    {
+        margin: 40px;
     }
 }
 
@@ -432,17 +428,6 @@ header
     {
         padding: 0px;
     }
-
-    .map-address
-    {
-        position: absolute;
-        width: 220px;
-        left: 10px;
-        bottom: 10px;
-        box-shadow: 0 0 4px rgba(0,0,0,0.2);
-        padding: 10px;
-        background: #fff none repeat scroll 0 0;
-    }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -463,17 +448,6 @@ header
     {
         padding: 0px;
     }
-
-    .map-address
-    {
-        position: absolute;
-        width: 220px;
-        left: 10px;
-        bottom: 10px;
-        box-shadow: 0 0 4px rgba(0,0,0,0.2);
-        padding: 10px;
-        background: #fff none repeat scroll 0 0;
-    }
 }
 
 
@@ -488,24 +462,12 @@ header
     #dc
     {
         border-left: 10px solid #A6206B;
-        background-size: 100%;
     }
 
     #nairobi,
     #dc
     {
         padding: 0px;
-    }
-
-    .map-address
-    {
-        position: absolute;
-        width: 220px;
-        left: 10px;
-        bottom: 10px;
-        box-shadow: 0 0 4px rgba(0,0,0,0.2);
-        padding: 10px;
-        background: #fff none repeat scroll 0 0;
     }
 }
 
