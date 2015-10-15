@@ -395,6 +395,7 @@ header
     #nairobi
     {
          border-right: none;
+         margin-bottom: 10px;
     }
 
     #dc
@@ -406,7 +407,6 @@ header
     #dc
     {
         padding: 0px;
-        margin: 40px;
     }
 }
 
