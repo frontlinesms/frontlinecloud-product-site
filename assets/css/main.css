@@ -389,6 +389,12 @@ header
     padding-bottom: 50px;
 }
 
+#pricing img:hover
+{
+    transform:scale(1.04);
+    z-index:300;
+}
+
 /* Extra Small devices (768px and below) */
 @media (max-width:768px)  
 {
