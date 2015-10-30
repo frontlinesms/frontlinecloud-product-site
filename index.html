@@ -4,9 +4,14 @@
 <head>
 <!-- unnecessary comment -->
     <meta charset="UTF-8">
-    <title>Frontline</title>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://product.frontlinesms.com/assets/images/favicon.ico" />
+
+    <title>Frontline</title>
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="assets/bootstrap3.3.5/css/bootstrap.css">
@@ -16,512 +21,415 @@
     <link rel="stylesheet" href="assets/css/main.css" type="text/css"/>
 
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" type="text/css"/>
-	<link rel="shortcut icon" href="http://product.frontlinesms.com/assets/images/favicon.ico" />
 
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="assets/bootstrap3.3.5/js/bootstrap.min.js"></script>
 
-	<script type="text/javascript" src="assets/js/skrollr.min.js"></script>
-	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="assets/js/skrollr.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript">
         var s = skrollr.init();
     </script>
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-16772760-1']);
-		_gaq.push(['_trackPageview']);
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-16772760-1']);
+        _gaq.push(['_trackPageview']);
 
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-				})();
-	</script>
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+    </script>
 </head>
     
-<body>
-    <!--start of wrapper-->
+<body>  
 
-    <div id="wrapper" class="container-fluid">    
+    <header>
 
-        <!--start of header-->
-        <div id="header" class="container-fluid">
-            <!--container start-->
-            <div class="container">
-
-                <!--start logo-->
-                <div id="logo">
-                    <img src="assets/images/Frontline-Header.png" class="img-responsive center-block" alt="Header-image-logo" />
-                </div>
-                <!--end logo-->
-
-            </div>
-            <!--container end-->
-        </div>
-        <!--end of header-->
-
-        <!--container start-->
         <div class="container">
 
             <div class="row">
-
-                <!--start about-->
-                <div id="about" class="col-md-12">
-                    <h1>Send your message. Automate. Scale. Repeat.</h1>
-                </div>
-                <!--end about-->
-
+                <img src="assets/images/Frontline-Header.png" alt="product-site header-image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/>
             </div>
-                
+
         </div>
-        <!--container end-->
 
-        <!--start of subtitle hero-->
-        <div id="subtitle" class="container">
-            <!--start container-->
+    </header>
+
+    <div id="hero-area">
+
+        <div class="container">
+
+            <div id="about" class="row">
+                <h1>Build a Better Conversation</h1>
+            </div>
+
+            <div id="hero" class="row">
+                <img src="assets/images/Hero-UI.png" alt="hero-laptop image" id="laptop" class="col-xs-12 col-sm-8 col-md-8 col-lg-8"/>
+                <h2 id="boxout" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    Our tools make it easy to build, manage, and scale messaging conversations.<br><br>
+                    Without writing a line of code. 
+                </h2>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="showBtn">
+
+        <div class="container">
+            <button class="btn btn-primary btn-lg" id="showSignUp" type="button">Start Messaging Now</button>
+        </div>
+
+    </div>
+
+    <div hidden class="form" id="sign-up-form">
+        <div class="container">
+            <div class="row" id="signup-subtitles">
+                <h2>Sign Up</h2>
+                <p>Get a Free Trial Account on FrontlineCloud</p>
+            </div>
+            <div class="row" id="form">
+                <form class="frontline-signup-form">
+                     
+                    <!--row1-->
+                    <div id="row1" class="form-group" >
+                        <div class="col-md-4 form-group">
+                            <div id="email" class="form-group">
+                                <input type="text" name="email" value="" class="form-control" size="40" placeholder="Email" id="email">
+                            </div>
+                        </div>                        
+                        
+                        <div class="col-md-5 form-group" style="padding:0px;">
+                            <div id="language" class="col-md-5 form-group">
+                                <select class="form-control dropdown" name="language" id="language">
+                                <option value="de">Deutsch</option>
+                                <option value="" selected="selected">English</option>
+                                <option value="es">Español</option>
+                                <option value="fr">Français</option>
+                                <option value="in_ID">Indonesian</option>
+                                <option value="jp">Japanese</option>
+                                <option value="km">Khmer</option>
+                                <option value="sw">Kiswahili</option>
+                                <option value="nl">Nederlands</option>
+                                <option value="pt">Português</option>
+                                <option value="ru">Русский</option>
+                                <option value="ar">العربية</option>
+                            </select>
+                            </div>
+                                    
+                            <div id="time-zone" class="col-md-7 form-group">
+                                <select class="form-control" name="timezone" id="timezone">
+                                <option value="Etc/GMT+12">(GMT -12:00) International Date Line West</option>
+                                <option value="Etc/GMT+11">(GMT -11:00) Coordinated Universal Time-11</option>
+                                <option value="Pacific/Honolulu">(GMT -10:00) Hawaii</option>
+                                <option value="America/Anchorage">(GMT -09:00) Alaska</option>
+                                <option value="America/Tijuana">(GMT -08:00) Baja California</option>
+                                <option value="America/Los_Angeles">(GMT -08:00) Pacific Time (US &amp; Canada)</option>
+                                <option value="America/Phoenix">(GMT -07:00) Arizona</option>
+                                <option value="America/Chihuahua">(GMT -07:00) Chihuahua, La Paz, Mazatlan</option>
+                                <option value="America/Denver">(GMT -07:00) Mountain Time (US &amp; Canada)</option>
+                                <option value="America/Guatemala">(GMT -06:00) Central America</option>
+                                <option value="America/Chicago">(GMT -06:00) Central Time (US &amp; Canada)</option>
+                                <option value="America/Mexico_City">(GMT -06:00) Guadalajara, Mexico City, Monterrey</option>
+                                <option value="America/Regina">(GMT -06:00) Saskatchewan</option>
+                                <option value="America/Bogota">(GMT -05:00) Bogota, Lima, Quito</option>
+                                <option value="America/New_York">(GMT -05:00) Eastern Time (US &amp; Canada)</option>
+                                <option value="America/Indianapolis">(GMT -05:00) Indiana (East)</option>
+                                <option value="America/Caracas">(GMT -04:30) Caracas</option>
+                                <option value="America/Asuncion">(GMT -04:00) Asuncion</option>
+                                <option value="America/Halifax">(GMT -04:00) Atlantic Time (Canada)</option>
+                                <option value="America/Cuiaba">(GMT -04:00) Cuiaba</option>
+                                <option value="America/La_Paz">(GMT -04:00) Georgetown, La Paz, Manaus, San Juan</option>
+                                <option value="America/Santiago">(GMT -04:00) Santiago</option>
+                                <option value="America/St_Johns">(GMT -03:30) Newfoundland</option>
+                                <option value="America/Sao_Paulo">(GMT -03:00) Brasilia</option>
+                                <option value="America/Buenos_Aires">(GMT -03:00) Buenos Aires</option>
+                                <option value="America/Cayenne">(GMT -03:00) Cayenne, Fortaleza</option>
+                                <option value="America/Godthab">(GMT -03:00) Greenland</option>
+                                <option value="America/Montevideo">(GMT -03:00) Montevideo</option>
+                                <option value="Etc/GMT+2">(GMT -02:00) Coordinated Universal Time-02</option>
+                                <option value="Etc/GMT+2">(GMT -02:00) Mid-Atlantic</option>
+                                <option value="Atlantic/Azores">(GMT -01:00) Azores</option>
+                                <option value="Atlantic/Cape_Verde">(GMT -01:00) Cape Verde Is.</option>
+                                <option value="Africa/Casablanca">(GMT) Casablanca</option>
+                                <option value="Etc/GMT" selected="selected" >(GMT) Coordinated Universal Time</option>
+                                <option value="Europe/London">(GMT) Dublin, Edinburgh, Lisbon, London</option>
+                                <option value="Atlantic/Reykjavik">(GMT) Monrovia, Reykjavik</option>
+                                <option value="Europe/Berlin">(GMT +01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
+                                <option value="Europe/Budapest">(GMT +01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
+                                <option value="Europe/Paris">(GMT +01:00) Brussels, Copenhagen, Madrid, Paris</option>
+                                <option value="Europe/Warsaw">(GMT +01:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
+                                <option value="Africa/Lagos">(GMT +01:00) West Central Africa</option>
+                                <option value="Africa/Windhoek">(GMT +02:00) Windhoek</option>
+                                <option value="Asia/Amman">(GMT +02:00) Amman</option>
+                                <option value="Europe/Istanbul">(GMT +02:00) Athens, Bucharest, Istanbul</option>
+                                <option value="Asia/Beirut">(GMT +02:00) Beirut</option>
+                                <option value="Africa/Cairo">(GMT +02:00) Cairo</option>
+                                <option value="Asia/Damascus">(GMT +02:00) Damascus</option>
+                                <option value="Africa/Johannesburg">(GMT +02:00) Harare, Pretoria</option>
+                                <option value="Europe/Kiev">(GMT +02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</option>
+                                <option value="Asia/Jerusalem">(GMT +02:00) Jerusalem</option>
+                                <option value="Europe/Minsk">(GMT +02:00) Minsk</option>
+                                <option value="Asia/Baghdad">(GMT +03:00) Baghdad</option>
+                                <option value="Asia/Riyadh">(GMT +03:00) Kuwait, Riyadh</option>
+                                <option value="Africa/Nairobi">(GMT +03:00) Nairobi</option>
+                                <option value="Asia/Tehran">(GMT +03:30) Tehran</option>
+                                <option value="Asia/Dubai">(GMT +04:00) Abu Dhabi, Muscat</option>
+                                <option value="Asia/Baku">(GMT +04:00) Baku</option>
+                                <option value="Europe/Moscow">(GMT +04:00) Moscow, St. Petersburg, Volgograd</option>
+                                <option value="Indian/Mauritius">(GMT +04:00) Port Louis</option>
+                                <option value="Asia/Tbilisi">(GMT +04:00) Tbilisi</option>
+                                <option value="Asia/Yerevan">(GMT +04:00) Yerevan</option>
+                                <option value="Asia/Kabul">(GMT +04:30) Kabul</option>
+                                <option value="Asia/Karachi">(GMT +05:00) Islamabad, Karachi</option>
+                                <option value="Asia/Tashkent">(GMT +05:00) Tashkent</option>
+                                <option value="Asia/Calcutta">(GMT +05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
+                                <option value="Asia/Colombo">(GMT +05:30) Sri Jayawardenepura</option>
+                                <option value="Asia/Katmandu">(GMT +05:45) Kathmandu</option>
+                                <option value="Asia/Almaty">(GMT +06:00) Astana</option>
+                                <option value="Asia/Dhaka">(GMT +06:00) Dhaka</option>
+                                <option value="Asia/Yekaterinburg">(GMT +06:00) Ekaterinburg</option>
+                                <option value="Asia/Rangoon">(GMT +06:30) Yangon (Rangoon)</option>
+                                <option value="Asia/Bangkok">(GMT +07:00) Bangkok, Hanoi, Jakarta</option>
+                                <option value="Asia/Novosibirsk">(GMT +07:00) Novosibirsk</option>
+                                <option value="Asia/Krasnoyarsk">(GMT +07:00) Krasnoyarsk</option>
+                                <option value="Asia/Shanghai">(GMT +08:00) Beijing, Chongqing, Hong Kong, Urumqi</option>
+                                <option value="Asia/Singapore">(GMT +08:00) Kuala Lumpur, Singapore</option>
+                                <option value="Australia/Perth">(GMT +08:00) Perth</option>
+                                <option value="Asia/Taipei">(GMT +08:00) Taipei</option>
+                                <option value="Asia/Ulaanbaatar">(GMT +08:00) Ulaanbaatar</option>
+                                <option value="Asia/Irkutsk">(GMT +08:00) Irkutsk</option>
+                                <option value="Asia/Tokyo">(GMT +09:00) Osaka, Sapporo, Tokyo</option>
+                                <option value="Asia/Seoul">(GMT +09:00) Seoul</option>
+                                <option value="Australia/Adelaide">(GMT +09:30) Adelaide</option>
+                                <option value="Australia/Darwin">(GMT +09:30) Darwin</option>
+                                <option value="Australia/Brisbane">(GMT +10:00) Brisbane</option>
+                                <option value="Australia/Sydney">(GMT +10:00) Canberra, Melbourne, Sydney</option>
+                                <option value="Pacific/Port_Moresby">(GMT +10:00) Guam, Port Moresby</option>
+                                <option value="Australia/Hobart">(GMT +10:00) Hobart</option>
+                                <option value="Asia/Yakutsk">(GMT +10:00) Yakutsk</option>
+                                <option value="Asia/Vladivostok">(GMT +10:00) Vladivostok</option>
+                                <option value="Pacific/Guadalcanal">(GMT +11:00) Solomon Is., New Caledonia</option>
+                                <option value="Asia/Magadan">(GMT +11:00) Magadan</option>
+                                <option value="Pacific/Auckland">(GMT +12:00) Auckland, Wellington</option>                                                                       <option value="Etc/GMT-12">(GMT +12:00) Coordinated Universal Time+12</option>
+                                <option value="Pacific/Fiji">(GMT +12:00) Fiji, Marshall Is.</option>
+                                <option value="Asia/Kamchatka">(GMT +12:00) Petropavlovsk-Kamchatsky - Old</option>
+                                <option value="Pacific/Tongatapu">(GMT +13:00) Nuku'alofa</option>
+                                <option value="Pacific/Apia">(GMT +13:00) Samoa</option>
+                            </select>
+                            </div>
+                        </div>
+                               
+                        <div class="col-md-3 form-group">
+                            <div id="accept" class="form-group">
+                                <label class="terms" style="margin-top: 5px;" for="acceptedTermsOfService">
+                                    <input type="hidden" name="_acceptedTermsOfService">
+                                    <input type="checkbox" name="acceptedTermsOfService" id="acceptedTermsOfService">
+                                        I accept the 
+                                        <a target="_blank" style="color:#ffffff; text-decoration:underline;" href="https://cloud.frontlinesms.com/termsOfService">
+                                            Terms of Service
+                                        </a>
+                                <label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end row1-->
+                     
+                    <!--row2-->
+                    <div id="row2" class="form-group">
+                        <div class="col-md-4 form-group">                                    
+                            <div id="password" class="form-group">
+                                <input type="password" name="password" value="" placeholder="Password" class="form-control" size="40" id="password">              
+                            </div>
+                        </div>
+                            
+                        <div class="col-md-5 form-group">
+                            <div id="confirm-password" class="form-group">
+                                <input type="password" name="password2" value="" placeholder="Confirm password" class="form-control" size="40" id="password2">             
+                            </div>
+                        </div>
+                                
+                        <div class="col-md-3 form-group">
+                            <div id="submit-button" class="form-group"> 
+                                <button class="btn signup-button" id="btnSignup">Sign Up for FrontlineCloud</button>
+                            </div>
+                        </div>
+                        
+                        <br clear="all">
+                        
+                    </div>
+                    <!--end row2-->
+                                
+                    <input type="hidden" name="plan" value="TRIAL"/>
+                    <input type="hidden" name="industry" value="product-site"/>
+                        
+                </form>
+                        
+                <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+                <script type="text/javascript" src="https://cloud.frontlinesms.com/assets/signup.js"></script>
+            </div>
+        </div>
+    </div>
+
+    <div id="products">
+        <div class="container">
             <div class="row">
-
-                <div class="col-md-8" id="hero-laptop">
-                    <img src="assets/images/Hero-UI.png" class="img-responsive"/>
+                <div id="sync" class="col-md-4 col-lg-4">
+                    <a href="https://play.google.com/store/apps/details?id=com.simlab.frontlinesync&hl=en" target="_blank"> 
+                        <img id="small" src="assets/images/Circle-Sync.png" alt="frontline-sync" width="175px" height="175px"/>
+                    </a>
+                    <h3>Two-Way Everywhere</h3>
+                    <p>The world's most configurable SMS gateway for two-way messaging.</p>
                 </div>
+                <div id="cloud" class="col-md-4 col-lg-4">
+                    <a href="https://cloud.frontlinesms.com" target="_blank">
+                        <img src="assets/images/Circle-Cloud.png" alt="frontline-cloud" width="225px" height="225px"/>
+                    </a>
+                    <h3>Mobile + Cloud</h3>
+                    <p>The integration and sophistication of the cloud, the personality of messaging.</p>
+                </div>
+                <div id="sms" class="col-md-4 col-lg-4">
+                    <a href="http://www.frontlinesms.com/technologies/download/" target="_blank">
+                        <img id="small" src="assets/images/Circle-SMS.png" alt="frontline-sms" width="175px" height="175px"/>
+                    </a>
+                    <h3>Online + Offline</h3>
+                    <p>We work, even where the Internet doesn't. Award winning SMS tools, where you are.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="col-md-4" id="hero-boxout">
+    <div id="infographic">
+
+        <div class="container">
+            <img src="assets/images/infographic.png" class="img-responsive center-block" style="width:1128px;" alt="infographic image"/>
+        </div>
+        
+    </div>
+
+    <div id="quotes">
+
+        <div class="container">
+                <p>
+                    <i class="fa fa-quote-left fa-lg pull-left"></i>
+                    FrontlineSMS gives that magic of receiving and sending, managing contacts and storing Received and Sent SMS’s in an easy way and                 I can also export the information to spreadsheets for reporting.
+                    <i class="fa fa-quote-right fa-lg pull-right"></i>
+                </p>
+            <span>John Kisewe Mpakani - a producer and presenter at the Nkhotakota Community Radio Station in Malawi</span>
+        </div>
+
+    </div>
+
+    <div id="integrations">
+        <div class="container">
+            <h2>Integrations</h2>
+            <ul>
+                <li>
+                    <a href="https://www.twilio.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/Twilio.png" alt="twilio image" width="145px" height="100px" style="padding:30px 10px;"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.nexmo.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/nexmo.png" alt="nexmo image" width="145px" height="100px"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.txtnation.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/txtNation.png" alt="textNation image" width="145px" height="100px"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.clickatell.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/Clickatell.png" alt="clickatell image" width="145px" height="100px"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.world-text.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/worldText.png" alt="worldText image" width="145px" height="100px"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.africastalking.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/Africas-Talking.png" alt="africas-talking image" width="145px" height="100px"/>
+                    </a>
+                </li>
+                <li>                
+                    <a href="http://www.nationbuilder.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/Nationbuilder.png" alt="nationbuilder image" width="145px" height="100px"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.mailchimp.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/Mailchimp.png" alt="mailchimp image" width="145px" height="100px"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.ushahidi.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/Ushahidi.jpg" alt="ushahidi image" width="145px" height="100px"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.zapier.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/zapier-logo.png" alt="zapier image" width="145px" height="100px" style="padding:20px;"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.zendesk.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/Zendesk_logo.png" alt="zendesk image" width="145px" height="100px" style="padding:20px 5px;"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.salesforce.com/" target="_blank">
+                        <img class="img-responsive img-centred" src="assets/images/salesforce.png" alt="salesforce image" width="145px" height="100px"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="getting-started">
+        <div class="container">
+            <div class="row">
+                <div id="cloud-subscription" class="col-md-4 col-lg-4">
+                    <a href="https://cloud.frontlinesms.com"  target="_blank">
+                        <i class="fa fa-cloud fa-fw" id="start"></i>
+                    </a>
                     <h2>
-                        Our tools make it easy to build, manage, and scale messaging conversations.</br></br>
-                            Without having to ever write a line of code.
+                        <a href="https://cloud.frontlinesms.com"  target="_blank">
+                            Get started today with a 1-month trial subscription and see how FrontlineCloud can empower your campaign through SMS
+                        </a>
                     </h2>
                 </div>
-
-                <br clear="all"/>
-
-            </div>
-            <!--end container-->
-
-        </div>
-        <!--end of subtitle hero-->
-
-		<div id='signup-form-container' hidden class="container-fluid">
-
-			<div class="container">
-            
-                <!--start of signupForm-->
-                <div id="signupForm" class="col-xs-12">
-
-                    <h2>Sign Up</h2>
-
-				    <!--start of formContainer-->
-                    <div id="formContainer">
-
-                        <div id="formSubtitle">
-                            <p>Get a Free Trial Account on FrontlineCloud</p>
-                        </div>
-
-                        <!--start of panel-body-->
-                        <div class="panel-body">
-
-                            <form class="frontline-signup-form">
-                                
-                                <div class="form-group" id="row1">
-                                    
-                                    <div id="email" class="col-md-4 form-group">
-                                        <input type="text" name="email" value="" class="form-control" size="40" placeholder="Email" id="email">
-                                    </div>
-                                   
-                                    <div id="language" class="col-md-2 form-group" style="float:left;">
-                                        <select class="form-control dropdown" name="language" id="language">
-                                                <option value="de">Deutsch</option>
-                                                <option value="" selected="selected">English</option>
-                                                <option value="es">Español</option>
-                                                <option value="fr">Français</option>
-                                                <option value="in_ID">Indonesian</option>
-                                                <option value="jp">Japanese</option>
-                                                <option value="km">Khmer</option>
-                                                <option value="sw">Kiswahili</option>
-                                                <option value="nl">Nederlands</option>
-                                                <option value="pt">Português</option>
-                                                <option value="ru">Русский</option>
-                                                <option value="ar">العربية</option>
-                                        </select>
-                                    </div>
-                                    
-                                    <div id="time-zone" class="col-md-3 form-group" style="float:left;">
-                                        <select class="form-control" name="timezone" id="timezone">
-                                                            <option value="Etc/GMT+12">(GMT -12:00) International Date Line West</option>
-                                                            <option value="Etc/GMT+11">(GMT -11:00) Coordinated Universal Time-11</option>
-                                                            <option value="Pacific/Honolulu">(GMT -10:00) Hawaii</option>
-                                                            <option value="America/Anchorage">(GMT -09:00) Alaska</option>
-                                                            <option value="America/Tijuana">(GMT -08:00) Baja California</option>
-                                                            <option value="America/Los_Angeles">(GMT -08:00) Pacific Time (US &amp; Canada)</option>
-                                                            <option value="America/Phoenix">(GMT -07:00) Arizona</option>
-                                                            <option value="America/Chihuahua">(GMT -07:00) Chihuahua, La Paz, Mazatlan</option>
-                                                            <option value="America/Denver">(GMT -07:00) Mountain Time (US &amp; Canada)</option>
-                                                            <option value="America/Guatemala">(GMT -06:00) Central America</option>
-                                                            <option value="America/Chicago">(GMT -06:00) Central Time (US &amp; Canada)</option>
-                                                            <option value="America/Mexico_City">(GMT -06:00) Guadalajara, Mexico City, Monterrey</option>
-                                                            <option value="America/Regina">(GMT -06:00) Saskatchewan</option>
-                                                            <option value="America/Bogota">(GMT -05:00) Bogota, Lima, Quito</option>
-                                                            <option value="America/New_York">(GMT -05:00) Eastern Time (US &amp; Canada)</option>
-                                                            <option value="America/Indianapolis">(GMT -05:00) Indiana (East)</option>
-                                                            <option value="America/Caracas">(GMT -04:30) Caracas</option>
-                                                            <option value="America/Asuncion">(GMT -04:00) Asuncion</option>
-                                                            <option value="America/Halifax">(GMT -04:00) Atlantic Time (Canada)</option>
-                                                            <option value="America/Cuiaba">(GMT -04:00) Cuiaba</option>
-                                                            <option value="America/La_Paz">(GMT -04:00) Georgetown, La Paz, Manaus, San Juan</option>
-                                                            <option value="America/Santiago">(GMT -04:00) Santiago</option>
-                                                            <option value="America/St_Johns">(GMT -03:30) Newfoundland</option>
-                                                            <option value="America/Sao_Paulo">(GMT -03:00) Brasilia</option>
-                                                            <option value="America/Buenos_Aires">(GMT -03:00) Buenos Aires</option>
-                                                            <option value="America/Cayenne">(GMT -03:00) Cayenne, Fortaleza</option>
-                                                            <option value="America/Godthab">(GMT -03:00) Greenland</option>
-                                                            <option value="America/Montevideo">(GMT -03:00) Montevideo</option>
-                                                            <option value="Etc/GMT+2">(GMT -02:00) Coordinated Universal Time-02</option>
-                                                            <option value="Etc/GMT+2">(GMT -02:00) Mid-Atlantic</option>
-                                                            <option value="Atlantic/Azores">(GMT -01:00) Azores</option>
-                                                            <option value="Atlantic/Cape_Verde">(GMT -01:00) Cape Verde Is.</option>
-                                                            <option value="Africa/Casablanca">(GMT) Casablanca</option>
-                                                            <option value="Etc/GMT" selected="selected" >(GMT) Coordinated Universal Time</option>
-                                                            <option value="Europe/London">(GMT) Dublin, Edinburgh, Lisbon, London</option>
-                                                            <option value="Atlantic/Reykjavik">(GMT) Monrovia, Reykjavik</option>
-                                                            <option value="Europe/Berlin">(GMT +01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
-                                                            <option value="Europe/Budapest">(GMT +01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
-                                                            <option value="Europe/Paris">(GMT +01:00) Brussels, Copenhagen, Madrid, Paris</option>
-                                                            <option value="Europe/Warsaw">(GMT +01:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
-                                                            <option value="Africa/Lagos">(GMT +01:00) West Central Africa</option>
-                                                            <option value="Africa/Windhoek">(GMT +02:00) Windhoek</option>
-                                                            <option value="Asia/Amman">(GMT +02:00) Amman</option>
-                                                            <option value="Europe/Istanbul">(GMT +02:00) Athens, Bucharest, Istanbul</option>
-                                                            <option value="Asia/Beirut">(GMT +02:00) Beirut</option>
-                                                            <option value="Africa/Cairo">(GMT +02:00) Cairo</option>
-                                                            <option value="Asia/Damascus">(GMT +02:00) Damascus</option>
-                                                            <option value="Africa/Johannesburg">(GMT +02:00) Harare, Pretoria</option>
-                                                            <option value="Europe/Kiev">(GMT +02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</option>
-                                                            <option value="Asia/Jerusalem">(GMT +02:00) Jerusalem</option>
-                                                            <option value="Europe/Minsk">(GMT +02:00) Minsk</option>
-                                                            <option value="Asia/Baghdad">(GMT +03:00) Baghdad</option>
-                                                            <option value="Asia/Riyadh">(GMT +03:00) Kuwait, Riyadh</option>
-                                                            <option value="Africa/Nairobi">(GMT +03:00) Nairobi</option>
-                                                            <option value="Asia/Tehran">(GMT +03:30) Tehran</option>
-                                                            <option value="Asia/Dubai">(GMT +04:00) Abu Dhabi, Muscat</option>
-                                                            <option value="Asia/Baku">(GMT +04:00) Baku</option>
-                                                            <option value="Europe/Moscow">(GMT +04:00) Moscow, St. Petersburg, Volgograd</option>
-                                                            <option value="Indian/Mauritius">(GMT +04:00) Port Louis</option>
-                                                            <option value="Asia/Tbilisi">(GMT +04:00) Tbilisi</option>
-                                                            <option value="Asia/Yerevan">(GMT +04:00) Yerevan</option>
-                                                            <option value="Asia/Kabul">(GMT +04:30) Kabul</option>
-                                                            <option value="Asia/Karachi">(GMT +05:00) Islamabad, Karachi</option>
-                                                            <option value="Asia/Tashkent">(GMT +05:00) Tashkent</option>
-                                                            <option value="Asia/Calcutta">(GMT +05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
-                                                            <option value="Asia/Colombo">(GMT +05:30) Sri Jayawardenepura</option>
-                                                            <option value="Asia/Katmandu">(GMT +05:45) Kathmandu</option>
-                                                            <option value="Asia/Almaty">(GMT +06:00) Astana</option>
-                                                            <option value="Asia/Dhaka">(GMT +06:00) Dhaka</option>
-                                                            <option value="Asia/Yekaterinburg">(GMT +06:00) Ekaterinburg</option>
-                                                            <option value="Asia/Rangoon">(GMT +06:30) Yangon (Rangoon)</option>
-                                                            <option value="Asia/Bangkok">(GMT +07:00) Bangkok, Hanoi, Jakarta</option>
-                                                            <option value="Asia/Novosibirsk">(GMT +07:00) Novosibirsk</option>
-                                                            <option value="Asia/Krasnoyarsk">(GMT +07:00) Krasnoyarsk</option>
-                                                            <option value="Asia/Shanghai">(GMT +08:00) Beijing, Chongqing, Hong Kong, Urumqi</option>
-                                                            <option value="Asia/Singapore">(GMT +08:00) Kuala Lumpur, Singapore</option>
-                                                            <option value="Australia/Perth">(GMT +08:00) Perth</option>
-                                                            <option value="Asia/Taipei">(GMT +08:00) Taipei</option>
-                                                            <option value="Asia/Ulaanbaatar">(GMT +08:00) Ulaanbaatar</option>
-                                                            <option value="Asia/Irkutsk">(GMT +08:00) Irkutsk</option>
-                                                            <option value="Asia/Tokyo">(GMT +09:00) Osaka, Sapporo, Tokyo</option>
-                                                            <option value="Asia/Seoul">(GMT +09:00) Seoul</option>
-                                                            <option value="Australia/Adelaide">(GMT +09:30) Adelaide</option>
-                                                            <option value="Australia/Darwin">(GMT +09:30) Darwin</option>
-                                                            <option value="Australia/Brisbane">(GMT +10:00) Brisbane</option>
-                                                            <option value="Australia/Sydney">(GMT +10:00) Canberra, Melbourne, Sydney</option>
-                                                            <option value="Pacific/Port_Moresby">(GMT +10:00) Guam, Port Moresby</option>
-                                                            <option value="Australia/Hobart">(GMT +10:00) Hobart</option>
-                                                            <option value="Asia/Yakutsk">(GMT +10:00) Yakutsk</option>
-                                                            <option value="Asia/Vladivostok">(GMT +10:00) Vladivostok</option>
-                                                            <option value="Pacific/Guadalcanal">(GMT +11:00) Solomon Is., New Caledonia</option>
-                                                            <option value="Asia/Magadan">(GMT +11:00) Magadan</option>
-                                                            <option value="Pacific/Auckland">(GMT +12:00) Auckland, Wellington</option>
-                                                            <option value="Etc/GMT-12">(GMT +12:00) Coordinated Universal Time+12</option>
-                                                            <option value="Pacific/Fiji">(GMT +12:00) Fiji, Marshall Is.</option>
-                                                            <option value="Asia/Kamchatka">(GMT +12:00) Petropavlovsk-Kamchatsky - Old</option>
-                                                            <option value="Pacific/Tongatapu">(GMT +13:00) Nuku'alofa</option>
-                                                            <option value="Pacific/Apia">(GMT +13:00) Samoa</option>
-                                                </select>
-                                    </div>
-                                    
-                                    
-                                                                         
-                                    <div id="accept" class="col-md-3 form-group">
-                                        <label class="terms" style="margin-top: 5px;" for="acceptedTermsOfService">
-                                            <input type="hidden" name="_acceptedTermsOfService">
-                                            <input type="checkbox" name="acceptedTermsOfService" id="acceptedTermsOfService">
-                                            I accept the 
-                                            <a target="_blank" style="color:#ffffff; text-decoration:underline;" href="https://cloud.frontlinesms.com/termsOfService">
-                                                Terms of Service</a>
-                                        <label>
-                                    </div>
-
-                                 <br clear="all"/>
-
-                                </div>
-                                
-                                <div id="row2" class="col-md-4 form-group" style="float:left;">
-                                    
-                                    <div id="password" class="form-group">
-                                        <input type="password" name="password" value="" placeholder="Password" class="form-control" size="40" id="password">
-                                    </div>
-
-                                </div>
-                                
-                                <div id="row3" class="col-md-5 form-group" style="float:left;">
-
-
-                                    <div id="confirm-password" class="form-group">
-                                        <input type="password" name="password2" value="" placeholder="Confirm password" class="form-control" size="40" id="password2">
-                                    </div>
-                                    
-                                </div>
-                                
-                                <div id="row4" class="col-md-3 form-group" style="float:left;">
-                                    
-                                    <div id="submit-button" class="form-group">
-                                        <button class="btn signup-button" id="btnSignup">Sign Up for FrontlineCloud</button>
-                                    </div>
-                                    
-                                </div>
-                                
-                                <input type="hidden" name="plan" value="TRIAL"/>
-                                <input type="hidden" name="industry" value="dustmap-sensor"/>
-                                
-                            </form>
-
-                            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-                            <script type="text/javascript" src="https://cloud.frontlinesms.com/assets/signup.js"></script>
-                                
-                        </div>
-                        <!--start of panel-body-->
-
-                    </div>
-                    <!--end of formContainer-->
-
+                <div id="video" class="col-md-4 col-lg-4">
+                    <a href="https://www.youtube.com/watch?v=jUCx7FgHy2Q"  target="_blank">
+                        <i class="fa fa-youtube-play fa-fw" id="start"></i>
+                    </a>
+                    <h2>
+                        <a href="https://www.youtube.com/watch?v=jUCx7FgHy2Q"  target="_blank">
+                            Not sure which connection type fits your volume? Watch this 
+                        </a> 
+                    </h2>
                 </div>
-
-			</div>
-			
-		</div>
-        
-        <div id="showBtn" class="container">
-            <button id="showSignUp" type="button" >Start Messaging Now</button>
-        </div>
-
-        <!--start functions-->
-        <div id="functions" class="container-fluid" data-bottom-top="opacity:0; left:-200%;" 
-data-center-top="opacity:1; left:0;">
-            
-            <!--start container-->
-            <div class="container" id="containerIcons">
-
-            	<div class="row">
-                    
-                    <div class="col-md-4" id="icon-product">
-	                    <a href="https://play.google.com/store/apps/details?id=com.simlab.frontlinesync&hl=en" target="_blank">
-	                    	<img class="img-responsive center-block" src="assets/images/Circle-Sync.png" style="width:175px; height:175px; margin-top:25px;"/>
-	                    </a>
-	                    <h3>Two-Way Everywhere</h3>
-	                    <p>
-                            The world's most configurable SMS gateway for two-way messaging.
-                        </p>
-	                </div>
-
-	                <div class="col-md-4" id="icon-product">
-	                    <a href="https://cloud.frontlinesms.com" target="_blank">
-	                    	<img class="img-responsive center-block" src="assets/images/Circle-Cloud.png" style="width:225px; height:225px;"/>
-	                    </a>
-	                    <h3 style="margin-top: 20px;">Mobile + Cloud</h3>
-	                    <p>The integration and sophistication of the cloud, the personality of messaging.</p>
-	                </div>
-
-	                <div class="col-md-4" id="icon-product">
-	                    <a href="http://www.frontlinesms.com/technologies/download/" target="_blank">
-	                    	<img class="img-responsive center-block" src="assets/images/Circle-SMS.png" style="width:175px; height:175px; margin-top:25px;"/>
-	                    </a>
-	                    <h3> Online + Offline</h3>
-	                    <p>
-                            We work, even where the Internet doesn't. Award winning SMS tools, where you are.
-                        </p>
-	                </div>
-
-	                <br clear="all"/>
-
+                <div id="frontlinesms-download" class="col-md-4 col-lg-4">
+                    <a href="http://frontlinesms.com/download"  target="_blank">
+                        <i class="fa fa-cloud-download fa-fw" id="start"></i>
+                    </a>
+                    <h2> 
+                        <a href="http://frontlinesms.com/download"  target="_blank">
+                            Working offline? Try downloading the latest version of FrontlineSMS Desktop, available for Windows, Mac and Linux
+                        </a>
+                    </h2>
                 </div>
-
             </div>
-            <!--end container-->
         </div>
-        <!--end functions-->
+    </div>
 
-        <!--start mapCoverage-->
-        <div id="mapCoverage" class="container-fluid" data-bottom-top="opacity:0; left:-200%;" 
-data-center-top="opacity:1; left:0;">
-
-            <!--start container-->
-            <div class="container">
-
-            	<img src="assets/images/infographic.png" class="img-responsive center-block" style="width:1128px;" alt="coverage-map"/>
-
-            </div>
-            <!--end container-->
-
-        </div>
-        <!--end mapCoverage-->
-
-        <!--start testimonials-->
-        <div id="testimonials" class="container-fluid">
-
-            <!--start container-->
-            <div class="container" id="quotes">
-                
-                <p>
-                        <i class="fa fa-quote-left fa-lg pull-left"></i>
-                        FrontlineSMS gives that magic of receiving and sending, managing contacts and storing Received and Sent SMS’s in an easy way and I can also export the information to spreadsheets for reporting.
-                        <i class="fa fa-quote-right fa-lg pull-right"></i>
-                </p>
-                    
-                <span>John Kisewe Mpakani - a producer and presenter at the Nkhotakota Community Radio Station in Malawi</span>
-                
-            </div>
-            <!--end container-->
-        </div>
-        <!--end testimonials-->
-
-        <!--start companies section-->
-        <div id="partners" class="container-fluid">
-
-            <!--start container-->
-            <div class="container">
-
-	            <h2>Integrations</h2>
-
-	            <ul>
-                    
-	                <li>
-	                	<a href="https://www.twilio.com/" target="_blank">
-	                		<img src="assets/images/Twilio.png" style="height:40px; width:auto;" />
-	                	</a>
-	                </li>
-                    
-	                <li>
-	                	<a href="https://www.nexmo.com/" target="_blank">
-	                		<img src="assets/images/nexmo.png"/>
-	                	</a>
-	                </li>
-                    
-	                <li>
-	                	<a href="http://www.txtnation.com/" target="_blank">
-	                		<img src="assets/images/txtNation.png"/>
-	                	</a>
-	                </li>
-                    
-	                <li>
-	                	<a href="https://www.clickatell.com/" target="_blank">
-	                		<img src="assets/images/Clickatell.png"/>
-	                	</a>
-	                </li>
-                    
-	                <li>
-	                	<a href="http://www.world-text.com/" target="_blank">
-	                		<img src="assets/images/worldText.png"/>
-	                	</a>
-	                </li>
-                    
-                    <li>
-	                	<a href="http://www.africastalking.com/" target="_blank">
-	                		<img src="assets/images/Africas-Talking.png"/>
-	                	</a>
-	                </li>
-                    
-			        <li>
-			        	<a href="http://www.nationbuilder.com/" target="_blank">
-			        		<img src="assets/images/Nationbuilder.png"/>
-			        	</a>
-			        </li>
-                    
-	                <li>
-	                	<a href="http://www.mailchimp.com/" target="_blank">
-	                		<img src="assets/images/Mailchimp.png"/>
-	                	</a>
-	                </li>
-                    
-	                <li>
-	                	<a href="http://www.ushahidi.com/" target="_blank">
-	                		<img src="assets/images/Ushahidi.jpg"/>
-	                	</a>
-	                </li>
-                    
-                    <li>
-	                	<a href="https://www.zapier.com/" target="_blank">
-	                		<img src="assets/images/zapier-logo.png" style="height:40px; width:auto;"/>
-	                	</a>
-	                </li>
-                    
-                    <li>
-	                	<a href="https://www.zendesk.com/" target="_blank">
-	                		<img src="assets/images/Zendesk_logo.png" style="height:40px; width:auto;"/>
-	                	</a>
-	                </li>
-                    
-                    <li>
-	                	<a href="http://www.salesforce.com/" target="_blank">
-	                		<img src="assets/images/newlogo-company.png" style="height:80px; width:auto;"/>
-	                	</a>
-	                </li>
-	                
-	            </ul>
-
-            </div>
-            <!--end container-->
-        </div>
-        <!--end companies section-->
-
-        <!--start gettingStarted section-->
-        <div id="gettingStarted" class="container-fluid" data-bottom-top="opacity:0; left:-200%;" 
-data-center-top="opacity:1; left:0;">
-            
-            <!--start container-->
-            <div class="container" id="Start-Icons">
-
-            	<div class="row">
-
-	                <div class="col-md-4" id="icon">
-                        <a href="https://cloud.frontlinesms.com"  target="_blank"><i class="fa fa-cloud fa-fw" id="start"></i></a>
-                        <h2>
-                            <a href="https://cloud.frontlinesms.com"  target="_blank">Get started today with a 1-month trial subscription and see how FrontlineCloud can empower your campaign through SMS</a>
-                        </h2>
-	                </div>
-
-	                <div class="col-md-4" id="icon">
-                        <a href="https://www.youtube.com/watch?v=jUCx7FgHy2Q"  target="_blank"><i class="fa fa-youtube-play fa-fw" id="start"></i></a>
-                        <h2>
-                           <a href="https://www.youtube.com/watch?v=jUCx7FgHy2Q"  target="_blank">Not sure which connection type fits your volume? Watch this </a> 
-                        </h2>
-	                </div>
-
-	                <div class="col-md-4" id="icon">
-                        <a href="http://frontlinesms.com/download"  target="_blank"><i class="fa fa-cloud-download fa-fw" id="start"></i></a>
-                        <h2> 
-                            <a href="http://frontlinesms.com/download"  target="_blank">Working offline? Try downloading the latest version of FrontlineSMS Desktop, available for Windows, Mac and Linux</a>
-                        </h2>
-	                </div>
-
-	                <br clear="all"/>
-
-                </div>
-
-            </div>
-            <!--end container-->
-
-        </div>
-        <!--end gettingStarted section-->
-
-	    <!--div id="recent-blog-post">
+    <!--div id="recent-blog-post">
             <div>
                 <img class="recent-post-image img-responsive"></img>
                 <div class="recent-post-excerpt-container">
@@ -529,141 +437,161 @@ data-center-top="opacity:1; left:0;">
                     <span class="recent-post-excerpt"</span>
                 </div>
             </div>
-	    </div-->
+    </div-->
 
-	    <div id="major-users" class="container-fluid">
-		<div class="container">
-
-			<h2>Our Customers</h2>
-            
-			<ul>
-				<li>
-					<a href="http://www.bbc.co.uk/mediaaction" target="_blank">
-						<img src="assets/images/BBC-Media-Action.png"/>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.unocha.org" target="_blank">
-						<img src="assets/images/UN-OCHA.jpg"/>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.worldbank.org" target="_blank">
-						<img src="assets/images/World-Bank.jpg"/>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.state.gov/" target="_blank">
-						<img src="assets/images/State-Department.jpg"/>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.jumia.com.ng/" target="_blank">
-						<img src="assets/images/Jumia.jpg"/>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.purpose.com/" target="_blank">
-						<img src="assets/images/Purpose.png"/>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.cdc.gov/" target="_blank">
-						<img src="assets/images/CDC.jpg"/>
-					</a>
-				</li>
-				<li>
-					<a href="https://www.georgetown.edu/" target="_blank">
-						<img src="assets/images/Georgetown.jpg"/>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.nyu.edu/" target="_blank">
-						<img src="assets/images/NYU.png"/>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.globalgiving.org/" target="_blank">
-						<img src="assets/images/GlobalGiving.png"/>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.oxfam.org.uk/" target="_blank">
-						<img src="assets/images/OXFAM.gif"/>
-					</a>
-				</li>
-			</ul>
-
-		</div>
-	</div>
-                
-        <!--start pricing-->
-        <div id="pricing" class="container-fluid">
-
-            <!--start container-->
-            <div class="container">
-
-                <img src="assets/images/Tiering-Table.png" class="img-responsive center-block" alt="payments" width="700px" height="500px"/>
-
-            </div>
-            <!--end container-->
-            
+    <div id="customers">
+        <div class="container">
+            <h2>Customers</h2>
+            <ul>
+                <li>
+                    <a href="http://www.bbc.co.uk/mediaaction" target="_blank">
+                        <img src="assets/images/BBC-Media-Action.png" alt="bbc-media-action image" />
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.unocha.org" target="_blank">
+                        <img src="assets/images/UN-OCHA.jpg" alt="un-ocha image" />
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.worldbank.org" target="_blank">
+                        <img src="assets/images/World-Bank.jpg" alt="world-bank image"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.state.gov/" target="_blank">
+                        <img src="assets/images/State-Department.jpg" alt="state-department image"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.jumia.com.ng/" target="_blank">
+                        <img src="assets/images/Jumia.jpg" alt="jumia image"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.purpose.com/" target="_blank">
+                        <img src="assets/images/Purpose.png" alt="purpose image"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.cdc.gov/" target="_blank">
+                        <img src="assets/images/CDC.jpg" alt="cdc image"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.georgetown.edu/" target="_blank">
+                        <img src="assets/images/Georgetown.jpg" alt="georgetown image"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.nyu.edu/" target="_blank">
+                        <img src="assets/images/NYU.png" alt="nyu image"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.globalgiving.org/" target="_blank">
+                        <img src="assets/images/GlobalGiving.png" alt="globalgiving image"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.oxfam.org.uk/" target="_blank">
+                        <img src="assets/images/OXFAM.gif" alt="oxfam image"/>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <!--end pricing-->
-
-        <!--start footer-->
-        <div id="footer" class="container-fluid">
-            
-            <!--start container-->
-            <div class="container" id="foot">
-
-            	<div class="row">
+    </div>
                 
-	                <div class="col-md-6" id="info">
-	                    <h1>About us</h1>
-	                    <p>
-	                        Since Frontline was first released in 2005, our growth as a team and the development of our platform have been driven by our users. FrontlineSMS was one of the first platforms to help harness the power of mobile technology for social change. Our technical team is based in East Africa's innovation hub, Nairobi, Kenya and has decades of experience in building mobile engagement tools.
-	                    </p>
-	               </div> 
-	                
-	               <div class="col-md-6" id="contact">
-	                   <h1>Contact us</h1>
-	                   
-	                    <ul>
-	                        <li>
-                                <a href="http://frontlinesms.com" target="_blank"><i class="fa fa-compass fa-fw"></i>&nbsp;&nbsp;frontlinesms.com</a>
-                            </li>
-                            
-	                        <li>
-                                <a href="https://www.google.co.ke/maps/place/Bishop+Maguga+Bldg,+George+Padmore+Ln,+Nairobi/@-1.2990756,36.7909276,19z/data=!3m1!4b1!4m7!1m4!3m3!1s0x182f109990e04d95:0x531d2f94564bedc7!2sPraekelt+Consulting+Kenya!3b1!3m1!1s0x182f109990236589:0xd41b6f1f7c2be098" target="_blank"><i class="fa fa-map-marker fa-fw"></i>&nbsp;&nbsp;Location</a>
-                            </li>
-                            
-	                        <li>
-                                <a href="mailto:product@frontlinesms.com"><i class="fa fa-envelope-o fa-fw"></i>&nbsp;&nbsp;Email</a>
-                            </li>
-	
-	                        <li>
-                                <a href="mailto:support@frontlinesms.com"><i class="fa fa-question fa-fw"></i>&nbsp;&nbsp;support@frontlinesms.com</a>
-                            </li>
-                            
-	                        <li>
-                                <a href="https://twitter.com/frontlinesms" target="_blank"><i class="fa fa-twitter fa-fw"></i>&nbsp;&nbsp;@frontlinesms</a>
-                            </li>
-                            
-	                        <li>
-                                <a href="https://www.facebook.com/FrontlineSMS" target="_blank"><i class="fa fa-facebook fa-fw"></i>&nbsp;&nbsp;facebook.com/FrontlineSMS</a>
-                            </li>                      
-	                    </ul>
-	               </div>  
-
-                </div>  
-
+    <div id="pricing">
+        <div class="container">
+            <div class="row">
+                <div id="tier" class="col-md-12">
+                    <img class="col-md-3" src="assets/images/Tiering1.png" alt="pricing image" class="img-responsive center-block"/>
+                    <img class="col-md-3" src="assets/images/Tiering2.png" alt="pricing image" class="img-responsive center-block"/>
+                    <img class="col-md-3" src="assets/images/Tiering3.png" alt="pricing image" class="img-responsive center-block"/>
+                    <img class="col-md-3" src="assets/images/Tiering4.png" alt="pricing image" class="img-responsive center-block"/>
+                </div>
             </div>
-            <!--end container-->
-            
-            <!--start mail-chimp-container-->
-            <div class="container" id="mail-chimp-form">
-            
+        </div>    
+    </div>
+
+    <div id="location">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6" id="nairobi">
+                    <div style="overflow:hidden;height:250px;resize:none;max-width:100%;">
+                        <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=FrontlineSMS,Bishop+Magua+Centre,+Nairobi,+Kenya&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+                        </div>
+                        <a class="code-for-google-map" href="https://www.bootstrapskins.com" id="grab-maps-authorization">bootstrap templates</a>
+                        <style>#embed-map-canvas .text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+                    </div>
+                </div>
+                <div class="col-md-6" id="dc">
+                    <div style="max-width:100%;overflow:hidden;height:250px;color:red;">
+                        <div id="gmap_display" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=1776+Vermont+Avenue+NW+DC,+United+States+&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+                        </div>
+                        <a class="google-maps-html" href="https://www.bootstrapskins.com" id="get-data-for-embed-map">bootstrap-based designers</a>
+                        <style>#gmap_display img{max-width:none!important;background:none!important;font-size: inherit;}</style>
+                    </div>
+                    <script src="https://www.embed-map.com/google-maps-authorization.js?id=f7bb84eb-20d1-bb43-b120-1cc673edf24c" defer="defer" async="async"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="container">
+            <div class="row" id="about">
+                <div class="col-md-6" id="info">
+                    <h2>About Us</h2>
+                    <p>
+                        Since Frontline was first released in 2005, our growth as a team and the development of our platform have been driven by our users. FrontlineSMS was one of the first platforms to help harness the power of mobile technology for social change. Our technical team is based in East Africa's innovation hub, Nairobi, Kenya and has decades of experience in building mobile engagement tools.
+                    </p>
+                </div>
+                <div class="col-md-6" id="contact-links">
+                    <h2>Contact Us</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="http://frontlinesms.com" target="_blank">
+                                <i class="fa fa-compass fa-fw"></i>&nbsp;&nbsp;frontlinesms.com
+                            </a>
+                        </li>                            
+                        <li class="list-group-item">
+                            <a href="https://www.google.co.ke/maps/place/Bishop+Maguga+Bldg,+George+Padmore+Ln,+Nairobi/@-1.2990756,36.7909276,19z/data=!3m1!4b1!4m7!1m4!3m3!1s0x182f109990e04d95:0x531d2f94564bedc7!2sPraekelt+Consulting+Kenya!3b1!3m1!1s0x182f109990236589:0xd41b6f1f7c2be098" target="_blank">
+                                <i class="fa fa-map-marker fa-fw"></i>&nbsp;&nbsp;Location
+                            </a>
+                        </li>                            
+                        <li class="list-group-item">
+                            <a href="mailto:product@frontlinesms.com">
+                                <i class="fa fa-envelope-o fa-fw"></i>&nbsp;&nbsp;Email
+                            </a>
+                        </li>    
+                        <li class="list-group-item">
+                            <a href="mailto:support@frontlinesms.com">
+                                <i class="fa fa-question fa-fw"></i>&nbsp;&nbsp;support@frontlinesms.com
+                            </a>
+                         </li>                            
+                        <li class="list-group-item">
+                            <a href="https://twitter.com/frontlinesms" target="_blank">
+                                <i class="fa fa-twitter fa-fw"></i>&nbsp;&nbsp;@frontlinesms
+                            </a>
+                        </li>                            
+                        <li class="list-group-item">
+                            <a href="https://www.facebook.com/FrontlineSMS" target="_blank">
+                                <i class="fa fa-facebook fa-fw"></i>&nbsp;&nbsp;facebook.com/FrontlineSMS
+                            </a>
+                        </li>                      
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row" id="subscribe">
+                <!--start mail-chimp-container-->
+                <div class="container" id="mail-chimp-form">
+                
                     <!-- Begin MailChimp Signup Form -->
                     <!-- DANGER DANGER DO NOT EDIT THE MAILCHIMP MARKUP SINCE IT WORKS WELL ON product.frontlinesms.com -->
                     <style type="text/css">
@@ -680,34 +608,33 @@ data-center-top="opacity:1; left:0;">
                             padding: 20px 0px 10px 0px;
                         }
 
-                        #mc_embed_signup_scroll label
+                        #formSt h2
                         {
+                            margin-bottom: 30px;
+                            color: #fff;
                             font-size: 18pt;
-                            color:  #fff ;
-                            font-weight: 100;
+                            font-weight: lighter;
                             font-family: Helvetica,Arial,sans-serif;
-                            padding:0px;
-                            margin-bottom: 20px;
                         }
 
-                        .email
-                        {
-                            width:300px; 
-                            padding:10px;
-                            border:none;
-                            border-radius:5px;
-                        }
-
-                        .submit
-                        {
-                            width:100px; 
+                        .submit                            
+                        { 
+                            background-image: none;
                             background-color:#fff; 
                             color:#A6206B;
                             border:none;
-                            border-radius: 5px;
-                            padding: 10px;
                             font-family: Helvetica,Arial,sans-serif;
                         }
+
+                        .submit:hover,
+                        .btn:hover,
+                        .btn-default:hover
+                        {
+                            background-image: none;
+                            background-color: #fff;
+                            color: #A6206B;
+                        }
+
                         /* 
                             Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. 
@@ -718,23 +645,24 @@ data-center-top="opacity:1; left:0;">
 
                         <div id="formSt">
 
-                            <form action="//frontlinesms.us9.list-manage.com/subscribe/post?u=508a0aa7c5864b754935dabed&amp;id=a0cfe610d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <h2>Get Updates from Frontline</h2>
 
-                                <div id="mc_embed_signup_scroll">
+                            <form action="//frontlinesms.us9.list-manage.com/subscribe/post?u=508a0aa7c5864b754935dabed&amp;id=a0cfe610d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate role="form">
 
-                                    <label for="mce-EMAIL">Get Updates from Frontline</label></br>
-                                
-                                    <input class="email" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address" required>
+                                <div id="email" class="form-group">
+                                        <input class="email form-control" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address" required>
+                                </div>
 
-                                    <input class="submit" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                                <div id="submit" class="form-group">
+                                    <input class="submit btn btn-default form-control" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                                </div>
 
+                                <div class="form-group">
                                     <!-- real people should not fill this in and expect good things 
                                         - do not remove this or risk form bot signups-->
                                     <div style="position: absolute; left: -5000px;">
                                         <input type="text" name="b_508a0aa7c5864b754935dabed_a0cfe610d4" tabindex="-1" value="">
                                     </div>
-
-
                                 </div>
 
                             </form>
@@ -743,18 +671,11 @@ data-center-top="opacity:1; left:0;">
 
                     </div>
 
-                    <!--End mc_embed_signup-->
-            
+                </div>          
             </div>
-            <!--end of mail-chimp-container-->
-            
-        </div>
-        <!--end footer-->
-        
-    </div>
-    <!--end of wrapper-->
+    </footer>
     
-	<script src="assets/js/main.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
 
+</body>
 </html>

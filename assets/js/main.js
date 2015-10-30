@@ -33,7 +33,7 @@ var ProductSite = function () {
 	init();
 }
 var show = function(){
-    var form = $("#signup-form-container");
+    var form = $("#sign-up-form");
 	form.slideDown();
 	$("#showSignUp").slideUp();
 	var body = $(".signup-button-container");
