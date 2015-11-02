@@ -717,3 +717,33 @@ footer
     background-color: #A6206B;
     border: none;
 }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+    color: #A6206B;
+    border-color: #fff;
+}
+
+.nav-tabs a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+.nav-tabs a:hover
+{
+    text-decoration: none;
+    color: #A6206B;
+}
+
+#free,
+#starter,
+#pro,
+#custom
+{
+    margin-top: 20px;
+}
+
