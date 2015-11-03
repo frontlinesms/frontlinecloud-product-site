@@ -403,7 +403,7 @@ header
 
 #pricing img:hover
 {
-    transform:scale(1.04);
+    transform:scale(1.02);
     z-index:300;
 }
 
