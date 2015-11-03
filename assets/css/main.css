@@ -389,22 +389,53 @@ header
     padding-bottom: 50px;
 }
 
-#pricing .row
-{
-    padding: 0px;
-    margin: 0px;
-}
-
-#tier img
-{
-    padding:0px;
-    margin: 0px;
-}
-
 #pricing img:hover
 {
     transform:scale(1.02);
     z-index:300;
+}
+
+#tier
+{
+    padding: 0px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+    color: #A6206B;
+    border-color: #fff;
+}
+
+.nav-tabs a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+.nav-tabs a:hover
+{
+    text-decoration: none;
+    color: #A6206B;
+}
+
+#free,
+#starter,
+#pro,
+#custom
+{
+    margin-top: 20px;
+}
+
+.free,
+.starter,
+.pro,
+.contact-us
+{
+    padding: 0px;
+    display: inline-block;
 }
 
 /* Extra Small devices (768px and below) */
@@ -719,34 +750,5 @@ footer
 {
     background-color: #A6206B;
     border: none;
-}
-
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
-{
-    color: #A6206B;
-    border-color: #fff;
-}
-
-.nav-tabs a
-{
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-.nav-tabs a:hover
-{
-    text-decoration: none;
-    color: #A6206B;
-}
-
-#free,
-#starter,
-#pro,
-#custom
-{
-    margin-top: 20px;
 }
 
