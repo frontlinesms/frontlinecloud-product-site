@@ -497,7 +497,7 @@ footer
 
 #info
 {
-    border-right: 3px solid #fff;
+    border-right: 6px solid #fff;
     margin-top: 50px;
 }
 
@@ -622,7 +622,6 @@ footer
     #contact-links
     {
         margin-top: 50px;
-        border-left: 3px solid #fff;
     }
 
     #contact-links h2
@@ -648,7 +647,6 @@ footer
     #contact-links
     {
         margin-top: 50px;
-        border-left: 3px solid #fff;
     }
 
     #contact-links h2
@@ -680,7 +678,6 @@ footer
     #contact-links
     {
         margin-top: 50px;
-        border-left: 3px solid #fff;
     }
 
     #contact-links h2
