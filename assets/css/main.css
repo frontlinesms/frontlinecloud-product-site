@@ -497,7 +497,8 @@ footer
 
 #info
 {
-    border-right: 6px solid #fff;
+    min-height: 300px;
+    border-right: 3px solid #fff;
     margin-top: 50px;
 }
 
@@ -622,6 +623,7 @@ footer
     #contact-links
     {
         margin-top: 50px;
+        border-left: none;
     }
 
     #contact-links h2
@@ -647,6 +649,8 @@ footer
     #contact-links
     {
         margin-top: 50px;
+        min-height: 300px;
+        border-left: 3px solid #fff;
     }
 
     #contact-links h2
@@ -678,6 +682,8 @@ footer
     #contact-links
     {
         margin-top: 50px;
+        min-height: 300px;
+        border-left: 3px solid #fff;
     }
 
     #contact-links h2
