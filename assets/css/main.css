@@ -535,56 +535,15 @@ footer
     color: #fff;
 }
 
-/* Extra Small devices (768px and below) */
-@media (max-width:768px)  
+#divider
 {
-    #about [class*='col-']:not(:last-child):after 
-    {
-        width: 0px;
-    }
+    margin-top: 50px;
+    margin-left: -6px;
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width:768px)  
+#vert
 {
-   #about [class*='col-']:not(:last-child):after 
-    {
-        width: 0px;
-    } 
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width:992px)  
-{
-    #about [class*='col-']:not(:last-child):after 
-    {
-      background: #fff;
-      width: 4px;
-      content: "";
-      display:block;
-      position: absolute;
-      top:0;
-      bottom: 0;
-      right: 0;
-      min-height: 70px;
-    }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width:1200px)  
-{
-    #about [class*='col-']:not(:last-child):after 
-    {
-      background: #fff;
-      width: 4px;
-      content: "";
-      display:block;
-      position: absolute;
-      top:0;
-      bottom: 0;
-      right: 0;
-      min-height: 70px;
-    }
+    padding: 0px;
 }
 
 #info
