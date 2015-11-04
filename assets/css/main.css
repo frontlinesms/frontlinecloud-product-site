@@ -438,6 +438,15 @@ header
     display: inline-block;
 }
 
+#interaction
+{
+    font-size: 18pt;
+    font-family:Helvetica,Arial,sans-serif;
+    font-weight:lighter;
+    color: #fff;
+    text-align: center;
+}
+
 /* Extra Small devices (768px and below) */
 @media (max-width:768px)  
 {
