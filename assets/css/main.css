@@ -389,6 +389,34 @@ header
     padding-bottom: 50px;
 }
 
+.free,
+.starter,
+.pro,
+.contact-us
+{
+    padding: 0px;
+    display: inline-block;
+}
+
+#free,
+#starter,
+#pro,
+#email-us
+{
+    padding: 0px;
+    border:1px solid #ccc;
+    border-top: 0px;
+}
+
+#free:hover,
+#starter:hover,
+#pro:hover,
+#email-us:hover
+{
+    transform:scale(1.02);
+    z-index:300;
+}
+
 #pricing img:hover
 {
     transform:scale(1.02);
@@ -421,21 +449,177 @@ header
     color: #A6206B;
 }
 
-#free,
-#starter,
-#pro,
-#custom
+#tier-heading
 {
-    margin-top: 20px;
+    background-color:#A8216C;
+    color: #fff;
+    text-align:center;
+    padding:15px;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
 }
 
-.free,
-.starter,
-.pro,
-.contact-us
+#tier-subscription-fee
 {
-    padding: 0px;
-    display: inline-block;
+    color: #A8216C;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+#tier-contact-us
+{
+    color: #A8216C;
+    padding: 25.5px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+#tier-contact-us h1
+{
+    font-size: 50px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    margin: 0px;
+}
+
+#tier-duration
+{
+    text-align: center;
+    background-color: #E7E7E8;
+    color: #A8216C;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+#tier-duration p
+{
+    font-size: 35px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    margin: 0px;
+}
+
+#tier-duration span
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#tier-duration-pro
+{
+    text-align: center;
+    background-color: #E7E7E8;
+    color: #A8216C;
+    padding: 5px;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+#tier-duration-pro p
+{
+    font-size: 28px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    margin: 0px;
+}
+
+#tier-duration-pro span
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#tier-contact-info
+{
+    text-align: center;
+    color: #848688;
+    background-color:#fff;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+#tier-contact-info p
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 28px;
+    margin: 0px;
+}
+
+#tier-contact-info span
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 22px;
+    margin: 0px; 
+}
+
+#tier-offer
+{
+    background-color: #D0D1D2;
+    color: #848688;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+#tier-offer h1,
+#tier-offer p
+{
+    margin: 0px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+#tier-email
+{
+    background-color: #D0D1D2;
+    color: #848688;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+.fa-envelope
+{
+    color: #A8216C;
+    font-size: 80px;
+}
+
+#charges
+{
+    margin: 0px;
+    font-size: 63px;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+#month
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 30px;
 }
 
 #interaction
@@ -445,6 +629,7 @@ header
     font-weight:lighter;
     color: #fff;
     text-align: center;
+    margin-top:20px; 
 }
 
 /* Extra Small devices (768px and below) */
