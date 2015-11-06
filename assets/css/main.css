@@ -506,7 +506,15 @@ a:hover, a:focus
 {
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
-    font-size: 24px;
+    font-size: 30px;
+    color: #A8216C;
+}
+
+.interactions-per-month span
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 15px;
     color: #A8216C;
 }
 
@@ -555,7 +563,7 @@ a:hover, a:focus
 {
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
-    font-size: 28px;
+    font-size: 24px;
     color: #A8216C;
 }
 
