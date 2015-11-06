@@ -406,7 +406,7 @@ header
 /*tier-duration has a fixed height thus we need to add the heigh when on hover*/
 .tier:hover .tier-duration
 {
-    height: 81px;
+    height: 101px;
 }
 
 #free,
@@ -461,7 +461,7 @@ a:hover, a:focus
 
 .package-container
 {
-    height: 150px;
+    height: 170px;
     background-color: #fff;
     text-align: center;
 }
@@ -499,7 +499,7 @@ a:hover, a:focus
 .tier-duration
 {
     background-color: #E7E7E8;
-    height: 80px;
+    height: 100px;
 }
 
 .interactions-per-month
@@ -532,7 +532,8 @@ a:hover, a:focus
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
     font-size: 22px;
-    color: #A8216C; 
+    color: #A8216C;
+    margin-top: 5px; 
 }
 
 .contact-details-label
@@ -573,7 +574,7 @@ a:hover, a:focus
     font-weight:lighter;
     font-size: 15px;
     color: #A8216C;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 .mail
