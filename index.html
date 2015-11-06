@@ -505,13 +505,142 @@
     <div id="pricing">
         <div class="container">
             <div class="row">
-                <div id="tier" class="col-md-12">
-                    <img class="col-md-3" src="assets/images/Tiering1.png" alt="pricing image" class="img-responsive center-block"/>
-                    <img class="col-md-3" src="assets/images/Tiering2.png" alt="pricing image" class="img-responsive center-block"/>
-                    <img class="col-md-3" src="assets/images/Tiering3.png" alt="pricing image" class="img-responsive center-block"/>
-                    <img class="col-md-3" src="assets/images/Tiering4.png" alt="pricing image" class="img-responsive center-block"/>
+                <div class="hidden-md hidden-lg" id="tab-tier-table">
+                    <ul class="nav nav-tabs tabs-justified">
+                        <li class="active"><a data-toggle="tab" href="#free"><b>Free</b></a></li>
+                        <li><a data-toggle="tab" href="#starter"><b>Starter</b></a></li>
+                        <li><a data-toggle="tab" href="#pro"><b>Pro</b></a></li>
+                        <li><a data-toggle="tab" href="#custom"><b>Custom</b></a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="free" class="tab-pane fade in active col-md-3 col-lg-3">
+                          <a href="https://cloud.frontlinesms.com" target="_blank">
+                            <img src="assets/images/Tiering1.png" alt="pricing image" class="img-responsive center-block"/>
+                          </a>
+                        </div>
+                        <div id="starter" class="tab-pane fade col-md-3 col-lg-3">
+                          <a href="https://cloud.frontlinesms.com/register/details?plan=A1&industry=alfred-form" target="_blank">
+                            <img src="assets/images/Tiering2.png" alt="pricing image" class="img-responsive center-block"/>
+                          </a>
+                        </div>
+                        <div id="pro" class="tab-pane fade col-md-3 col-lg-3">
+                          <a href="https://cloud.frontlinesms.com/register/details?plan=A1&industry=alfred-form" target="_blank">
+                                <img src="assets/images/Tiering3.png" alt="pricing image" class="img-responsive center-block"/>
+                          </a>
+                        </div>
+                        <div id="custom" class="tab-pane fade col-md-3 col-lg-3">
+                          <a href="http://www.frontlinesms.com/connect-with-us/contact-us-2/" target="_blank">
+                            <img src="assets/images/Tiering4.png" alt="pricing image" class="img-responsive center-block"/>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden-xs hidden-sm" id="tab-tier-table">
+
+                    <div class="col-md-2"></div>
+
+                    <div id="free" class="col-md-2 tier">
+                        <a href="https://cloud.frontlinesms.com/login/auth" target="_blank">
+                            <div class="tier-heading">
+                                <div class="tier-name">Free</div>
+                            </div>
+                            <div class="package-container">
+                                <div class="tier-subscription-fee">
+                                    <div class="charges">$0</div> 
+                                    <div class="month">per month</div>
+                                </div>
+                                <div class="tier-duration">
+                                    <div class="interactions-per-month">250<span>/month</span></div>
+                                    <div class="interactions-per-month-label">Interactions</div>     
+                                </div>
+                            </div>
+                            <div class="tier-offer">
+                                <div class="unlimited-label">Unlimited</div>
+                                <div class="unlimited-features">Connections, Contacts & Integrations</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div id="starter" class="col-md-2 tier">
+                        <a href="https://cloud.frontlinesms.com/register/details?plan=A1&industry=alfred-form" target="_blank">
+                            <div class="tier-heading">
+                                <div class="tier-name">Starter</div>
+                            </div>
+                            <div class="package-container">
+                                <div class="tier-subscription-fee">
+                                    <div class="charges">$25</div> 
+                                    <div class="month">per month</div>
+                                </div>
+                                <div class="tier-duration">
+                                    <div class="interactions-per-month">10,000<span>/month</span></div>
+                                    <div class="interactions-per-month-label">Interactions</div>
+                                </div>
+                            </div>
+                            <div class="tier-offer">
+                                <div class="unlimited-label">Unlimited</div>
+                                <div class="unlimited-features">Connections, Contacts & Integrations</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div id="pro" class="col-md-2 tier">
+                        <a href="https://cloud.frontlinesms.com/register/details?plan=A1&industry=alfred-form" target="_blank">
+                            <div class="tier-heading">
+                                <div class="tier-name">Pro</div>
+                            </div>
+                            <div class="package-container">
+                                <div class="tier-subscription-fee">
+                                    <div class="charges">$100</div> 
+                                    <div class="month">per month</div>
+                                </div>
+                                <div class="tier-duration">
+                                    <div class="interactions-per-month">500,000<span>/month<span></div>
+                                    <div class="interactions-per-month-label">Interactions</div>
+                                    <div class="added-feature">Activity Templates</div>
+                                </div>
+                            </div>
+                            <div class="tier-offer">
+                                <div class="unlimited-label">Unlimited</div>
+                                <div class="unlimited-features">Connections, Contacts & Integrations</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div id="email-us" class="col-md-2 tier">
+                        <a href="http://www.frontlinesms.com/connect-with-us/contact-us-2/" target="_blank">
+                            <div class="tier-heading">
+                                <div class="tier-name">Custom</div>
+                            </div>
+                            <div class="package-container">
+                                <div class="tier-contact-us">
+                                    <div class="email-label">Email Us</div>
+                                </div>
+                                <div class="tier-contact-info">
+                                    <div class="contact-details-label">
+                                        Contact us for</br>
+                                        more details                                
+                                    </div>
+                                    <div class="email-address">info@frontlinesms.com</div>
+                                </div>
+                            </div>
+                            <div class="tier-offer">
+                                <div class="envelope-email-icon">
+                                    <i class="mail fa fa-envelope-o center-block"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-2"></div>
+
                 </div>
             </div>
+
+            <p id="interaction">
+                An interaction can be an SMS, Missed Call, API Request or mobile money Payment. The number of interactions above is the sum of all of these received + sent
+            </p>
         </div>    
     </div>
 
@@ -520,27 +649,29 @@
             <div class="row">
                 <div class="col-md-6" id="nairobi">
                     <div style="overflow:hidden;height:250px;resize:none;max-width:100%;">
-                        <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;">
-                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=FrontlineSMS,Bishop+Magua+Centre,+Nairobi,+Kenya&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+                        <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Shop+FF+16,+Bishop+Magua+Centre,+George+Padmore+Lane,+Opposite+Uchumi+Kilimani,+Ngong+Rd,+Nairobi,+Kenya&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
                         </div>
-                        <a class="code-for-google-map" href="https://www.bootstrapskins.com" id="grab-maps-authorization">bootstrap templates</a>
-                        <style>#embed-map-canvas .text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+                        <a class="code-for-google-map" href="https://www.bootstrapskins.com" id="enable-map-data">bootstrap themes</a>
+                        <style>
+                            #gmap-canvas .text-marker{max-width:none!important;background:none!important;}img{max-width:none}
+                        </style>
                     </div>
                 </div>
                 <div class="col-md-6" id="dc">
-                    <div style="max-width:100%;overflow:hidden;height:250px;color:red;">
-                        <div id="gmap_display" style="height:100%; width:100%;max-width:100%;">
-                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=1776+Vermont+Avenue+NW+DC,+United+States+&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+                    <div style="overflow:hidden;height:250px;resize:none;max-width:100%;">
+                        <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=+1776+in+DC+Where+Revolutions+Begin+&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
                         </div>
-                        <a class="google-maps-html" href="https://www.bootstrapskins.com" id="get-data-for-embed-map">bootstrap-based designers</a>
-                        <style>#gmap_display img{max-width:none!important;background:none!important;font-size: inherit;}</style>
+                        <a class="code-for-google-map" href="https://www.bootstrapskins.com" id="enable-map-data">bootstrap themes</a>
+                        <style>
+                            #gmap-canvas .text-marker{max-width:none!important;background:none!important;}img{max-width:none}
+                        </style>
                     </div>
-                    <script src="https://www.embed-map.com/google-maps-authorization.js?id=f7bb84eb-20d1-bb43-b120-1cc673edf24c" defer="defer" async="async"></script>
                 </div>
             </div>
         </div>
-    </div>
-    
+    </div>    
 
     <footer>
         <div class="container">
@@ -551,7 +682,12 @@
                         Since Frontline was first released in 2005, our growth as a team and the development of our platform have been driven by our users. FrontlineSMS was one of the first platforms to help harness the power of mobile technology for social change. Our technical team is based in East Africa's innovation hub, Nairobi, Kenya and has decades of experience in building mobile engagement tools.
                     </p>
                 </div>
-                <div class="col-md-6" id="contact-links">
+
+                <div class="hidden-xs hidden-sm col-md-1" id="vert">
+                    <img id="divider" src="assets/images/vert.png">
+                </div>                
+
+                <div class="col-md-5" id="contact-links">
                     <h2>Contact Us</h2>
                     <ul class="list-group">
                         <li class="list-group-item">
