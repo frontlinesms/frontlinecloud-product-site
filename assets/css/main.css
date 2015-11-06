@@ -406,7 +406,7 @@ header
 /*tier-duration has a fixed height thus we need to add the heigh when on hover*/
 .tier:hover .tier-duration
 {
-    height: 102px;
+    height: 81px;
 }
 
 #free,
@@ -461,9 +461,14 @@ a:hover, a:focus
 
 .package-container
 {
-    height: 180px;
+    height: 150px;
     background-color: #fff;
     text-align: center;
+}
+
+.tier-subscription-fee
+{
+    height: 70px;
 }
 
 .charges
@@ -480,6 +485,7 @@ a:hover, a:focus
     font-weight:lighter;
     font-size: 15px;
     color: #A8216C;
+    margin-top: -15px;
 }
 
 .email-label
@@ -493,14 +499,14 @@ a:hover, a:focus
 .tier-duration
 {
     background-color: #E7E7E8;
-    height: 101px;
+    height: 80px;
 }
 
 .interactions-per-month
 {
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
-    font-size: 22px;
+    font-size: 24px;
     color: #A8216C;
 }
 
@@ -510,6 +516,7 @@ a:hover, a:focus
     font-weight:lighter;
     font-size: 15px;
     color: #A8216C;
+    margin-top: -10px;
 }
 
 .added-feature
@@ -524,15 +531,16 @@ a:hover, a:focus
 {
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
-    font-size: 18px;
+    font-size: 20px;
     color: #A8216C;
+    margin-top: 10px;
 }
 
 .email-address
 {
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
-    font-size: 18px;
+    font-size: 15px;
     color: #A8216C;
 }
 
@@ -540,7 +548,7 @@ a:hover, a:focus
 {
     text-align: center;
     background-color: #D0D1D2;
-    height: 90px;
+    height: 80px;
 }
 
 .unlimited-label
@@ -557,6 +565,7 @@ a:hover, a:focus
     font-weight:lighter;
     font-size: 15px;
     color: #A8216C;
+    margin-top: -10px;
 }
 
 .mail
