@@ -389,15 +389,6 @@ header
     padding-bottom: 50px;
 }
 
-.free,
-.starter,
-.pro,
-.contact-us
-{
-    padding: 0px;
-    display: inline-block;
-}
-
 #free,
 #starter,
 #pro,
@@ -406,13 +397,182 @@ header
     padding: 3px;
 }
 
-#free:hover,
-#starter:hover,
-#pro:hover,
-#email-us:hover
+.tier:hover
 {
     transform:scale(1.02);
     z-index:300;
+}
+
+/*tier-duration has a fixed height thus we need to add the heigh when on hover*/
+.tier:hover .tier-duration
+{
+    height: 102px;
+}
+
+#free,
+#starter,
+#pro,
+#email-us,
+a:hover, a:focus
+{
+    text-decoration: none;
+}
+
+#free .tier-heading
+{
+    -webkit-border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 0;
+}
+
+#free .tier-offer
+{
+    -webkit-border-radius: 0 0 0 20px;
+    border-radius: 0 0 0 20px;
+}
+
+#email-us .tier-heading
+{
+    -webkit-border-radius: 0 20px 0 0;
+    border-radius: 0 20px 0 0;
+}
+
+#email-us .tier-offer
+{
+    -webkit-border-radius: 0 0 20px 0;
+    border-radius: 0 0 20px 0;
+}
+
+
+.tier-heading
+{
+    background-color:#A8216C;
+    color: #fff;
+    text-align:center;
+    padding: 5px 0;
+}
+
+.tier-name
+{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+.package-container
+{
+    height: 180px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.charges
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 40px;
+    color: #A8216C;
+}
+
+.month
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 15px;
+    color: #A8216C;
+}
+
+.email-label
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 38px;
+    color: #A8216C; 
+}
+
+.tier-duration
+{
+    background-color: #E7E7E8;
+    height: 101px;
+}
+
+.interactions-per-month
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 22px;
+    color: #A8216C;
+}
+
+.interactions-per-month-label
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 15px;
+    color: #A8216C;
+}
+
+.added-feature
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 22px;
+    color: #A8216C; 
+}
+
+.contact-details-label
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 18px;
+    color: #A8216C;
+}
+
+.email-address
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 18px;
+    color: #A8216C;
+}
+
+.tier-offer
+{
+    text-align: center;
+    background-color: #D0D1D2;
+    height: 90px;
+}
+
+.unlimited-label
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 28px;
+    color: #A8216C;
+}
+
+.unlimited-features
+{
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+    font-size: 15px;
+    color: #A8216C;
+}
+
+.mail
+{
+    font-size: 68px;
+    color: #A8216C;
+    font-weight: bold;
+}
+
+.free,
+.starter,
+.pro,
+.contact-us
+{
+    padding: 0px;
+    display: inline-block;
 }
 
 #pricing img:hover
@@ -445,178 +605,6 @@ header
 {
     text-decoration: none;
     color: #A6206B;
-}
-
-#tier-heading
-{
-    background-color:#A8216C;
-    color: #fff;
-    text-align:center;    
-    padding:5px;
-    font-size: 18px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-#tier-subscription-fee
-{
-    color: #A8216C;
-    padding: 5px;
-    text-align: center;
-    background-color: #fff;
-    font-size: 18px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-#tier-contact-us
-{
-    color: #A8216C;
-    padding: 20px;
-    text-align: center;
-    background-color: #fff;
-    font-size: 18px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-#tier-contact-us h1
-{
-    font-size: 50px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    margin: 0px;
-}
-
-#tier-duration
-{
-    text-align: center;
-    background-color: #E7E7E8;
-    color: #A8216C;
-    padding: 2px;
-    font-size: 18px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-#tier-duration p
-{
-    font-size: 35px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    margin: 0px;
-}
-
-#tier-duration span
-{
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    font-size: 18px;
-    margin: 0px;
-}
-
-#tier-duration-pro
-{
-    text-align: center;
-    background-color: #E7E7E8;
-    color: #A8216C;
-    font-size: 18px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-#tier-duration-pro p
-{
-    font-size: 18.5px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    margin: 0px;
-}
-
-#tier-duration-pro span
-{
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    font-size: 18px;
-    margin: 0px;
-}
-
-#tier-contact-info
-{
-    text-align: center;
-    color: #848688;
-    background-color:#fff;
-    padding: 2px;
-    font-size: 18px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-#tier-contact-info p
-{
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    font-size: 28px;
-    margin: 0px;
-}
-
-#tier-contact-info span
-{
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    font-size: 22px;
-    margin: 0px; 
-}
-
-#tier-offer
-{
-    background-color: #D0D1D2;
-    color: #848688;
-    padding: 5px;
-    text-align: center;
-    font-size: 18px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-#tier-offer h1,
-#tier-offer p
-{
-    margin: 0px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-#tier-email
-{
-    background-color: #D0D1D2;
-    color: #848688;
-    padding: 10px;
-    text-align: center;
-    font-size: 18px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-#mail
-{
-    color: #A8216C;
-    font-size: 80px;
-}
-
-#charges
-{
-    margin: 0px;
-    font-size: 63px;
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-}
-
-#month
-{
-    font-family: Helvetica,Arial,sans-serif ;
-    font-weight:lighter;
-    font-size: 30px;
 }
 
 #interaction
@@ -948,3 +936,5 @@ footer
     border: none;
 }
 
+/*-webkit-border-radius: 0 20px 0 0;border-radius: 0 20px 0 0;*/
+/*-webkit-border-radius: 0 0 20px 0;border-radius: 0 0 20px 0;*/
