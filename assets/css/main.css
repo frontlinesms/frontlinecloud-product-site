@@ -1,15 +1,16 @@
-header
-{
-    background-color: #929497;
+#header-logo-wrap {
+	text-align:center;
 }
-
+#header-logo {
+	max-width:90%;
+}
 #about h1
 {
     text-align: center;
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
     font-size: 35px;
-    color:  #a7a9ab ;
+    color:  #555 ;
 }
 
 #hero
@@ -23,7 +24,7 @@ header
     font-family:Helvetica,Arial,sans-serif ;
     font-weight:lighter;
     font-size: 30px;
-    color: #a7a9ab;
+    color: #555;
 }
 
 #showBtn
@@ -289,7 +290,7 @@ header
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
     font-size: 30px;
-    color: #a7a9ab;
+    color: #555;
 }
 
 #integrations ul
@@ -357,7 +358,7 @@ header
     font-family: Helvetica,Arial,sans-serif ;
     font-weight:lighter;
     font-size: 30px;
-    color: #a7a9ab;
+    color: #555;
     margin-bottom: 30px;
 }
 
