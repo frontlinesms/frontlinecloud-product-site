@@ -637,6 +637,22 @@ a:hover, a:focus
     margin-top:20px; 
 }
 
+#interaction a
+{
+    text-decoration: underline;
+    color: #fff;
+    font-size: 18pt;
+    font-family: Helvetica,Arial,sans-serif ;
+    font-weight:lighter;
+}
+
+#interaction a:hover
+{
+    text-decoration: none;
+}
+
+
+
 /* Extra Small devices (768px and below) */
 @media (max-width:768px)  
 {
